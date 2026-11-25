@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "game_version": "Steam Build 10833373",
+  "platform": "Windows VR",
+  "launch_mode": "original_exe",
+  "steam_url": "https://store.steampowered.com/app/788690/",
+  "download_url": "https://github.com/zfyu222/psychonauts-in-the-rhombus-of-ruin-hanhua/releases/",
+  "mirror_url": "https://pan.baidu.com/s/57TjFsgeU0n2DpyUHI6goNA",
+  "share_name": "Psychonauts in the Rhombus of Ruin",
+  "feedback_url": "https://docs.qq.com/sheet/DTmZsdGpWS2pxeFRL?tab=BB08J2",
+  "feedback_name": "脑航员菱形废墟汉化问题收集",
+  "payload": [
+    {
+      "source": "ImagePatch/release-pak-v114/PsychonautsInTheRhombusOfRuin-WindowsNoEditor_P.pak",
+      "game_path": "PsychonautsInTheRhombusOfRuin/Content/Paks/PsychonautsInTheRhombusOfRuin-0zh_CN_P.pak",
+      "sha256": "d8fcca3fdb6e9619f47405d5c9f34a020c62eee4d0a3f2ac37c22cb58cba4ec1"
+    },
+    {
+      "source": "ImagePatch/release-runtime-v1/PsychonautsInTheRhombusOfRuin-1zh_CN_Runtime_P.pak",
+      "game_path": "PsychonautsInTheRhombusOfRuin/Content/Paks/PsychonautsInTheRhombusOfRuin-1zh_CN_Runtime_P.pak",
+      "sha256": "2bb0a41d178a623ea51069b0798ab96345b15f078635cf693de395262da0bf48"
+    }
+  ]
+}

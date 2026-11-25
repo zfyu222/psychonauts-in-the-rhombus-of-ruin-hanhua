@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "subject": "image text CSV logical row 215, suitcase travel label",
+  "decision": "The source text is Los Marbles. Withdraw the prior Los Muertos transcription and flag its current Chinese translation for retranslation.",
+  "observed_text": "Los Marbles",
+  "confidence": "high",
+  "visual_evidence": [
+    {
+      "file": "ImagePatch/suitcase4-label-native-v34.webp",
+      "observation": "Complete purple label directly reads Los on the first line and Marbles on the second. The second word ends bles; no t is visible or warranted."
+    },
+    {
+      "file": "ImagePatch/suitcase-label-native-v34.webp",
+      "observation": "Same purple label and lettering, partly covered and torn. Los is partly occluded; the visible second line matches Marbles. Full wording is confirmed by the complete Suitcase4 sample, not inferred from the damaged image alone."
+    },
+    {
+      "file": "Analysis/label-v35-suitcase1-crop.png",
+      "source": "Analysis/images/Game/Environment/Trains/Props/Suitcase1/Tex_Suitcase1_RMAO.png",
+      "observation": "Upside-down material-channel rendering of the same decorative label; consistent lettering, but unsuitable as sole color or text evidence."
+    },
+    {
+      "file": "Analysis/label-v35-suitcase6-crop.png",
+      "source": "Analysis/images/Game/Environment/Trains/Props/Suitcase6/Tex_Suitcase6_Base.png",
+      "observation": "Damaged purple label matching the other damaged sample; visible second line reads Marbles where unobstructed."
+    }
+  ],
+  "mapping_csv_row": 215,
+  "mapped_sources": [
+    "Game/Environment/Trains/Props/Suitcase1/Tex_Suitcase1_Base.png",
+    "Game/Environment/Trains/Props/Suitcase1/Tex_Suitcase1_RMAO.png",
+    "Game/Environment/Trains/Props/Suitcase4/Tex_Suitcase4_Base.png",
+    "Game/Environment/Trains/Props/Suitcase6/Tex_Suitcase6_Base.png"
+  ],
+  "current_formal_source": "Los Muertos",
+  "current_formal_translation": "洛斯穆埃托斯",
+  "translation_context": "The lettering is on a suitcase travel label and resembles a place name. Marbles may also allude to the English phrase 'lose one's marbles' in Psychonauts' mental-world setting; this is a possible pun, not visual evidence for any extra letter or for a specific Chinese rendering.",
+  "recommendation": "Replace logical row 215 source with Los Marbles through the formal source/mapping correction procedure. Retranslate the corresponding Chinese row consistently as a proper name or an intentionally chosen pun after contextual review. Do not retain 洛斯穆埃托斯, which translates the erroneous Muertos reading; do not insert a t into the source on semantic grounds. Revalidate source-to-translation alignment and all four mapped uses before image repack.",
+  "formal_files_changed": false,
+  "validation_status": "Adjudication only; formal CSV, translation CSV and mapping database have not been changed or revalidated."
+}

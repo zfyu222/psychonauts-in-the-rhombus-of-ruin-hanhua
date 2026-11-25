@@ -1,0 +1,79 @@
+{
+  "records": 2694,
+  "dialogue_records": 2611,
+  "locres_records": 83,
+  "exclusions": [
+    {
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Dialog/Linecodes/MainGame_enUS.json#LineCodeData/CMAP001TEXT/Text",
+      "reason": "font character-map test, not dialogue"
+    },
+    {
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Dialog/Linecodes/MainGame_enUS.json#LineCodeData/SYSTEM093TEXT/Text",
+      "reason": "empty"
+    },
+    {
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Dialog/Linecodes/MainGame_enUS.json#LineCodeData/SYSTEM094TEXT/Text",
+      "reason": "empty"
+    },
+    {
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Dialog/Linecodes/MainGame_enUS.json#LineCodeData/SYSTEM095TEXT/Text",
+      "reason": "empty"
+    },
+    {
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Dialog/Linecodes/MainGame_enUS.json#LineCodeData/SYSTEM096TEXT/Text",
+      "reason": "empty"
+    },
+    {
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Dialog/Linecodes/MainGame_enUS.json#LineCodeData/SYSTEM097TEXT/Text",
+      "reason": "empty"
+    },
+    {
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Dialog/Linecodes/MainGame_enUS.json#LineCodeData/SYSTEM098TEXT/Text",
+      "reason": "empty"
+    },
+    {
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Dialog/Linecodes/MainGame_enUS.json#LineCodeData/SYSTEM099TEXT/Text",
+      "reason": "empty"
+    },
+    {
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Dialog/Linecodes/MainGame_enUS.json#LineCodeData/SYSTEM100TEXT/Text",
+      "reason": "empty"
+    },
+    {
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Dialog/Linecodes/MainGame_enUS.json#LineCodeData/SYSTEM101TEXT/Text",
+      "reason": "empty"
+    },
+    {
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Dialog/Linecodes/MainGame_enUS.json#LineCodeData/SYSTEM102TEXT/Text",
+      "reason": "empty"
+    },
+    {
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Dialog/Linecodes/MainGame_enUS.json#LineCodeData/SYSTEM103TEXT/Text",
+      "reason": "empty"
+    },
+    {
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Dialog/Linecodes/MainGame_enUS.json#LineCodeData/SYSTEM104TEXT/Text",
+      "reason": "empty"
+    },
+    {
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Dialog/Linecodes/MainGame_enUS.json#LineCodeData/SYSTEM105TEXT/Text",
+      "reason": "empty"
+    },
+    {
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Dialog/Linecodes/MainGame_enUS.json#LineCodeData/SYSTEM106TEXT/Text",
+      "reason": "empty"
+    },
+    {
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Dialog/Linecodes/MainGame_enUS.json#LineCodeData/SYSTEM107TEXT/Text",
+      "reason": "empty"
+    },
+    {
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Dialog/Linecodes/MainGame_enUS.json#LineCodeData/SYSTEM108TEXT/Text",
+      "reason": "empty"
+    }
+  ],
+  "inputs": {
+    "Analysis\\extracted\\PsychonautsInTheRhombusOfRuin\\Content\\Dialog\\Linecodes\\MainGame_enUS.json": "83ec2e39909a807cc691153ee39a76b4fa75108a77f2f0d749ecffb28a2c0c4e",
+    "Analysis\\extracted\\PsychonautsInTheRhombusOfRuin\\Content\\Localization\\Game\\en\\Game.locres": "e78b7e85de5f5f987372a9fe1de9f02294f8c25bc5451d587e33af9d9f69e464"
+  }
+}

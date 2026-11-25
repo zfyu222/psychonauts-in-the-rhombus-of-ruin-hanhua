@@ -1,0 +1,12 @@
+﻿{
+  "exe": "PsychonautsInTheRhombusOfRuin.exe",
+  "exe_sha256": "f7d4290d2ac0605a5936c7b197d0fbf721870d323b2d4756ba568537d6db1ac8",
+  "steam_app_id": "788690",
+  "originals": [],
+  "legacy": [
+    {
+      "path": "PsychonautsInTheRhombusOfRuin/Content/Paks/PsychonautsInTheRhombusOfRuin-0zh_CN_P.pak",
+      "sha256": "d8fcca3fdb6e9619f47405d5c9f34a020c62eee4d0a3f2ac37c22cb58cba4ec1"
+    }
+  ]
+}

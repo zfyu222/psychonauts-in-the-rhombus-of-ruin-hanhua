@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "status": "passed",
+  "semantic_review": "full",
+  "review_provenance": "Inherited per row from two complete formally approved exports; no new review is fabricated.",
+  "source_sha256": "34a503da53141c50660358d3d6ed78552563d1c4e4faf2f4dbbecdc1f94de8f5",
+  "translation_sha256": "6f8c7941676c9bfbe7117c29cd0628db5df5001215ad5ad6ef325a9290fac312",
+  "records": 236,
+  "kind": "composed_approved_exports",
+  "quality_review": {
+    "report_hash": "47e963899a1460693cf4d1d4182b69e777e74638d55a1d7142968f16ecc5a488",
+    "reviewer": "composition:verified-formal-lineage"
+  },
+  "lineage": {
+    "base": {
+      "source": "TranslateFiles/image-text/psychonauts-in-the-rhombus-of-ruin_images_text.csv",
+      "translation": "TranslateFiles/image-text/psychonauts-in-the-rhombus-of-ruin_images_text_translated.csv",
+      "validation": "TranslateFiles/image-text/TranslateFiles/reports/final_validation.json",
+      "source_sha256": "d4ea714a0c6fe4ea9e6fc8d1780342cfc564d29475cb0c46f8e3d383c8ae7871",
+      "translation_sha256": "0ac8b8adc51c0e94e58adb4b1c00baf0a3b29e0be57a53c459213542fb836cae",
+      "validation_sha256": "bcb173503d3829723f148e1378e9559c3d905e85637427d8a242ea3fc39a3513",
+      "quality_review": {
+        "report_hash": "bad069018c4bf1c4eaf712f4784690fdac82e3153a834d6db951061f46bb41ee",
+        "reviewer": "standard"
+      },
+      "glossary": {
+        "hash": "329d9fb2e7e15266917ab89ca78e52aab014a46b220fecd65fe095ce4d25031f",
+        "path": "glossary\\revision_2_501366cd\\built\\glossary_reviewed.json",
+        "revision": 2
+      }
+    },
+    "delta": {
+      "source": "TranslateFiles/image-source-correction-v35/label_text.csv",
+      "translation": "TranslateFiles/image-source-correction-v35/label_text_translated.csv",
+      "validation": "TranslateFiles/image-source-correction-v35/TranslateFiles/reports/final_validation.json",
+      "source_sha256": "0cd4a0a84302fc09a9ae92aaf854bddea82a6ac9c7d8b7a03f59282e376436fe",
+      "translation_sha256": "ba3253f2ac92a54be7a7de7fb8d90d99502b845b04bdb2fc9ddfa8f2f1b23e14",
+      "validation_sha256": "5b94ee27891c2ef4b8f02dfc9f832382db9ac499f8e0124079855a02e8169ec9",
+      "quality_review": {
+        "report_hash": "ab9478fa866055759a87e61b36a8a28040a3cd31ad05a0ef340f83c4212bdf50",
+        "reviewer": "workflow:no-disputes"
+      },
+      "glossary": {
+        "hash": "cd428b979e4681b036104d0c2fd4371526093ac34446110308a38db7c060d1fe",
+        "path": "glossary\\r1\\freeze_9d99ccc5\\built\\glossary_reviewed.json",
+        "revision": 1
+      }
+    },
+    "unchanged_records": 235,
+    "replacements": [
+      {
+        "ordinal": 215,
+        "delta_ordinal": 1,
+        "old_source": "Los Muertos",
+        "new_source": "Los Marbles",
+        "old_translation": "洛斯穆埃托斯",
+        "new_translation": "洛斯·马布尔斯"
+      }
+    ]
+  },
+  "spec_sha256": "bbf72a9a6b95e26bc79da0495b36b7d4af75c16d5c093d381c8f7d48dfceb7df",
+  "installed": false
+}

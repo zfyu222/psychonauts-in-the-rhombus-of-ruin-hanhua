@@ -1,0 +1,438 @@
+{
+  "records": [
+    {
+      "ordinal": 1,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap#/Exports/373/ScriptBytecode/5/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "BBBB19F44EDB0856587857932A8CB316",
+      "source_sha256": "d17d84a604994b722db37b35860b1ac7e8d9e43e725d0eb50702a9f7228a2999",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "d55dbd0b3b227ebf7b92d95859557d104442474a265c40df96507f29ae210f39"
+    },
+    {
+      "ordinal": 2,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap#/Exports/373/ScriptBytecode/21/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "DAF5DFD94F25F1F001C20981134AEE2C",
+      "source_sha256": "d0db8b5e364b6989e4b8f38a2b3846b87d99a51c1592ebf35d21cc66405a8e39",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "d55dbd0b3b227ebf7b92d95859557d104442474a265c40df96507f29ae210f39"
+    },
+    {
+      "ordinal": 3,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap#/Exports/373/ScriptBytecode/29/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "D38174D74B63339F34AB17B2C33BBB25",
+      "source_sha256": "28f9044138a54b95f198b450b2b02af43921f0d50450885875653e6443115f35",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "d55dbd0b3b227ebf7b92d95859557d104442474a265c40df96507f29ae210f39"
+    },
+    {
+      "ordinal": 4,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap#/Exports/373/ScriptBytecode/42/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "BBBB19F44EDB0856587857932A8CB316",
+      "source_sha256": "d17d84a604994b722db37b35860b1ac7e8d9e43e725d0eb50702a9f7228a2999",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "d55dbd0b3b227ebf7b92d95859557d104442474a265c40df96507f29ae210f39"
+    },
+    {
+      "ordinal": 5,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap#/Exports/373/ScriptBytecode/50/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "E51079764471E268A25147B15076BD67",
+      "source_sha256": "31fbef162594de01bab0cd525c51f74de7bcb15063029fa1a54b2cf5944c80d8",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "d55dbd0b3b227ebf7b92d95859557d104442474a265c40df96507f29ae210f39"
+    },
+    {
+      "ordinal": 6,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap#/Exports/373/ScriptBytecode/58/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "249E9C3E4313572D250BD190D06A808C",
+      "source_sha256": "9831375bc65196d8c923455ec07c27aefa5761edfe4162dde1c7b36eec25a3ad",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "d55dbd0b3b227ebf7b92d95859557d104442474a265c40df96507f29ae210f39"
+    },
+    {
+      "ordinal": 7,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap#/Exports/373/ScriptBytecode/66/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "DAF5DFD94F25F1F001C20981134AEE2C",
+      "source_sha256": "d0db8b5e364b6989e4b8f38a2b3846b87d99a51c1592ebf35d21cc66405a8e39",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "d55dbd0b3b227ebf7b92d95859557d104442474a265c40df96507f29ae210f39"
+    },
+    {
+      "ordinal": 8,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap#/Exports/373/ScriptBytecode/74/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "1CC145EF465183A4919A0E83CE425FDF",
+      "source_sha256": "28f9044138a54b95f198b450b2b02af43921f0d50450885875653e6443115f35",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "d55dbd0b3b227ebf7b92d95859557d104442474a265c40df96507f29ae210f39"
+    },
+    {
+      "ordinal": 9,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap#/Exports/373/ScriptBytecode/85/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "B05DF7F44294CD1C9141B2B9806FAE9E",
+      "source_sha256": "d534be829e32196b4d1e53b67103cf1e376b1d60071857572598c196abfefbc6",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "d55dbd0b3b227ebf7b92d95859557d104442474a265c40df96507f29ae210f39"
+    },
+    {
+      "ordinal": 10,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap#/Exports/373/ScriptBytecode/93/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "B08FD23A415D80088E1892A0ED983C87",
+      "source_sha256": "bc1b88907d3b748af99cb9d4ffc07a0118dad5dab21a9dbdcc5a17a09641364a",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "d55dbd0b3b227ebf7b92d95859557d104442474a265c40df96507f29ae210f39"
+    },
+    {
+      "ordinal": 11,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap#/Exports/373/ScriptBytecode/101/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "5FAD38B642F7A27C71BA20916FD99647",
+      "source_sha256": "76900f1bfd16c8d4dd3d25e6f46638d7165aee23883ccea6bfe071c514421769",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "d55dbd0b3b227ebf7b92d95859557d104442474a265c40df96507f29ae210f39"
+    },
+    {
+      "ordinal": 12,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap#/Exports/373/ScriptBytecode/109/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "929683AE4657271FE5F6C38280F630ED",
+      "source_sha256": "799c269135742a36ae48dddf3a69c47c7d2a428a34e351f6da93ae6490101b47",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "d55dbd0b3b227ebf7b92d95859557d104442474a265c40df96507f29ae210f39"
+    },
+    {
+      "ordinal": 13,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap#/Exports/373/ScriptBytecode/120/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "8AFAF3D942566B3640A43FB0750D9470",
+      "source_sha256": "85a39ab345d672ff8ca9b9c6876f3adcacf45ee7c1e2dbd2408fd338bd55e07e",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "d55dbd0b3b227ebf7b92d95859557d104442474a265c40df96507f29ae210f39"
+    },
+    {
+      "ordinal": 14,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap#/Exports/373/ScriptBytecode/136/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "79403B2B4E11E0B5040F33A73F1E5379",
+      "source_sha256": "1ea442a134b2a184bd5d40104401f2a37fbc09ccf3f4bc9da161c6099be3691d",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "d55dbd0b3b227ebf7b92d95859557d104442474a265c40df96507f29ae210f39"
+    },
+    {
+      "ordinal": 15,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap#/Exports/373/ScriptBytecode/147/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "CFD0E9454D4FA9600A6F428350A0CD7F",
+      "source_sha256": "76900f1bfd16c8d4dd3d25e6f46638d7165aee23883ccea6bfe071c514421769",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "d55dbd0b3b227ebf7b92d95859557d104442474a265c40df96507f29ae210f39"
+    },
+    {
+      "ordinal": 16,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap#/Exports/373/ScriptBytecode/166/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "0987C4BE4F12E7A3F1A2BFB84F2213F4",
+      "source_sha256": "47d2a515ef2f05b87d688656286a61e4f743da4b878684c7654969db17711c40",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "d55dbd0b3b227ebf7b92d95859557d104442474a265c40df96507f29ae210f39"
+    },
+    {
+      "ordinal": 17,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap#/Exports/373/ScriptBytecode/205/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "A5D10DA548E152E4420171AC6D73B080",
+      "source_sha256": "76900f1bfd16c8d4dd3d25e6f46638d7165aee23883ccea6bfe071c514421769",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "d55dbd0b3b227ebf7b92d95859557d104442474a265c40df96507f29ae210f39"
+    },
+    {
+      "ordinal": 18,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap#/Exports/450/ScriptBytecode/3/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "ED3B4B644C59B8189EC679B0364FEF01",
+      "source_sha256": "76900f1bfd16c8d4dd3d25e6f46638d7165aee23883ccea6bfe071c514421769",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "d55dbd0b3b227ebf7b92d95859557d104442474a265c40df96507f29ae210f39"
+    },
+    {
+      "ordinal": 19,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap#/Exports/450/ScriptBytecode/19/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "C80BED594B988FCF2D87028969FF7141",
+      "source_sha256": "87bf2bc08589f0bd4a078db145c34ad5e14b8fda53c3ae65b78601294913df95",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "d55dbd0b3b227ebf7b92d95859557d104442474a265c40df96507f29ae210f39"
+    },
+    {
+      "ordinal": 20,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap#/Exports/450/ScriptBytecode/27/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "EBC0800B43CC84EFC01DECA73AAEF69F",
+      "source_sha256": "62cfdd08b935924cffc1a7eef525b8e9740c2b32c4ce019587c2e8fb3a29cf4d",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "d55dbd0b3b227ebf7b92d95859557d104442474a265c40df96507f29ae210f39"
+    },
+    {
+      "ordinal": 21,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap#/Exports/450/ScriptBytecode/43/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "2FF3A4354C2900E3168CE4828832367F",
+      "source_sha256": "6eb00b4b2614a144d41ccdf709017a675953fae2df6cfd6b397bd9e4d8708461",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "d55dbd0b3b227ebf7b92d95859557d104442474a265c40df96507f29ae210f39"
+    },
+    {
+      "ordinal": 22,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap#/Exports/450/ScriptBytecode/51/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "FD4750D34FFB65C32EBFD9BEB54DB651",
+      "source_sha256": "0ee695bdeb26a296117c515156ac6785099fa25450755144ccdb5fbb9b2c1841",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "d55dbd0b3b227ebf7b92d95859557d104442474a265c40df96507f29ae210f39"
+    },
+    {
+      "ordinal": 23,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap#/Exports/608/ScriptBytecode/10/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "ED3B4B644C59B8189EC679B0364FEF01",
+      "source_sha256": "76900f1bfd16c8d4dd3d25e6f46638d7165aee23883ccea6bfe071c514421769",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "d55dbd0b3b227ebf7b92d95859557d104442474a265c40df96507f29ae210f39"
+    },
+    {
+      "ordinal": 24,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap#/Exports/608/ScriptBytecode/22/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "5A4FA28544FCD5B77284C89ED49258D3",
+      "source_sha256": "d4055fafa3794fa88b1e89e70c167d5a9575067a1442a6d94e9520d65a575378",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "d55dbd0b3b227ebf7b92d95859557d104442474a265c40df96507f29ae210f39"
+    },
+    {
+      "ordinal": 25,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Gameplay/Environment/Menus/Pause/PauseRoom.uasset#/Exports/182/ScriptBytecode/2/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "8FF97E1A471F30486B40018BBED1EF7B",
+      "source_sha256": "d0db8b5e364b6989e4b8f38a2b3846b87d99a51c1592ebf35d21cc66405a8e39",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "ae7802fb0ddafc5311a8a15c91f55346e85ea779bb923cf5b230ad9f2ca70546"
+    },
+    {
+      "ordinal": 26,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Gameplay/Environment/Menus/Pause/PauseRoom.uasset#/Exports/182/ScriptBytecode/9/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "EEF2CE8D49A75F3006DD99A60BF312F2",
+      "source_sha256": "b3eb37acb66ba4bbe8fb1ba296815daf194be94f5a5fb50dab2fb5e4a57ba29e",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "ae7802fb0ddafc5311a8a15c91f55346e85ea779bb923cf5b230ad9f2ca70546"
+    },
+    {
+      "ordinal": 27,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Gameplay/Environment/Menus/Pause/PauseRoom.uasset#/Exports/182/ScriptBytecode/16/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "6023D7B743B54FB24CD4878E4DBD1AC7",
+      "source_sha256": "d640c7421da066618a39daf4266da5f61f66a9b1afcd626481b831a17064965d",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "ae7802fb0ddafc5311a8a15c91f55346e85ea779bb923cf5b230ad9f2ca70546"
+    },
+    {
+      "ordinal": 28,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Gameplay/Environment/Menus/Pause/PauseRoom.uasset#/Exports/182/ScriptBytecode/26/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "242ACA3A4E5617AF813FE488FFCDDFE3",
+      "source_sha256": "d534be829e32196b4d1e53b67103cf1e376b1d60071857572598c196abfefbc6",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "ae7802fb0ddafc5311a8a15c91f55346e85ea779bb923cf5b230ad9f2ca70546"
+    },
+    {
+      "ordinal": 29,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Gameplay/Environment/Menus/Pause/PauseRoom.uasset#/Exports/182/ScriptBytecode/33/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "AB01C6F345D88BF8C37553904A4F3772",
+      "source_sha256": "bc1b88907d3b748af99cb9d4ffc07a0118dad5dab21a9dbdcc5a17a09641364a",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "ae7802fb0ddafc5311a8a15c91f55346e85ea779bb923cf5b230ad9f2ca70546"
+    },
+    {
+      "ordinal": 30,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Gameplay/Environment/Menus/Pause/PauseRoom.uasset#/Exports/182/ScriptBytecode/40/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "5D10F1A84D1CDA8A2075E0812D8ABA2B",
+      "source_sha256": "76900f1bfd16c8d4dd3d25e6f46638d7165aee23883ccea6bfe071c514421769",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "ae7802fb0ddafc5311a8a15c91f55346e85ea779bb923cf5b230ad9f2ca70546"
+    },
+    {
+      "ordinal": 31,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Gameplay/Environment/Menus/Pause/PauseRoom.uasset#/Exports/182/ScriptBytecode/47/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "22E065C444D4BADFE4059C966FF41A1B",
+      "source_sha256": "799c269135742a36ae48dddf3a69c47c7d2a428a34e351f6da93ae6490101b47",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "ae7802fb0ddafc5311a8a15c91f55346e85ea779bb923cf5b230ad9f2ca70546"
+    },
+    {
+      "ordinal": 32,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Gameplay/Environment/Menus/Pause/PauseRoom.uasset#/Exports/182/ScriptBytecode/57/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "5D10F1A84D1CDA8A2075E0812D8ABA2B",
+      "source_sha256": "76900f1bfd16c8d4dd3d25e6f46638d7165aee23883ccea6bfe071c514421769",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "ae7802fb0ddafc5311a8a15c91f55346e85ea779bb923cf5b230ad9f2ca70546"
+    },
+    {
+      "ordinal": 33,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Gameplay/Environment/Menus/Pause/PauseRoom.uasset#/Exports/182/ScriptBytecode/67/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "B5F7F39A458E60E8CFBDC1886E6470B1",
+      "source_sha256": "d640c7421da066618a39daf4266da5f61f66a9b1afcd626481b831a17064965d",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "ae7802fb0ddafc5311a8a15c91f55346e85ea779bb923cf5b230ad9f2ca70546"
+    },
+    {
+      "ordinal": 34,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Gameplay/Environment/Menus/Pause/PauseRoom.uasset#/Exports/182/ScriptBytecode/77/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "B8B27DF94E48ABBA30911395C2FC29AF",
+      "source_sha256": "c177b5693a0a77c2203d2a3fc43f6a482bb0be53cd176d7aa9462ffff12f67d1",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "ae7802fb0ddafc5311a8a15c91f55346e85ea779bb923cf5b230ad9f2ca70546"
+    },
+    {
+      "ordinal": 35,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Gameplay/Environment/Menus/Pause/PauseRoom.uasset#/Exports/182/ScriptBytecode/84/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "B1D5691045E0428CAB34CAACF9D131BB",
+      "source_sha256": "85a39ab345d672ff8ca9b9c6876f3adcacf45ee7c1e2dbd2408fd338bd55e07e",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "ae7802fb0ddafc5311a8a15c91f55346e85ea779bb923cf5b230ad9f2ca70546"
+    },
+    {
+      "ordinal": 36,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Gameplay/Environment/Menus/Pause/PauseRoom.uasset#/Exports/182/ScriptBytecode/91/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "382366284A383E6DCD92E196F9AC619B",
+      "source_sha256": "1ea442a134b2a184bd5d40104401f2a37fbc09ccf3f4bc9da161c6099be3691d",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "ae7802fb0ddafc5311a8a15c91f55346e85ea779bb923cf5b230ad9f2ca70546"
+    },
+    {
+      "ordinal": 37,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Gameplay/Environment/Menus/Pause/PauseRoom.uasset#/Exports/182/ScriptBytecode/101/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "D18776B74828B5B1741B5994C479B341",
+      "source_sha256": "47d2a515ef2f05b87d688656286a61e4f743da4b878684c7654969db17711c40",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "ae7802fb0ddafc5311a8a15c91f55346e85ea779bb923cf5b230ad9f2ca70546"
+    },
+    {
+      "ordinal": 38,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Gameplay/Environment/Menus/Pause/PauseRoom.uasset#/Exports/262/ScriptBytecode/3/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "292598784601DCE18B8DA28BA4CC15E3",
+      "source_sha256": "76900f1bfd16c8d4dd3d25e6f46638d7165aee23883ccea6bfe071c514421769",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "ae7802fb0ddafc5311a8a15c91f55346e85ea779bb923cf5b230ad9f2ca70546"
+    },
+    {
+      "ordinal": 39,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Gameplay/Environment/Menus/Pause/PauseRoom.uasset#/Exports/262/ScriptBytecode/18/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "AFEE501B4A7F3C5BA211DCB9A0E3ADA0",
+      "source_sha256": "87bf2bc08589f0bd4a078db145c34ad5e14b8fda53c3ae65b78601294913df95",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "ae7802fb0ddafc5311a8a15c91f55346e85ea779bb923cf5b230ad9f2ca70546"
+    },
+    {
+      "ordinal": 40,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Gameplay/Environment/Menus/Pause/PauseRoom.uasset#/Exports/262/ScriptBytecode/25/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "CECF65104F0A257AA16417972399F601",
+      "source_sha256": "62cfdd08b935924cffc1a7eef525b8e9740c2b32c4ce019587c2e8fb3a29cf4d",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "ae7802fb0ddafc5311a8a15c91f55346e85ea779bb923cf5b230ad9f2ca70546"
+    },
+    {
+      "ordinal": 41,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Gameplay/Environment/Menus/Pause/PauseRoom.uasset#/Exports/262/ScriptBytecode/40/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "60BE876B487B50A2FDE78EB8C727AE00",
+      "source_sha256": "6eb00b4b2614a144d41ccdf709017a675953fae2df6cfd6b397bd9e4d8708461",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "ae7802fb0ddafc5311a8a15c91f55346e85ea779bb923cf5b230ad9f2ca70546"
+    },
+    {
+      "ordinal": 42,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Gameplay/Environment/Menus/Pause/PauseRoom.uasset#/Exports/262/ScriptBytecode/47/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "F70F7DDD43EC09A10E7796BBB117920E",
+      "source_sha256": "0ee695bdeb26a296117c515156ac6785099fa25450755144ccdb5fbb9b2c1841",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "ae7802fb0ddafc5311a8a15c91f55346e85ea779bb923cf5b230ad9f2ca70546"
+    },
+    {
+      "ordinal": 43,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Gameplay/Environment/Menus/Pause/PauseRoom.uasset#/Exports/346/ScriptBytecode/25/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "0FC50A96435F0AC3DA29598A31F34D6D",
+      "source_sha256": "d4055fafa3794fa88b1e89e70c167d5a9575067a1442a6d94e9520d65a575378",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "ae7802fb0ddafc5311a8a15c91f55346e85ea779bb923cf5b230ad9f2ca70546"
+    },
+    {
+      "ordinal": 44,
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Gameplay/Environment/Menus/Pause/PauseRoom.uasset#/Exports/346/ScriptBytecode/32/Expression/Value/LocalizedSource/Value",
+      "namespace": "",
+      "key": "292598784601DCE18B8DA28BA4CC15E3",
+      "source_sha256": "76900f1bfd16c8d4dd3d25e6f46638d7165aee23883ccea6bfe071c514421769",
+      "source_crc32_encoding": "utf-32-le",
+      "snapshot_sha256": "ae7802fb0ddafc5311a8a15c91f55346e85ea779bb923cf5b230ad9f2ca70546"
+    }
+  ],
+  "excluded": [
+    {
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap",
+      "path": "/ScriptBytecode/71/Expression/ContextExpression/Parameters/0/Value",
+      "source": "Loading level: {level}",
+      "reason": "debug/dynamic percentage/internal linecode"
+    },
+    {
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap",
+      "path": "/ScriptBytecode/13/Expression/Value",
+      "source": "Debug Warps",
+      "reason": "debug/dynamic percentage/internal linecode"
+    },
+    {
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap",
+      "path": "/ScriptBytecode/128/Expression/Value",
+      "source": "SYSTEM021TEXT",
+      "reason": "debug/dynamic percentage/internal linecode"
+    },
+    {
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap",
+      "path": "/ScriptBytecode/158/Expression/Value",
+      "source": "100%",
+      "reason": "debug/dynamic percentage/internal linecode"
+    },
+    {
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Maps/StartScreen.umap",
+      "path": "/ScriptBytecode/45/Expression/ContextExpression/Parameters/0/Value",
+      "source": "0%",
+      "reason": "debug/dynamic percentage/internal linecode"
+    },
+    {
+      "resource": "PsychonautsInTheRhombusOfRuin/Content/Gameplay/Environment/Menus/Pause/PauseRoom.uasset",
+      "path": "/ScriptBytecode/156/Expression/ContextExpression/Parameters/0/Value",
+      "source": "Recording input: {recording}<br>Replaying input: {replaying}",
+      "reason": "debug/dynamic percentage/internal linecode"
+    }
+  ]
+}

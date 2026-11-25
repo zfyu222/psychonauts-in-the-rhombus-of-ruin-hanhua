@@ -1,0 +1,16 @@
+/Game/
+/Build/
+/Analysis/original/
+/Analysis/extracted/
+/Analysis/menu-probe-v1/
+/ImagePatch/engine-stage*/
+/ImagePatch/runtime*/
+/Dispatch/Files/
+*.zip
+*.exe
+*.dll
+*.pak
+*.sqlite*
+**/__pycache__/
+*_text.csv
+/api.local.jsonc

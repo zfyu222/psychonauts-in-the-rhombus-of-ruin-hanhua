@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "source_sha256": "06ac542fe6021bac2385ec2045f550e57759ff265507ea31251e4a42969ac30a",
+  "translation_sha256": "404bb4f86b396b377fd6620ed63f08e5b0f176abc53c55cecb7849edf5d4f2b8",
+  "records": 44,
+  "semantic_review": "full",
+  "polish": false,
+  "revision": 1,
+  "glossary": {
+    "hash": "6eeb6f739eae146230984156e3dc8361d93471c665af6a9b494b5e1c7fddeee6",
+    "path": "glossary\\r1\\freeze_4bf06f46\\built\\glossary_reviewed.json",
+    "revision": 1
+  },
+  "ainiee": {
+    "actual_commit": "c50570c1dee7df7bd51316a253f0b42d10a8ca4c",
+    "expected_commit": "c50570c1dee7df7bd51316a253f0b42d10a8ca4c",
+    "license": "AGPL-3.0; Tools/AINiee/LICENSE",
+    "modules": {
+      "Domain/PromptBuilder/GlossaryHelper.py": "6b3072989b77c84787774439c79aaea7d4727fcda104667d8833b53bb490446f",
+      "Domain/TextProcessor/TextProcessor.py": "805f49f68302fab2c5832aad8c7597fb4c3382cea131618765248f30a5963eed",
+      "Infrastructure/LLMRequester/LLMClientFactory.py": "70d43af749640604813887241604edf0472a75afbbf106fb5e69cfd3753a1a4b",
+      "Infrastructure/LLMRequester/OpenaiRequester.py": "b2b1f5e6fd3a31727b2e1d2597e1bcca3e5e4db2cfec550ff6cfcd6a6cff3f79"
+    }
+  },
+  "path": "TranslateFiles/ui-text/psychonauts-in-the-rhombus-of-ruin_ui_text_translated.csv",
+  "quality_review": {
+    "report_hash": "d3bc7eab9aff7a1cc45589a5bdbd0fa069f24b168feb02edcfcc05592f59c2d4",
+    "reviewer": "workflow:no-disputes"
+  },
+  "in_game_check": "pending_repack",
+  "mixed_language_audit": {
+    "path": "TranslateFiles/ui-text/TranslateFiles/reports/mixed_language_audit.json",
+    "candidate_records": 1,
+    "status": "candidates_only"
+  }
+}

@@ -1,0 +1,3881 @@
+{
+  "characters": [
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "正文 7 整条为 Heroic Harold；仅匹配该完整题名。"
+      },
+      "enforcement": "required",
+      "gender": "其他",
+      "recommended_translation": "英雄哈罗德",
+      "source": "Heroic Harold",
+      "term_kind": "proper_name",
+      "term_reason": "正文 7 的可见文字整条为 Heroic Harold，以首字母大写的 Heroic 修饰 Harold，作为该可见标签中的专名/称号；仅适用于整条标签，不覆盖普通 heroic 或别处 Harold。",
+      "evidence_rows": [
+        7
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "正文 7 整条为 Heroic Harold；仅匹配该完整题名。"
+            },
+            "enforcement": "required",
+            "gender": "其他",
+            "recommended_translation": "英雄哈罗德",
+            "source": "Heroic Harold",
+            "term_kind": "proper_name",
+            "term_reason": "正文 7 的完整标签 Heroic Harold 是鼠夹克、轰炸机贴花和海报上的称号，以 heroic 修饰专名 Harold；仅指该题名/形象，不把普通 heroic 或别处 Harold 用例并入。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            7
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "正文 10 的 TRUMAN ZANOTTO 和 156 的 TRUMAN 均含大写 TRUMAN；仅作该人物名。"
+      },
+      "enforcement": "required",
+      "gender": "其他",
+      "recommended_translation": "杜鲁门",
+      "source": "TRUMAN",
+      "term_kind": "proper_name",
+      "term_reason": "正文 10 的 TRUMAN ZANOTTO 为完整大写姓名，156 的 TRUMAN 为同一大写姓名片段；本条只适用于可见的 TRUMAN 专名，不据未附原文图文扩展语义，也不覆盖小写普通词。",
+      "evidence_rows": [
+        10,
+        156
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "正文 10 的 TRUMAN ZANOTTO 和 156 的 TRUMAN 均含大写 TRUMAN；仅作该人物名。"
+            },
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "杜鲁门",
+            "source": "TRUMAN",
+            "term_kind": "proper_name",
+            "term_reason": "正文 10 的 TRUMAN ZANOTTO 与同组 9 MISSING 构成寻人图文；156 的 TRUMAN 是同一名字标贴，指被寻/标出的人物。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            10,
+            156
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "正文 103 整条为 HENRY，110 以 HENRY! 开头作直接称呼；仅匹配大写 HENRY 的该漫画姓名。"
+      },
+      "enforcement": "required",
+      "gender": "其他",
+      "recommended_translation": "亨利",
+      "source": "HENRY",
+      "term_kind": "proper_name",
+      "term_reason": "正文 103 的 HENRY 与 110 的 HENRY! I NEED TO SEE YOU IN MY OFFICE! 均为漫画可见文字中的大写直接称呼；仅指该姓名，不把普通小写 henry 或其他大小写写法并入。",
+      "evidence_rows": [
+        103,
+        110,
+        120,
+        121,
+        122
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": false,
+              "mode": "text",
+              "reason": "正文多处为 HENRY，125 另有 Henry is coming...；仅用于该人物名的大小写变体。"
+            },
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "亨利",
+            "source": "HENRY",
+            "term_kind": "proper_name",
+            "term_reason": "正文 103、110、120-122 以 HENRY 直接称呼，125 的 Henry is coming... 是同一漫画宣传里的角色/巡游名；仅指该漫画人物。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            103,
+            110,
+            120,
+            121,
+            122
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "SORRY, ",
+        "reason": "正文 107 中 FRED 紧接 SORRY, 并以句点收尾；仅匹配该直接称呼。",
+        "suffix": "."
+      },
+      "enforcement": "required",
+      "gender": "其他",
+      "recommended_translation": "弗雷德",
+      "source": "FRED",
+      "term_kind": "proper_name",
+      "term_reason": "正文 107 的 SORRY, FRED. 以 SORRY, 后的 FRED. 作直接称呼；该完整可见句只指被道歉的 FRED，不覆盖别处 Fred 或普通用法。",
+      "evidence_rows": [
+        107
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "SORRY, ",
+              "reason": "正文 107 中 FRED 紧接 SORRY, 并以句点收尾；仅匹配该直接称呼。",
+              "suffix": "."
+            },
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "弗雷德",
+            "source": "FRED",
+            "term_kind": "proper_name",
+            "term_reason": "正文 107 的 SORRY, FRED. 在 Henry 漫画同组对 Fred 直接称呼，指被道歉的人物。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            107
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "正文 174 标题中 Sasha Nein 是冒号前的专名。"
+      },
+      "enforcement": "required",
+      "gender": "其他",
+      "recommended_translation": "萨沙·奈因",
+      "source": "Sasha Nein",
+      "term_kind": "proper_name",
+      "term_reason": "正文 174 的 Sasha Nein: Stories from the psychic dojo. 中，冒号前的 Sasha Nein 是题名/署名式专名；仅适用于该可见姓名，不把 psychic dojo 当人名，也不据署名推断游戏角色身份或性别。",
+      "evidence_rows": [
+        174
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "正文 174 标题中 Sasha Nein 是冒号前的专名。"
+            },
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "萨沙·奈因",
+            "source": "Sasha Nein",
+            "term_kind": "proper_name",
+            "term_reason": "正文 174 的 Sasha Nein: Stories from the psychic dojo. 以冒号前的人名作故事署名人物，指 Sasha Nein；不把 psychic dojo 当人名。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            174
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "正文 181、201 均出现大写 Ford Cruller，作为人名片段。"
+      },
+      "enforcement": "required",
+      "gender": "其他",
+      "recommended_translation": "福特·克鲁勒",
+      "source": "Ford Cruller",
+      "term_kind": "proper_name",
+      "term_reason": "正文 181 的 Ford Cruller 为多行标签首行姓名，201 的 with Ford Cruller. 为短语中的姓名；仅适用于该可见专名，不据杂志/地址文字扩展角色身份或性别。",
+      "evidence_rows": [
+        181,
+        201
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "正文 181、201 均出现大写 Ford Cruller，作为人名片段。"
+            },
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "福特·克鲁勒",
+            "source": "Ford Cruller",
+            "term_kind": "proper_name",
+            "term_reason": "正文 181 地址标签和 201 的 with Ford Cruller. 都将 Ford Cruller 作为署名/合作人物名。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            181,
+            201
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    }
+  ],
+  "terms": [
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "正文 66 整条为完整游戏标题。"
+      },
+      "category_path": "其他",
+      "enforcement": "required",
+      "recommended_translation": "脑航员：菱形废墟",
+      "source": "PSYCHONAUTS IN THE RHOMBUS OF RUIN",
+      "term_kind": "proper_name",
+      "term_reason": "正文 66 整条为大写完整标题 PSYCHONAUTS IN THE RHOMBUS OF RUIN；译名不写入“暂译”状态标记，并与标题内的 PSYCHONAUTS / IN THE RHOMBUS OF RUIN 两个组成片段保持核心名称一致。",
+      "evidence_rows": [
+        66
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "正文 66 整条为完整游戏标题。"
+            },
+            "category_path": "其他",
+            "enforcement": "required",
+            "recommended_translation": "脑航员：菱形废墟（暂译）",
+            "source": "PSYCHONAUTS IN THE RHOMBUS OF RUIN",
+            "term_kind": "proper_name",
+            "term_reason": "正文 66 为 Title/Start/End 画面可见完整游戏标题；146 有副标题部分，译名需与 66 统一。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            66
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "正文 66 完整标题开头和 97 整条均有大写 PSYCHONAUTS；仅匹配该标题/独立标签片段。"
+      },
+      "category_path": "其他",
+      "enforcement": "required",
+      "recommended_translation": "脑航员",
+      "source": "PSYCHONAUTS",
+      "term_kind": "proper_name",
+      "term_reason": "正文 66 完整标题以 PSYCHONAUTS 开头，97 整条为 PSYCHONAUTS；该大写片段是标题/独立标签专名，本条仅作该片段译名，不与普通小写 psychonauts 或未附原文部门文字合并。",
+      "evidence_rows": [
+        66,
+        97
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "正文 66、97 中均为大写 PSYCHONAUTS 标题/徽标文字。"
+            },
+            "category_path": "组织",
+            "enforcement": "required",
+            "recommended_translation": "脑航员",
+            "source": "PSYCHONAUTS",
+            "term_kind": "proper_name",
+            "term_reason": "正文 97 的 PSYCHONAUTS 是徽标/组织名，66 的完整标题也以该词开头；98 的 RESEARCH DIVISION 是同图部门文字但不并入专名。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            66,
+            97
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "正文 66、146 中均出现同一大写副标题片段。"
+      },
+      "category_path": "其他",
+      "enforcement": "required",
+      "recommended_translation": "菱形废墟",
+      "source": "IN THE RHOMBUS OF RUIN",
+      "term_kind": "proper_name",
+      "term_reason": "正文 146 整条为 IN THE RHOMBUS OF RUIN，66 的完整标题末段同形；该串是标题副题专名，译名采用与完整标题一致的 菱形废墟，不按普通 in the / rhombus / ruin 逐词扩译。",
+      "evidence_rows": [
+        66,
+        146
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "正文 66、146 中均出现同一大写副标题片段。"
+            },
+            "category_path": "其他",
+            "enforcement": "required",
+            "recommended_translation": "菱形废墟",
+            "source": "IN THE RHOMBUS OF RUIN",
+            "term_kind": "proper_name",
+            "term_reason": "正文 146 是标题徽标副标题；66 的完整标题末段同形，作为同一标题部分。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            66,
+            146
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "正文 228 整条为 Clairvoyance 控制图能力标签；仅匹配该精确大小写的完整标签。"
+      },
+      "category_path": "技能",
+      "enforcement": "reference",
+      "recommended_translation": "灵视",
+      "source": "Clairvoyance",
+      "term_kind": "game_term",
+      "term_reason": "正文 228 整条为 Clairvoyance，所在资源为控制器说明图，作为完整能力标签指本作超能力名；在 whole_record 和大小写精确限定下不按普通 clairvoyance 泛指。",
+      "evidence_rows": [
+        228
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": false,
+              "mode": "whole_record",
+              "reason": "正文 147 的 CLAIRVOYANCE 和 228 的 Clairvoyance 均为完整能力标签。"
+            },
+            "category_path": "技能",
+            "enforcement": "required",
+            "recommended_translation": "灵视",
+            "source": "Clairvoyance",
+            "term_kind": "game_term",
+            "term_reason": "147 的 CLAIRVOYANCE 与 228 的 Clairvoyance 都是控制/效果图完整能力标签，指本作操作图里的超能力名；不按普通 洞察力 泛指。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            228
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "正文 225 整条为 Psi Blast 控制图能力标签；仅匹配该精确大小写的完整标签。"
+      },
+      "category_path": "技能",
+      "enforcement": "reference",
+      "recommended_translation": "灵能冲击",
+      "source": "Psi Blast",
+      "term_kind": "game_term",
+      "term_reason": "正文 225 整条为 Psi Blast，所在资源为控制器说明图，作为完整能力标签指 Psi 攻击能力；在 whole_record 和大小写精确限定下不按普通 blast 泛指。",
+      "evidence_rows": [
+        225
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": false,
+              "mode": "whole_record",
+              "reason": "正文 149 的 PSI BLAST 和 225 的 Psi Blast 均为完整能力标签。"
+            },
+            "category_path": "技能",
+            "enforcement": "required",
+            "recommended_translation": "灵能冲击",
+            "source": "Psi Blast",
+            "term_kind": "game_term",
+            "term_reason": "149 的 PSI BLAST 与 225 的 Psi Blast 都是 psiBlast/Controls 图中的完整能力标签，指 Psi 攻击能力；不按普通 blast 泛指。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            225
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "正文 227 整条为 Psi Poke 控制图能力标签；仅匹配该精确大小写的完整标签。"
+      },
+      "category_path": "技能",
+      "enforcement": "reference",
+      "recommended_translation": "灵能戳击",
+      "source": "Psi Poke",
+      "term_kind": "game_term",
+      "term_reason": "正文 227 整条为 Psi Poke，所在资源为控制器说明图，作为完整能力标签指 Psi 戳击类能力；在 whole_record 和大小写精确限定下不按普通 poke 泛指。",
+      "evidence_rows": [
+        227
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": false,
+              "mode": "whole_record",
+              "reason": "正文 150 的 PSI POKE 和 227 的 Psi Poke 均为完整能力标签。"
+            },
+            "category_path": "技能",
+            "enforcement": "required",
+            "recommended_translation": "灵能戳击",
+            "source": "Psi Poke",
+            "term_kind": "game_term",
+            "term_reason": "150 的 PSI POKE 与 227 的 Psi Poke 都是 PsiPoke/Controls 图中的完整能力标签，指 Psi 戳击类能力；不按普通 poke 泛指。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            227
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": false,
+        "mode": "whole_record",
+        "reason": "正文 224 整条为 Pyrokinesis，且资源为控制器图示贴图；仅按完整能力标签处理。"
+      },
+      "category_path": "技能",
+      "enforcement": "required",
+      "recommended_translation": "心灵致火",
+      "source": "Pyrokinesis",
+      "term_kind": "game_term",
+      "term_reason": "正文 224 的 Pyrokinesis 是 ControllerDiagram/Controller_PK 等控制器图示资源中的完整能力标签；指本作控火能力名，不按普通名词泛指。",
+      "evidence_rows": [
+        224
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": false,
+              "mode": "whole_record",
+              "reason": "正文 151 的 PYROKINESIS 和 224 的 Pyrokinesis 均为完整能力标签。"
+            },
+            "category_path": "技能",
+            "enforcement": "required",
+            "recommended_translation": "念力控火",
+            "source": "Pyrokinesis",
+            "term_kind": "game_term",
+            "term_reason": "151 的 PYROKINESIS 与 224 的 Pyrokinesis 都是 Pyrokinesis/Controls 图中的完整能力标签，指本作控火超能力；不按普通名词泛指。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            224
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": false,
+        "mode": "whole_record",
+        "reason": "正文 226 整条为 Telekinesis，且资源为控制器图示贴图；仅按完整能力标签处理。"
+      },
+      "category_path": "技能",
+      "enforcement": "required",
+      "recommended_translation": "念力",
+      "source": "Telekinesis",
+      "term_kind": "game_term",
+      "term_reason": "正文 226 的 Telekinesis 是 ControllerDiagram/Controller_TK 等控制器图示资源中的完整能力标签；指本作念力移物能力名，不按普通名词泛指。",
+      "evidence_rows": [
+        226
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": false,
+              "mode": "whole_record",
+              "reason": "正文 154 的 TELEKINESIS 和 226 的 Telekinesis 均为完整能力标签。"
+            },
+            "category_path": "技能",
+            "enforcement": "required",
+            "recommended_translation": "念力移物",
+            "source": "Telekinesis",
+            "term_kind": "game_term",
+            "term_reason": "154 的 TELEKINESIS 与 226 的 Telekinesis 都是 Telekinesis/Controls 图中的完整能力标签，指本作念力移物能力；不按普通名词泛指。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            226
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "正文 143 整条为 PSIJECTOR 道具名。"
+      },
+      "category_path": "物品",
+      "enforcement": "required",
+      "recommended_translation": "灵能投影仪",
+      "source": "PSIJECTOR",
+      "term_kind": "proper_name",
+      "term_reason": "正文 143 的投影屏贴图文字 PSIJECTOR 是 Psi+projector 式道具名，指该投影器标签；不作为普通 projector。",
+      "evidence_rows": [
+        143
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "正文 143 整条为 PSIJECTOR 道具名。"
+            },
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "灵能投影仪",
+            "source": "PSIJECTOR",
+            "term_kind": "proper_name",
+            "term_reason": "正文 143 的投影屏贴图文字 PSIJECTOR 是 Psi+projector 式道具名，指该投影器标签；不作为普通 projector。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            143
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "正文 145 整条为大小写混合的道具名 LobotoTalkie；仅匹配该完整标签。"
+      },
+      "category_path": "物品",
+      "enforcement": "required",
+      "recommended_translation": "洛博托对讲机",
+      "source": "LobotoTalkie",
+      "term_kind": "proper_name",
+      "term_reason": "正文 145 的 WalkieTalkie 贴图文字 LobotoTalkie 是道具名；合成 Loboto 与 talkie，仅指该对讲机标签，不据此新增 Loboto 人物。",
+      "evidence_rows": [
+        145
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "正文 145 整条为大小写混合的道具名 LobotoTalkie。"
+            },
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "洛博托对讲机",
+            "source": "LobotoTalkie",
+            "term_kind": "proper_name",
+            "term_reason": "正文 145 的 WalkieTalkie 贴图文字 LobotoTalkie 是道具名；合成 Loboto 与 talkie，仅指该对讲机标签，不据此新增 Loboto 人物。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            145
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "正文 159 整条为完整刊物标题 TRUE PSYCHIC TALES。"
+      },
+      "category_path": "物品",
+      "enforcement": "required",
+      "recommended_translation": "真实灵能故事",
+      "source": "TRUE PSYCHIC TALES",
+      "term_kind": "proper_name",
+      "term_reason": "正文 159 的 TRUE PSYCHIC TALES 是 ComicBook 贴图上的完整标题，指漫画/刊物名；不分别冻结普通 true/psychic/tales。",
+      "evidence_rows": [
+        159
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "正文 159 整条为完整刊物标题 TRUE PSYCHIC TALES。"
+            },
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "真实灵能故事",
+            "source": "TRUE PSYCHIC TALES",
+            "term_kind": "proper_name",
+            "term_reason": "正文 11-13 的 TRUE/PSYCHIC/TALES 拆分与 159 的完整标题相合，指漫画/刊物名；不分别冻结普通 true/psychic/tales。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            159
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "THE RETURN OF “",
+        "reason": "正文 163 中 FRONTAL LOBE 紧接 THE RETURN OF “ 并以 ” 收尾；仅匹配该引号标题。",
+        "suffix": "”"
+      },
+      "category_path": "其他",
+      "enforcement": "required",
+      "recommended_translation": "额叶",
+      "source": "FRONTAL LOBE",
+      "term_kind": "proper_name",
+      "term_reason": "正文 163 的 THE RETURN OF “FRONTAL LOBE” 是 ComicBook 贴图上的回归标题；引号内 FRONTAL LOBE 仅按该标题对象/双关专名处理，普通解剖学额叶不纳入。",
+      "evidence_rows": [
+        163
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "THE RETURN OF “",
+              "reason": "正文 163 中 FRONTAL LOBE 紧接 THE RETURN OF “ 并以 ” 收尾；仅匹配该引号标题。",
+              "suffix": "”"
+            },
+            "category_path": "身份",
+            "enforcement": "required",
+            "recommended_translation": "额叶",
+            "source": "FRONTAL LOBE",
+            "term_kind": "proper_name",
+            "term_reason": "正文 163 的回归标题用引号把它作为专名/角色别名；普通解剖学额叶不纳入。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            163
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "INTRODUCING “",
+        "reason": "正文 170 中 THE NOODLER 紧接 INTRODUCING “ 并以 ” 收尾；仅匹配该引号标题。",
+        "suffix": "”"
+      },
+      "category_path": "身份",
+      "enforcement": "required",
+      "recommended_translation": "面条人",
+      "source": "THE NOODLER",
+      "term_kind": "proper_name",
+      "term_reason": "正文 170 的 introducing 引号标题介绍该专名/角色别名；不扩展到普通 noodler。",
+      "evidence_rows": [
+        170
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "INTRODUCING “",
+              "reason": "正文 170 中 THE NOODLER 紧接 INTRODUCING “ 并以 ” 收尾；仅匹配该引号标题。",
+              "suffix": "”"
+            },
+            "category_path": "身份",
+            "enforcement": "required",
+            "recommended_translation": "面条人",
+            "source": "THE NOODLER",
+            "term_kind": "proper_name",
+            "term_reason": "正文 170 的 introducing 引号标题介绍该专名/角色别名；不扩展到普通 noodler。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            170
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "正文 173 整条为 Palm Reader's Digest 刊物题名。"
+      },
+      "category_path": "物品",
+      "enforcement": "required",
+      "recommended_translation": "手相师文摘",
+      "source": "Palm Reader's Digest",
+      "term_kind": "proper_name",
+      "term_reason": "正文 173 的 Palm Reader's Digest 是 Digest 贴图上的完整题名，利用 palm reader 与 Reader's Digest 的刊物名双关，指该刊物/文摘标题；不按真实 Reader's Digest 所有用例处理。",
+      "evidence_rows": [
+        173
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "正文 173 整条为 Palm Reader's Digest 刊物题名。"
+            },
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "手相师文摘",
+            "source": "Palm Reader's Digest",
+            "term_kind": "proper_name",
+            "term_reason": "正文 173 在掌纹主题同组文字中作为刊物/文摘标题；不按真实 Reader's Digest 所有用例处理。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            173
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "正文 200 整条为 PSI WITNESS 杂志题名。"
+      },
+      "category_path": "物品",
+      "enforcement": "required",
+      "recommended_translation": "灵能见证",
+      "source": "PSI WITNESS",
+      "term_kind": "proper_name",
+      "term_reason": "正文 200 的 PSI WITNESS 是 Magazines 贴图上的完整杂志题名；仅作该杂志名，不冻结普通 witness。",
+      "evidence_rows": [
+        200
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "正文 200 整条为 PSI WITNESS 杂志/栏目题名。"
+            },
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "灵能见证",
+            "source": "PSI WITNESS",
+            "term_kind": "proper_name",
+            "term_reason": "正文 200 与 201-205 同组杂志文字构成刊物/栏目题名；仅作该杂志名，不冻结普通 witness。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            200
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "正文 157 整条为书本标题 ASTROPSIONICS。"
+      },
+      "category_path": "其他",
+      "enforcement": "required",
+      "recommended_translation": "星象灵能学",
+      "source": "ASTROPSIONICS",
+      "term_kind": "proper_name",
+      "term_reason": "正文 157 的 ASTROPSIONICS 是 Book 贴图上的完整书本标题，按 astro+psionics 的书名/学科式名称处理；不据此定义一项能力。",
+      "evidence_rows": [
+        157
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "正文 157 整条为书本标题 ASTROPSIONICS。"
+            },
+            "category_path": "其他",
+            "enforcement": "required",
+            "recommended_translation": "星象灵能学",
+            "source": "ASTROPSIONICS",
+            "term_kind": "proper_name",
+            "term_reason": "正文 157 的书本标题 ASTROPSIONICS 与 158 作者署名同组，指该书/学科式书名；不据此定义一项能力。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            157
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "正文 72 整条为瓶身商品名 YIP'S BREW。"
+      },
+      "category_path": "物品",
+      "enforcement": "required",
+      "recommended_translation": "伊普特酿",
+      "source": "YIP'S BREW",
+      "term_kind": "proper_name",
+      "term_reason": "正文 72 是瓶身标签中的商品/饮品名；Yip's 为署名式所有格，不据此新增角色。",
+      "evidence_rows": [
+        72
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "正文 72 整条为瓶身商品名 YIP'S BREW。"
+            },
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "伊普特酿",
+            "source": "YIP'S BREW",
+            "term_kind": "proper_name",
+            "term_reason": "正文 72 是瓶身标签中的商品/饮品名；Yip's 为署名式所有格，不据此新增角色。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            72
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "正文 74 整条为瓶身商品名 TURNER'S TURMOIL。"
+      },
+      "category_path": "物品",
+      "enforcement": "required",
+      "recommended_translation": "特纳的骚动",
+      "source": "TURNER'S TURMOIL",
+      "term_kind": "proper_name",
+      "term_reason": "正文 74 的瓶身资源整条为 TURNER'S TURMOIL 标签；作为该瓶身标签上的完整名称，Turner's 不据此新增角色。",
+      "evidence_rows": [
+        74
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "正文 74 整条为瓶身商品名 TURNER'S TURMOIL。"
+            },
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "特纳的骚动",
+            "source": "TURNER'S TURMOIL",
+            "term_kind": "proper_name",
+            "term_reason": "正文 74 是瓶身标签中的商品/饮品名；Turner's 为署名式所有格，不据此新增角色。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            74
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "正文 75 整条为瓶身独立标签 EARP。"
+      },
+      "category_path": "物品",
+      "enforcement": "required",
+      "recommended_translation": "厄普",
+      "source": "EARP",
+      "term_kind": "proper_name",
+      "term_reason": "正文 75 的瓶身资源整条为 EARP 标签；作为该瓶身独立标签上的完整名称，仅此标签，不据此新增人物。",
+      "evidence_rows": [
+        75
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "正文 75 整条为瓶身独立标签 EARP。"
+            },
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "厄普",
+            "source": "EARP",
+            "term_kind": "proper_name",
+            "term_reason": "正文 75 的瓶身独立标签 EARP，与 72/74 的饮品名同组；仅作该商品/品牌标签，不扩展为人物。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            75
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "正文 77 整条为 ALL PAUL 标签。"
+      },
+      "category_path": "其他",
+      "enforcement": "required",
+      "recommended_translation": "全保罗",
+      "source": "ALL PAUL",
+      "term_kind": "proper_name",
+      "term_reason": "正文 77 的鼓/LP 资源整条为 ALL PAUL 标签；作为该完整标签/题名，不扩展为普通 all 或 Paul 用法；与以 ALL PAUL 开头的复合标签不按拼写合并。",
+      "evidence_rows": [
+        77
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "正文 77 整条为 ALL PAUL 标签。"
+            },
+            "category_path": "其他",
+            "enforcement": "required",
+            "recommended_translation": "全保罗",
+            "source": "ALL PAUL",
+            "term_kind": "proper_name",
+            "term_reason": "正文 77 是鼓/唱片上的完整 ALL PAUL 标签；78 的 ALL PAUL CRUISE 以同名开头，但不据此合并 79-81 的 Paul L/M/O 标签。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            77
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "正文 78 整条为 ALL PAUL CRUISE 标牌。"
+      },
+      "category_path": "其他",
+      "enforcement": "required",
+      "recommended_translation": "全保罗邮轮",
+      "source": "ALL PAUL CRUISE",
+      "term_kind": "proper_name",
+      "term_reason": "正文 78 的邮轮标牌文字，指以 ALL PAUL 为名的巡航/标牌；不扩展到普通 cruise。",
+      "evidence_rows": [
+        78
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "正文 78 整条为 ALL PAUL CRUISE 标牌。"
+            },
+            "category_path": "其他",
+            "enforcement": "required",
+            "recommended_translation": "全保罗邮轮",
+            "source": "ALL PAUL CRUISE",
+            "term_kind": "proper_name",
+            "term_reason": "正文 78 的邮轮标牌文字，指以 ALL PAUL 为名的巡航/标牌；不扩展到普通 cruise。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            78
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "正文 93 整条为 S.S.TURNER 船名标签。"
+      },
+      "category_path": "物品",
+      "enforcement": "required",
+      "recommended_translation": "S.S.特纳号",
+      "source": "S.S.TURNER",
+      "term_kind": "proper_name",
+      "term_reason": "正文 93 的渔船船身文字以 S.S. 作船名前缀；指该船名/标签。",
+      "evidence_rows": [
+        93
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "正文 93 整条为 S.S.TURNER 船名标签。"
+            },
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "S.S.特纳号",
+            "source": "S.S.TURNER",
+            "term_kind": "proper_name",
+            "term_reason": "正文 93 的渔船船身文字以 S.S. 作船名前缀；指该船名/标签。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            93
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "",
+        "reason": "正文 15 中 TWELFTH AIRBORNE 位于句首并以逗号紧接；仅匹配该海报单位名。",
+        "suffix": ","
+      },
+      "category_path": "组织",
+      "enforcement": "required",
+      "recommended_translation": "第十二空降队",
+      "source": "TWELFTH AIRBORNE",
+      "term_kind": "proper_name",
+      "term_reason": "正文 15 的海报整行为 TWELFTH AIRBORNE,；该词组作为海报上的部队/单位名，仅匹配句首逗号前的写法，不冻结普通 airborne。",
+      "evidence_rows": [
+        15
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "",
+              "reason": "正文 15 中 TWELFTH AIRBORNE 位于句首并以逗号紧接；仅匹配该海报单位名。",
+              "suffix": ","
+            },
+            "category_path": "组织",
+            "enforcement": "required",
+            "recommended_translation": "第十二空降队",
+            "source": "TWELFTH AIRBORNE",
+            "term_kind": "proper_name",
+            "term_reason": "正文 15 与 16/17 海报标语同组，作为轰炸机海报上的部队/单位名；不冻结普通 airborne。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            15
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "",
+        "reason": "正文 16 中 FLYING RATS 位于句首并以句点紧接；仅匹配该海报别称。",
+        "suffix": "."
+      },
+      "category_path": "组织",
+      "enforcement": "required",
+      "recommended_translation": "飞天老鼠",
+      "source": "FLYING RATS",
+      "term_kind": "proper_name",
+      "term_reason": "正文 16 的海报整行为 FLYING RATS.；该词组作为海报上的队别/别称，仅匹配句首句点前写法，不把普通 rats 并入。",
+      "evidence_rows": [
+        16
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "",
+              "reason": "正文 16 中 FLYING RATS 位于句首并以句点紧接；仅匹配该海报别称。",
+              "suffix": "."
+            },
+            "category_path": "组织",
+            "enforcement": "required",
+            "recommended_translation": "飞行鼠队",
+            "source": "FLYING RATS",
+            "term_kind": "proper_name",
+            "term_reason": "正文 16 与 15/17 同组，作为海报上的队别/别称；不把普通 rats 并入。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            16
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "正文 182 整条为 LP 标题 PAUL THE WAY。"
+      },
+      "category_path": "物品",
+      "enforcement": "required",
+      "recommended_translation": "一路保罗",
+      "source": "PAUL THE WAY",
+      "term_kind": "proper_name",
+      "term_reason": "正文 182 的 LP 贴图整条为 PAUL THE WAY；作为该 LP 贴图上的完整题名/标签，不把 Paul 作出场角色。",
+      "evidence_rows": [
+        182
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "正文 182 整条为 LP 标题 PAUL THE WAY。"
+            },
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "一路保罗",
+            "source": "PAUL THE WAY",
+            "term_kind": "proper_name",
+            "term_reason": "正文 182 与 183-199 同组为 LP 唱片标题及曲目列表；PAUL THE WAY 是唱片/专辑题名，不把 Paul 作出场角色。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            182
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "VISIT THE ",
+        "reason": "正文 95 中 Questionable Area 紧接 VISIT THE 并位于句末；仅匹配该地点名。",
+        "suffix": ""
+      },
+      "category_path": "地名",
+      "enforcement": "required",
+      "recommended_translation": "可疑地带",
+      "source": "Questionable Area",
+      "term_kind": "proper_name",
+      "term_reason": "正文 95 的旅游标语称其为可 visit 的地点名；不把普通 questionable area 搭配当术语。",
+      "evidence_rows": [
+        95
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "VISIT THE ",
+              "reason": "正文 95 中 Questionable Area 紧接 VISIT THE 并位于句末；仅匹配该地点名。",
+              "suffix": ""
+            },
+            "category_path": "地名",
+            "enforcement": "required",
+            "recommended_translation": "可疑地带",
+            "source": "Questionable Area",
+            "term_kind": "proper_name",
+            "term_reason": "正文 95 的旅游标语称其为可 visit 的地点名；不把普通 questionable area 搭配当术语。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            95
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "正文 181 的地址块两处均含大写 Whispering Rock，作为地名成分。"
+      },
+      "category_path": "地名",
+      "enforcement": "required",
+      "recommended_translation": "低语岩",
+      "source": "Whispering Rock",
+      "term_kind": "proper_name",
+      "term_reason": "正文 181 的地址块同时有 Whispering Rock Summer Camp 与 218 Whispering Rock Dr.，该词组为营地/街道共用地名；不覆盖普通 whispering/rock 描述。",
+      "evidence_rows": [
+        181
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "正文 181 的地址块两处均含大写 Whispering Rock，作为地名成分。"
+            },
+            "category_path": "地名",
+            "enforcement": "required",
+            "recommended_translation": "低语岩",
+            "source": "Whispering Rock",
+            "term_kind": "proper_name",
+            "term_reason": "正文 181 的地址块同时有 Whispering Rock Summer Camp 与 218 Whispering Rock Dr.，该词组为营地/街道共用地名；不覆盖普通 whispering/rock 描述。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            181
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "正文 212 整条为 Delphiville 贴纸地名。"
+      },
+      "category_path": "地名",
+      "enforcement": "required",
+      "recommended_translation": "德尔菲维尔",
+      "source": "Delphiville",
+      "term_kind": "proper_name",
+      "term_reason": "正文 212 为行李箱贴图上的独立地名标签 Delphiville；仅指该标签中的地名，不扩展到其它地点。",
+      "evidence_rows": [
+        212
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "正文 212 整条为 Delphiville 贴纸地名。"
+            },
+            "category_path": "地名",
+            "enforcement": "required",
+            "recommended_translation": "德尔菲维尔",
+            "source": "Delphiville",
+            "term_kind": "proper_name",
+            "term_reason": "正文 212 为行李箱旅行贴纸上的独立地名标签；仅此标签。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            212
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "正文 213 整条为 Boony Doone 独立地名标签；仅匹配该完整记录。"
+      },
+      "category_path": "地名",
+      "enforcement": "required",
+      "recommended_translation": "布尼杜恩",
+      "source": "Boony Doone",
+      "term_kind": "proper_name",
+      "term_reason": "正文 213 整条为 Boony Doone 这一地点名称标签；作为地名专名音译，适用范围仅此完整标签。",
+      "evidence_rows": [
+        213
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "正文 213 整条为 Boony Doone 贴纸地名。"
+            },
+            "category_path": "地名",
+            "enforcement": "required",
+            "recommended_translation": "布尼杜恩",
+            "source": "Boony Doone",
+            "term_kind": "proper_name",
+            "term_reason": "正文 213 为行李箱旅行贴纸上的独立地名标签；仅此标签。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            213
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "正文 214 整条为 LUNGFISH-OPOLIS 独立地名标签；仅匹配该完整记录。"
+      },
+      "category_path": "地名",
+      "enforcement": "required",
+      "recommended_translation": "肺鱼城",
+      "source": "LUNGFISH-OPOLIS",
+      "term_kind": "proper_name",
+      "term_reason": "正文 214 整条为 LUNGFISH-OPOLIS 这一地点名称标签；作为地名专名译作“肺鱼城”，适用范围仅此完整标签。",
+      "evidence_rows": [
+        214
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "正文 214 整条为 LUNGFISH-OPOLIS 贴纸地名。"
+            },
+            "category_path": "地名",
+            "enforcement": "required",
+            "recommended_translation": "肺鱼城",
+            "source": "LUNGFISH-OPOLIS",
+            "term_kind": "proper_name",
+            "term_reason": "正文 214 为行李箱旅行贴纸上的独立地名标签；仅此标签。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            214
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "正文 215 整条为 Los Muertos 独立地名标签；仅匹配该完整记录。"
+      },
+      "category_path": "地名",
+      "enforcement": "required",
+      "recommended_translation": "洛斯穆埃托斯",
+      "source": "Los Muertos",
+      "term_kind": "proper_name",
+      "term_reason": "正文 215 整条为 Los Muertos 这一地点名称标签；作为地名专名音译，适用范围仅此完整标签。",
+      "evidence_rows": [
+        215
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "正文 215 整条为 Los Muertos 贴纸地名。"
+            },
+            "category_path": "地名",
+            "enforcement": "required",
+            "recommended_translation": "洛斯穆埃托斯",
+            "source": "Los Muertos",
+            "term_kind": "proper_name",
+            "term_reason": "正文 215 为行李箱旅行贴纸上的独立地名标签；仅此标签。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            215
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "正文 216 整条为 Psigon 独立地名标签；仅匹配该完整记录。"
+      },
+      "category_path": "地名",
+      "enforcement": "required",
+      "recommended_translation": "赛贡",
+      "source": "Psigon",
+      "term_kind": "proper_name",
+      "term_reason": "正文 216 整条为 Psigon 这一地点名称标签；作为地名专名音译，适用范围仅此完整标签。",
+      "evidence_rows": [
+        216
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "正文 216 整条为 Psigon 贴纸地名。"
+            },
+            "category_path": "地名",
+            "enforcement": "required",
+            "recommended_translation": "赛贡",
+            "source": "Psigon",
+            "term_kind": "proper_name",
+            "term_reason": "正文 216 为行李箱旅行贴纸上的独立地名标签；仅此标签。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            216
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "正文 217 整条为 CAMPOTOWN 独立地名标签；仅匹配该完整记录。"
+      },
+      "category_path": "地名",
+      "enforcement": "required",
+      "recommended_translation": "坎普敦",
+      "source": "CAMPOTOWN",
+      "term_kind": "proper_name",
+      "term_reason": "正文 217 整条为 CAMPOTOWN 这一地点名称标签；作为地名专名音译，适用范围仅此完整标签。",
+      "evidence_rows": [
+        217
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "正文 217 整条为 CAMPOTOWN 贴纸地名。"
+            },
+            "category_path": "地名",
+            "enforcement": "required",
+            "recommended_translation": "坎普敦",
+            "source": "CAMPOTOWN",
+            "term_kind": "proper_name",
+            "term_reason": "正文 217 为行李箱旅行贴纸上的独立地名标签；仅此标签。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            217
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "正文 218 整条为 Millatopia 独立地名标签；仅匹配该完整记录。"
+      },
+      "category_path": "地名",
+      "enforcement": "required",
+      "recommended_translation": "米拉托邦",
+      "source": "Millatopia",
+      "term_kind": "proper_name",
+      "term_reason": "正文 218 整条为 Millatopia 这一地点名称标签；作为地名专名音译，适用范围仅此完整标签。",
+      "evidence_rows": [
+        218
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "正文 218 整条为 Millatopia 贴纸地名。"
+            },
+            "category_path": "地名",
+            "enforcement": "required",
+            "recommended_translation": "米拉托邦",
+            "source": "Millatopia",
+            "term_kind": "proper_name",
+            "term_reason": "正文 218 为行李箱旅行贴纸上的独立地名标签；仅此标签。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            218
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    }
+  ],
+  "non_translate": [
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "正文 23 为完整字串 DOUBLE FINE；正文 102 的 DOUBLE FINE BOXES 开头仍为同一大写公司名/品牌片段；全局匹配仅限该大写品牌形式，独立与嵌入两处均按品牌保留。"
+      },
+      "reason": "正文 23 的完整 DOUBLE FINE 与正文 102 的 DOUBLE FINE BOXES 前缀均为真实公司名/品牌字样；按风格只保留该大写品牌短语，不把 BOXES 或完整短语整体禁翻；不是游戏角色或组织术语。",
+      "source": "DOUBLE FINE",
+      "evidence_rows": [
+        23,
+        102
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "正文 23 为完整 DOUBLE FINE 标牌；102 的 DOUBLE FINE BOXES 中仍为公司名片段；仅匹配大写公司名形式。"
+            },
+            "reason": "真实公司名/箱体厂牌文字，按风格保留原文；不是游戏角色或组织术语。",
+            "source": "DOUBLE FINE"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            23,
+            102
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=1. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context."
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "A ",
+        "reason": "正文 161 的 DOUBLEFINE 位于实际紧邻字串 A 与 PUBLICATION 25 CENTS 之间；仅匹配该出版语境中的连写品牌片段。",
+        "suffix": " PUBLICATION 25 CENTS"
+      },
+      "reason": "正文 161 中 A DOUBLEFINE PUBLICATION 25 CENTS 是自然语言短语；只将 A 与 PUBLICATION 25 CENTS 之间的 DOUBLEFINE 连写品牌变体按真实公司名样式保留原文，周围文字不整体禁翻。",
+      "source": "DOUBLEFINE",
+      "evidence_rows": [
+        161
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "A ",
+              "reason": "正文 161 中 DOUBLEFINE 紧接 A 并在 PUBLICATION 25 CENTS 之前；仅匹配出版方署名片段。",
+              "suffix": " PUBLICATION 25 CENTS"
+            },
+            "reason": "出版方署名变形，按真实公司名样式保留原文。",
+            "source": "DOUBLEFINE"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            161
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=0, embedded=1. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context."
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "仅匹配正文 22 的整条 DF INC. 1985 标识字串；不保护 DF、INC. 或 1985 的单独出现。"
+      },
+      "reason": "正文 22 整条为 DF INC. 1985 的可见标识字串；按品牌/编号等其他保留内容保留原文，不推断 DF 的展开或贴图用途，也不把它作为运行命令。",
+      "source": "DF INC. 1985",
+      "evidence_rows": [
+        22
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "仅匹配正文 22 的整条厂牌/年份标识。"
+            },
+            "reason": "随身听厂牌/年份样式标识，按公司/技术标记保留原文。",
+            "source": "DF INC. 1985"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            22
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "仅匹配正文 8 的整条 M - N28 编号字串；不把裸字母 M 或 N28 扩成全局禁翻。"
+      },
+      "reason": "正文 8 整条为含字母、连字符和数字的编号/型号样式字串；按标识符/型号类可见字串保留原文，不据此断言具体贴图用途。",
+      "source": "M - N28",
+      "evidence_rows": [
+        8
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "仅匹配正文 8 的整条编号标签。"
+            },
+            "reason": "保险库贴图编号，按技术型号保留原文。",
+            "source": "M - N28"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            8
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "仅匹配正文 90 的整条 JA-636 编号字串；不把 JA 或 636 扩成全局禁翻。"
+      },
+      "reason": "正文 90 整条为字母-数字编号/型号样式字串；按标识符/型号类可见字串保留原文；结构上的独立出现不作为命令证据，也不据此断言具体贴图用途。",
+      "source": "JA-636",
+      "evidence_rows": [
+        90
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "仅匹配正文 90 的整条编号标签。"
+            },
+            "reason": "投影器贴图编号，按技术型号保留原文。",
+            "source": "JA-636"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            90
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context."
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "仅匹配正文 91 的整条编号标签。"
+      },
+      "reason": "货船编号，按技术型号保留原文。",
+      "source": "A 807",
+      "evidence_rows": [
+        91
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "仅匹配正文 91 的整条编号标签。"
+            },
+            "reason": "货船编号，按技术型号保留原文。",
+            "source": "A 807"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            91
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context."
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "仅匹配正文 92 的整条编号标签。"
+      },
+      "reason": "货船完整编号标签，按技术型号保留原文。",
+      "source": "807",
+      "evidence_rows": [
+        92
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "仅匹配正文 92 的整条编号标签。"
+            },
+            "reason": "货船完整编号标签，按技术型号保留原文。",
+            "source": "807"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            92
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "仅匹配正文 222 的整条编号标签。"
+      },
+      "reason": "潜艇贴图编号，按技术型号保留原文。",
+      "source": "S218",
+      "evidence_rows": [
+        222
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "仅匹配正文 222 的整条编号标签。"
+            },
+            "reason": "潜艇贴图编号，按技术型号保留原文。",
+            "source": "S218"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            222
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context."
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "仅匹配正文 162 的整条期号标签。"
+      },
+      "reason": "漫画期刊号/贴图编号，按技术编号保留原文。",
+      "source": "#245",
+      "evidence_rows": [
+        162
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "仅匹配正文 162 的整条期号标签。"
+            },
+            "reason": "漫画期刊号/贴图编号，按技术编号保留原文。",
+            "source": "#245"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            162
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "仅匹配正文 169 的整条期号标签。"
+      },
+      "reason": "漫画期刊号/贴图编号，按技术编号保留原文。",
+      "source": "#417",
+      "evidence_rows": [
+        169
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "仅匹配正文 169 的整条期号标签。"
+            },
+            "reason": "漫画期刊号/贴图编号，按技术编号保留原文。",
+            "source": "#417"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            169
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "Press ",
+        "reason": "正文 229、230、231、232、235 中 A 均处于 Press 后且后接空格，该后接空格是五条原文中 A 后的共同紧邻字面字串，作为按键标识保护；正文 91 的 A 807 是货船编号，不匹配 Press 前缀，不作为同一保护范围；不冻结单独字母 A 或完整 Press 提示句。",
+        "suffix": " "
+      },
+      "reason": "按键标识 A 保留原文。",
+      "source": "A",
+      "evidence_rows": [
+        229,
+        230,
+        231,
+        232,
+        235
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "Press ",
+              "reason": "正文 229 的 Press A Button 中 A 为按键标识；不冻结单独字母 A。",
+              "suffix": " Button"
+            },
+            "reason": "按键标识 A 保留原文。",
+            "source": "A"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            229
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        },
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "Press ",
+              "reason": "正文 230 的 Press A Button or Touchpad 中 A 为按键标识；不冻结单独字母 A。",
+              "suffix": " Button or Touchpad"
+            },
+            "reason": "按键标识 A 保留原文。",
+            "source": "A"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            230
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        },
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "Press ",
+              "reason": "正文 231 的 Press A to select the highlighted target 中 A 为按键标识；不冻结单独字母 A。",
+              "suffix": " to select the highlighted target"
+            },
+            "reason": "按键标识 A 保留原文。",
+            "source": "A"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            231
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        },
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "Press ",
+              "reason": "正文 232 的 Press A or Touchpad to select the highlighted target 中 A 为按键标识；不冻结单独字母 A。",
+              "suffix": " or Touchpad to select the highlighted target"
+            },
+            "reason": "按键标识 A 保留原文。",
+            "source": "A"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            232
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        },
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "Press ",
+              "reason": "正文 235 的 Press A button 中 A 为按键标识；不冻结单独字母 A。",
+              "suffix": " button"
+            },
+            "reason": "按键标识 A 保留原文。",
+            "source": "A"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            235
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_rows": [
+        91
+      ],
+      "corpus_evidence_note": "Literal uses: standalone=0, embedded=7. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context."
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "Press ",
+        "reason": "正文 233 的 Press X Button 与 234 的 Press X to select the highlighted target. 中 X 均为按键标识；Press 为共同前紧邻字串，X 后接空格是两条原文的共同紧邻字面字串；不冻结单独字母 X 或完整自然语言提示。",
+        "suffix": " "
+      },
+      "reason": "按键标识 X 保留原文。",
+      "source": "X",
+      "evidence_rows": [
+        233,
+        234
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "Press ",
+              "reason": "正文 233 的 Press X Button 中 X 为按键标识；不冻结单独字母 X。",
+              "suffix": " Button"
+            },
+            "reason": "按键标识 X 保留原文。",
+            "source": "X"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            233
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        },
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "Press ",
+              "reason": "正文 234 的 Press X to select the highlighted target. 中 X 为按键标识；不冻结单独字母 X。",
+              "suffix": " to select the highlighted target."
+            },
+            "reason": "按键标识 X 保留原文。",
+            "source": "X"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            234
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=0, embedded=2. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context."
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "or ",
+        "reason": "正文 230 的 Press A Button or Touchpad 与 232 的 Press A or Touchpad to select the highlighted target 中 Touchpad 前紧邻字串均为 or；前者句末、后者后接 to-select 短语，没有统一后接字串，故 suffix 为空不设固定后接文本；限定 UI 控制器部件/按键标识，不冻结所有 touchpad 普通名词或完整提示句。",
+        "suffix": ""
+      },
+      "reason": "控制器部件/按键标识 Touchpad 保留原文。",
+      "source": "Touchpad",
+      "evidence_rows": [
+        230,
+        232
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "Press A Button or ",
+              "reason": "正文 230 的 Press A Button or Touchpad 以 Touchpad 结尾，标签位于句末；不冻结所有 touchpad 普通名词。",
+              "suffix": ""
+            },
+            "reason": "控制器部件/按键标识 Touchpad 保留原文。",
+            "source": "Touchpad"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            230
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        },
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "Press A or ",
+              "reason": "正文 232 的 Press A or Touchpad to select the highlighted target 中 Touchpad 为控制器部件标识；不冻结所有 touchpad 普通名词。",
+              "suffix": " to select the highlighted target"
+            },
+            "reason": "控制器部件/按键标识 Touchpad 保留原文。",
+            "source": "Touchpad"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            232
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=0, embedded=2. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context."
+    },
+    {
+      "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "CHRIS LAM",
+      "evidence_rows": [
+        25
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "CHRIS LAM"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            25
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "仅匹配正文 25 的整条制作人员署名 CHRIS LAM；m1 资源为 Game/Environment/Credits/Text/Animators.png，style 要求署名保留原文；本批无嵌入用例，不作全局禁翻。"
+      }
+    },
+    {
+      "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "MIYUKI RICHARDSON",
+      "evidence_rows": [
+        26
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "MIYUKI RICHARDSON"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            26
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "仅匹配正文 26 的整条制作人员署名 MIYUKI RICHARDSON；m1 资源为 Game/Environment/Credits/Text/Animators.png，style 要求署名保留原文；本批无嵌入用例，不作全局禁翻。"
+      }
+    },
+    {
+      "reason": "动画师名单中的制作人员署名/真实姓名，按风格保留原文；属于其他保留内容，不是运行标记、命令、按键或游戏角色。",
+      "source": "ALEX TURNER",
+      "evidence_rows": [
+        27
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "ALEX TURNER"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            27
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "正文 27 整条为 Credits/Text/Animators.png 中的制作人员署名 ALEX TURNER；证据只覆盖该独立完整署名，保留范围限于整条记录，不扩展到 TURNER 或含 Turner 的其它标签。"
+      }
+    },
+    {
+      "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "ALEX YIP",
+      "evidence_rows": [
+        28
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "ALEX YIP"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            28
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "仅匹配正文 28 的整条制作人员署名 ALEX YIP；m1 资源为 Game/Environment/Credits/Text/Animators.png，style 要求署名保留原文；本批无嵌入用例，不作全局禁翻。"
+      }
+    },
+    {
+      "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "DAVID RUSSELL",
+      "evidence_rows": [
+        30
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "DAVID RUSSELL"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            30
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "证据行 30 的完整原文为“DAVID RUSSELL”，资源为 Game/Environment/Credits/Text/CharacterArtists.png；按风格属于其他保留内容（制作人员署名），只匹配该完整记录，不把 RUSSELL 或嵌入同名文本全局禁翻。"
+      }
+    },
+    {
+      "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "JARED MILLS",
+      "evidence_rows": [
+        31
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "JARED MILLS"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            31
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "证据行 31 的完整原文为“JARED MILLS”，资源为 Game/Environment/Credits/Text/CharacterArtists.png；按风格属于其他保留内容（制作人员署名），只匹配该完整记录，不把 JARED/Jared 或嵌入同名文本全局禁翻，也不与独立标签 Jared 合并。"
+      }
+    },
+    {
+      "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "NICK MAKSIM",
+      "evidence_rows": [
+        32
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "NICK MAKSIM"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            32
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "证据行 32 的完整原文为“NICK MAKSIM”，资源为 Game/Environment/Credits/Text/CharacterArtists.png；按风格属于其他保留内容（制作人员署名），只匹配该完整记录，不把 NICK 或嵌入同名文本全局禁翻。"
+      }
+    },
+    {
+      "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "EMILY JOHNSTONE",
+      "evidence_rows": [
+        34
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "EMILY JOHNSTONE"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            34
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "证据行 34 的完整原文为“EMILY JOHNSTONE”，资源为 Game/Environment/Credits/Text/ConceptArtists.png；按风格属于其他保留内容（制作人员署名），只匹配该完整记录，不把 EMILY/JOHNSTONE 或嵌入同名文本全局禁翻。"
+      }
+    },
+    {
+      "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "NATHAN STAPLEY",
+      "evidence_rows": [
+        35
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "NATHAN STAPLEY"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            35
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "证据行 35 的完整原文为“NATHAN STAPLEY”，资源为 Game/Environment/Credits/Text/ConceptArtists.png；按风格属于其他保留内容（制作人员署名），只匹配该完整记录，不把 NATHAN/STAPLEY 或嵌入同名文本全局禁翻。"
+      }
+    },
+    {
+      "reason": "制作人员/美术署名，按风格保留原文；不作游戏角色。",
+      "source": "SAY OH",
+      "evidence_rows": [
+        36
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员/美术署名，按风格保留原文；不作游戏角色。",
+            "source": "SAY OH"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            36
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "证据行 36 的完整原文为“SAY OH”，资源为 Game/Environment/Credits/Text/ConceptArtists.png；按风格属于其他保留内容（制作人员/美术署名），只匹配该完整记录，不把 SAY、OH 或嵌入同名文本全局禁翻。"
+      }
+    },
+    {
+      "reason": "演职员/制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "RICHARD HORVITZ",
+      "evidence_rows": [
+        37
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "演职员/制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "RICHARD HORVITZ"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            37
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "证据行 37 的完整原文为“RICHARD HORVITZ”，资源为 Game/Environment/Credits/Text/DF_Presents.png；按风格属于其他保留内容（演职员/制作人员署名），只匹配该完整记录，不把 RICHARD/HORVITZ 或嵌入同名文本全局禁翻。"
+      }
+    },
+    {
+      "reason": "演职员/制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "NICKI RAPP",
+      "evidence_rows": [
+        38
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "演职员/制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "NICKI RAPP"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            38
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "证据行 38 的完整原文为“NICKI RAPP”，资源为 Game/Environment/Credits/Text/DF_Presents.png；按风格属于其他保留内容（演职员/制作人员署名），只匹配该完整记录，不把 NICKI/RAPP 或嵌入同名文本全局禁翻。"
+      }
+    },
+    {
+      "reason": "演职员/制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "NICK JAMESON",
+      "evidence_rows": [
+        39
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "演职员/制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "NICK JAMESON"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            39
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "证据行 39 的完整原文为“NICK JAMESON”，资源为 Game/Environment/Credits/Text/DF_Presents.png；按风格属于其他保留内容（演职员/制作人员署名），只匹配该完整记录，不把 NICK/JAMESON 或嵌入同名文本全局禁翻。"
+      }
+    },
+    {
+      "reason": "演职员/制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "ALEXIS LEZIN",
+      "evidence_rows": [
+        40
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "演职员/制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "ALEXIS LEZIN"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            40
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "证据行 40 的完整原文为“ALEXIS LEZIN”，资源为 Game/Environment/Credits/Text/DF_Presents.png；按风格属于其他保留内容（演职员/制作人员署名），只匹配该完整记录，不把 ALEXIS/LEZIN 或嵌入同名文本全局禁翻。"
+      }
+    },
+    {
+      "reason": "演职员/制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "STEPHEN STANTON",
+      "evidence_rows": [
+        41
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "演职员/制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "STEPHEN STANTON"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            41
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "ordinal 41 仅见整条独立图片文字 STEPHEN STANTON，资源为 Game/Environment/Credits/Text/DF_Presents.png；保留依据是风格中的制作人员署名保留原文，不是命令或运行标记，也不是句中同形词；只匹配该完整大写标签。"
+      }
+    },
+    {
+      "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "JEREMY NATIVIDAD",
+      "evidence_rows": [
+        44
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "JEREMY NATIVIDAD"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            44
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "ordinal 44 仅见整条独立图片文字 JEREMY NATIVIDAD，metadata_refs m1 对应 Game/Environment/Credits/Text/EnvironmentArtists.png；保留依据是风格中的制作人员署名保留原文，不是命令或运行标记，也不是句中同形词；只匹配该完整大写标签。"
+      }
+    },
+    {
+      "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "LEVI RYKEN",
+      "evidence_rows": [
+        45
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "LEVI RYKEN"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            45
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "ordinal 45 仅见整条独立图片文字 LEVI RYKEN，metadata_refs m1 对应 Game/Environment/Credits/Text/EnvironmentArtists.png；保留依据是风格中的制作人员署名保留原文，不是命令或运行标记，也不是句中同形词；只匹配该完整大写标签。"
+      }
+    },
+    {
+      "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "PAUL MOYA",
+      "evidence_rows": [
+        46
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "PAUL MOYA"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            46
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "ordinal 46 仅见整条独立图片文字 PAUL MOYA，metadata_refs m1 对应 Game/Environment/Credits/Text/EnvironmentArtists.png；保留依据是风格中的制作人员署名保留原文，不是命令或运行标记，也不是句中同形词；只匹配该完整大写标签。"
+      }
+    },
+    {
+      "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "MARTIN BAADSGAARD",
+      "evidence_rows": [
+        47
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "MARTIN BAADSGAARD"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            47
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "ordinal 47 仅见整条独立图片文字 MARTIN BAADSGAARD，metadata_refs m1 对应 Game/Environment/Credits/Text/EnvironmentArtists.png；保留依据是风格中的制作人员署名保留原文，不是命令或运行标记，也不是句中同形词；只匹配该完整大写标签。"
+      }
+    },
+    {
+      "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "KRISTEN RUSSELL",
+      "evidence_rows": [
+        49
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "KRISTEN RUSSELL"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            49
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "证据行 49 的完整原文为“KRISTEN RUSSELL”，资源为 Game/Environment/Credits/Text/MaterialArtist.png；按风格属于其他保留内容（制作人员署名），只匹配该完整记录，不把 RUSSELL 或嵌入同名文本全局禁翻。"
+      }
+    },
+    {
+      "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "ANDY ALAMANO",
+      "evidence_rows": [
+        51
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "ANDY ALAMANO"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            51
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "ordinal 51 仅见整条独立图片文字 ANDY ALAMANO，metadata_refs m2 对应 Game/Environment/Credits/Text/Producers.png；保留依据是风格中的制作人员署名保留原文，不是命令或运行标记，也不是句中同形词；只匹配该完整大写标签。"
+      }
+    },
+    {
+      "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "MALENA ANNABLE",
+      "evidence_rows": [
+        52
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "MALENA ANNABLE"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            52
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "ordinal 52 仅见整条独立图片文字 MALENA ANNABLE，metadata_refs m2 对应 Game/Environment/Credits/Text/Producers.png；保留依据是风格中的制作人员署名保留原文，不是命令或运行标记，也不是句中同形词；只匹配该完整大写标签。"
+      }
+    },
+    {
+      "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "MICHAEL TUCKER",
+      "evidence_rows": [
+        53
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "MICHAEL TUCKER"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            53
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "ordinal 53 仅见整条独立图片文字 MICHAEL TUCKER，metadata_refs m2 对应 Game/Environment/Credits/Text/Producers.png；保留依据是风格中的制作人员署名保留原文，不是命令或运行标记，也不是句中同形词；只匹配该完整大写标签。"
+      }
+    },
+    {
+      "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "AARON JACOBS",
+      "evidence_rows": [
+        55
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "AARON JACOBS"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            55
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "ordinal 55 仅见整条独立图片文字 AARON JACOBS，metadata_refs m3 对应 Game/Environment/Credits/Text/Programmers.png；保留依据是风格中的制作人员署名保留原文，不是命令或运行标记；只匹配该完整大写标签，不扩展到 Aaron 单独标签或句中片段；与文件柜标签是否同指无证据，不按拼写自动合并。"
+      }
+    },
+    {
+      "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "BRIAN ANDERLE",
+      "evidence_rows": [
+        56
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "BRIAN ANDERLE"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            56
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "ordinal 56 仅见整条独立图片文字 BRIAN ANDERLE，metadata_refs m3 对应 Game/Environment/Credits/Text/Programmers.png；保留依据是风格中的制作人员署名保留原文，不是命令或运行标记，也不是句中同形词；只匹配该完整大写标签。"
+      }
+    },
+    {
+      "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "DUNCAN BOEVLE",
+      "evidence_rows": [
+        57
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "DUNCAN BOEVLE"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            57
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "ordinal 57 的完整原文是 DUNCAN BOEVLE，metadata_refs m1 合并后的资源位置是 Game/Environment/Credits/Text/Programmers.png，显示该完整标签是 Credits 图片文字中的独立制作人员署名；仅保留此完整记录，不把 DUNCAN 片段或词族候选中的单名标签全局禁翻。"
+      }
+    },
+    {
+      "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "EVAN WILLIAMS",
+      "evidence_rows": [
+        58
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "EVAN WILLIAMS"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            58
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "ordinal 58 的完整原文是 EVAN WILLIAMS，metadata_refs m1 合并后的资源位置是 Game/Environment/Credits/Text/Programmers.png，显示该完整标签是 Credits 图片文字中的独立制作人员署名；仅保留此完整记录，不把姓名片段或同名文本全局禁翻。"
+      }
+    },
+    {
+      "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "MATT ENRIGHT",
+      "evidence_rows": [
+        59
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "MATT ENRIGHT"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            59
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "ordinal 59 的完整原文是 MATT ENRIGHT，metadata_refs m1 合并后的资源位置是 Game/Environment/Credits/Text/Programmers.png，显示该完整标签是 Credits 图片文字中的独立制作人员署名；仅保留此完整记录，不把姓名片段或同名文本全局禁翻。"
+      }
+    },
+    {
+      "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "SILVIO CÉSAR LIZANA TERRA",
+      "evidence_rows": [
+        60
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "SILVIO CÉSAR LIZANA TERRA"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            60
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "ordinal 60 的完整原文是 SILVIO CÉSAR LIZANA TERRA，metadata_refs m1 合并后的资源位置是 Game/Environment/Credits/Text/Programmers.png，显示该完整标签是 Credits 图片文字中的独立制作人员署名；仅保留此完整记录，不把姓名片段或同名文本全局禁翻。"
+      }
+    },
+    {
+      "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "CHAD DAWSON",
+      "evidence_rows": [
+        62
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "CHAD DAWSON"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            62
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "ordinal 62 的完整原文是 CHAD DAWSON，resource 是 Game/Environment/Credits/Text/ProjectLead_Chad.png，显示该完整标签位于 Credits/Text 图片文字并独立出现；仅按制作人员署名保留此完整记录，不把姓名片段或同名文本全局禁翻。"
+      }
+    },
+    {
+      "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "RAY CROOK",
+      "evidence_rows": [
+        63
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "RAY CROOK"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            63
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "ordinal 63 的完整原文是 RAY CROOK，resource 是 Game/Environment/Credits/Text/ProjectLead_Ray.png，显示该完整标签位于 Credits/Text 图片文字并独立出现；仅按制作人员署名保留此完整记录，不把姓名片段或同名文本全局禁翻。"
+      }
+    },
+    {
+      "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "PAUL O'ROURKE",
+      "evidence_rows": [
+        65
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "PAUL O'ROURKE"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            65
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "ordinal 65 的完整原文是 PAUL O'ROURKE，resource 是 Game/Environment/Credits/Text/SoundDesigner.png，显示该完整标签位于 Credits/Text 图片文字并独立出现；仅按制作人员署名保留此完整记录，不把姓名片段或同名文本全局禁翻。"
+      }
+    },
+    {
+      "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "TYSON ERZE",
+      "evidence_rows": [
+        68
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "TYSON ERZE"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            68
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "ordinal 68 的完整原文是 TYSON ERZE，metadata_refs m2 合并后的资源位置是 Game/Environment/Credits/Text/VisualEffectsArtists.png，显示该完整标签是 Credits 图片文字中的独立制作人员署名；仅保留此完整记录，不把姓名片段或同名文本全局禁翻。"
+      }
+    },
+    {
+      "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "TAZIO COOLIDGE",
+      "evidence_rows": [
+        69
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "TAZIO COOLIDGE"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            69
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "ordinal 69 的完整原文是 TAZIO COOLIDGE，metadata_refs m2 合并后的资源位置是 Game/Environment/Credits/Text/VisualEffectsArtists.png，显示该完整标签是 Credits 图片文字中的独立制作人员署名；仅保留此完整记录，不把姓名片段或同名文本全局禁翻。"
+      }
+    },
+    {
+      "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+      "source": "TIM SCHAFER",
+      "evidence_rows": [
+        71
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "制作人员署名，按风格保留原文；不作游戏角色。",
+            "source": "TIM SCHAFER"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            71
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "ordinal 71 的完整原文是 TIM SCHAFER，resource 是 Game/Environment/Credits/Text/WrittenBy.png，显示该完整标签位于 Credits/Text 图片文字并独立出现；仅按制作人员署名保留此完整记录，不把姓名片段或同名文本全局禁翻。"
+      }
+    },
+    {
+      "reason": "电脑手册署名，按人名保留原文；不作游戏角色。",
+      "source": "BEATRICE BLACKBURN",
+      "evidence_rows": [
+        130
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "电脑手册署名，按人名保留原文；不作游戏角色。",
+            "source": "BEATRICE BLACKBURN"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            130
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "ordinal 130 的完整原文是 BEATRICE BLACKBURN，resource 是 Game/Environment/Outpost/Props/ComicBook/Tex_ComputerManual_Base.png，显示该完整标签是电脑手册贴图上的可见署名文字并独立出现；仅按行内理由保留此完整记录，不把 BEATRICE、BLACKBURN 或该人名全局禁翻。"
+      }
+    },
+    {
+      "reason": "书本署名，按作者/人名保留原文；不作游戏角色。",
+      "source": "RUDOLPHO LUNDLEY",
+      "evidence_rows": [
+        158
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "reason": "书本署名，按作者/人名保留原文；不作游戏角色。",
+            "source": "RUDOLPHO LUNDLEY"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            158
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "仅匹配 ordinal 158 的完整书本署名 RUDOLPHO LUNDLEY；大小写敏感，不把普通词、大小写变体或嵌入文本全局禁翻。"
+      }
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "仅匹配完整标签 MILLS，不把普通 mills 复数全局禁翻。"
+      },
+      "reason": "墙面单独姓氏/署名，按署名保留原文；不作角色。",
+      "source": "MILLS",
+      "evidence_rows": [
+        89
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "仅匹配完整标签 MILLS，不把普通 mills 复数全局禁翻。"
+            },
+            "reason": "墙面单独姓氏/署名，按署名保留原文；不作角色。",
+            "source": "MILLS"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            89
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_rows": [
+        31
+      ],
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=1. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context."
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "仅匹配完整标签 Gill，不把同名或普通词全局禁翻。"
+      },
+      "reason": "文件柜独立署名，按人员标签保留原文；不等于游戏角色。",
+      "source": "Gill",
+      "evidence_rows": [
+        132
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "仅匹配完整标签 Gill，不把同名或普通词全局禁翻。"
+            },
+            "reason": "文件柜独立署名，按人员标签保留原文；不等于游戏角色。",
+            "source": "Gill"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            132
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context."
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "仅匹配完整标签 Rusty，不把普通形容词全局禁翻。"
+      },
+      "reason": "文件柜独立署名，按人员标签保留原文；不等于游戏角色。",
+      "source": "Rusty",
+      "evidence_rows": [
+        133
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "仅匹配完整标签 Rusty，不把普通形容词全局禁翻。"
+            },
+            "reason": "文件柜独立署名，按人员标签保留原文；不等于游戏角色。",
+            "source": "Rusty"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            133
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context."
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "仅匹配完整标签 Paul，不把其他 Paul 标签全局禁翻。"
+      },
+      "reason": "文件柜独立署名，按人员标签保留原文；不等于游戏角色。",
+      "source": "Paul",
+      "evidence_rows": [
+        134
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "仅匹配完整标签 Paul，不把其他 Paul 标签全局禁翻。"
+            },
+            "reason": "文件柜独立署名，按人员标签保留原文；不等于游戏角色。",
+            "source": "Paul"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            134
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_rows": [
+        79
+      ],
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=2. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context."
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "仅匹配完整标签 Flappy，不把普通词全局禁翻。"
+      },
+      "reason": "文件柜独立署名，按人员标签保留原文；不等于游戏角色。",
+      "source": "Flappy",
+      "evidence_rows": [
+        135
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "仅匹配完整标签 Flappy，不把普通词全局禁翻。"
+            },
+            "reason": "文件柜独立署名，按人员标签保留原文；不等于游戏角色。",
+            "source": "Flappy"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            135
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context."
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "仅匹配完整标签 Tim，不把同名全局禁翻。"
+      },
+      "reason": "文件柜独立署名，按人员标签保留原文；不等于游戏角色。",
+      "source": "Tim",
+      "evidence_rows": [
+        136
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "仅匹配完整标签 Tim，不把同名全局禁翻。"
+            },
+            "reason": "文件柜独立署名，按人员标签保留原文；不等于游戏角色。",
+            "source": "Tim"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            136
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context."
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "仅匹配完整标签 Nick，不把 131 句内 Nick 或同名全局禁翻。"
+      },
+      "reason": "文件柜独立署名，按人员标签保留原文；不等于游戏角色。",
+      "source": "Nick",
+      "evidence_rows": [
+        137
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "仅匹配完整标签 Nick，不把 131 句内 Nick 或同名全局禁翻。"
+            },
+            "reason": "文件柜独立署名，按人员标签保留原文；不等于游戏角色。",
+            "source": "Nick"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            137
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_rows": [
+        131
+      ],
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=1. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context."
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "仅匹配完整标签 Aaron，不把同名全局禁翻。"
+      },
+      "reason": "文件柜独立署名，按人员标签保留原文；不等于游戏角色。",
+      "source": "Aaron",
+      "evidence_rows": [
+        138
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "仅匹配完整标签 Aaron，不把同名全局禁翻。"
+            },
+            "reason": "文件柜独立署名，按人员标签保留原文；不等于游戏角色。",
+            "source": "Aaron"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            138
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context."
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "仅匹配完整标签 Ray，不把同名或普通词全局禁翻。"
+      },
+      "reason": "文件柜独立署名，按人员标签保留原文；不等于游戏角色。",
+      "source": "Ray",
+      "evidence_rows": [
+        139
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "仅匹配完整标签 Ray，不把同名或普通词全局禁翻。"
+            },
+            "reason": "文件柜独立署名，按人员标签保留原文；不等于游戏角色。",
+            "source": "Ray"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            139
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context."
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "仅匹配完整标签 Jared，不把同名全局禁翻。"
+      },
+      "reason": "文件柜独立署名，按人员标签保留原文；不等于游戏角色。",
+      "source": "Jared",
+      "evidence_rows": [
+        140
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "仅匹配完整标签 Jared，不把同名全局禁翻。"
+            },
+            "reason": "文件柜独立署名，按人员标签保留原文；不等于游戏角色。",
+            "source": "Jared"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            140
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context."
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "仅匹配完整标签 Duncan，不把同名全局禁翻。"
+      },
+      "reason": "文件柜独立署名，按人员标签保留原文；不等于游戏角色。",
+      "source": "Duncan",
+      "evidence_rows": [
+        141
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "仅匹配完整标签 Duncan，不把同名全局禁翻。"
+            },
+            "reason": "文件柜独立署名，按人员标签保留原文；不等于游戏角色。",
+            "source": "Duncan"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            141
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context."
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "仅匹配完整标签 Chad，不把同名全局禁翻。"
+      },
+      "reason": "文件柜独立署名，按人员标签保留原文；不等于游戏角色。",
+      "source": "Chad",
+      "evidence_rows": [
+        142
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "仅匹配完整标签 Chad，不把同名全局禁翻。"
+            },
+            "reason": "文件柜独立署名，按人员标签保留原文；不等于游戏角色。",
+            "source": "Chad"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            142
+          ],
+          "extraction_tasks": [
+            "extract-r1-00001-6d762f16"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context."
+    }
+  ],
+  "applicability_policy": 1,
+  "terminology_policy": 1,
+  "nontranslate_scope_policy": 1,
+  "corpus_evidence_policy": 1,
+  "feedback_risk_policy": 1,
+  "stats": {
+    "character_count": 6,
+    "term_count": 34,
+    "non_translate_count": 62,
+    "total_hits": 102
+  }
+}

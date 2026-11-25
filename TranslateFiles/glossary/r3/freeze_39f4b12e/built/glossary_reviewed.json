@@ -1,0 +1,5834 @@
+{
+  "characters": [
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "本批可见完整拼写见 39、601、660、1435、1442、1758、1762、2242、2285；独立短称 Raz 另列，不把 Razputin 的前缀并入短名用例。"
+      },
+      "enforcement": "required",
+      "gender": "男性",
+      "recommended_translation": "拉兹普京",
+      "source": "Razputin",
+      "term_kind": "proper_name",
+      "term_reason": "本批 39、601、660、1435、1442、1758、1762、2242、2285 都以完整拼写 Razputin 作直接称呼；指被 Sasha、Milla 等呼语的同一角色。短名 Raz 另条，本条不按子串扩展。",
+      "evidence_rows": [
+        39,
+        601,
+        660,
+        1435,
+        1442,
+        1444,
+        1560,
+        1562,
+        1565,
+        1569,
+        1584,
+        1758,
+        1762,
+        1968,
+        2062,
+        2242,
+        2285,
+        2334,
+        2355,
+        2359,
+        2363,
+        2374,
+        2395,
+        2486
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "拉兹普丁",
+            "source": "Razputin",
+            "term_kind": "proper_name",
+            "term_reason": "主角拉兹的全名；Sasha 在对话中用此名称呼他，Raz 为其短名。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            39
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "拉兹普京（拉兹）",
+            "source": "Razputin",
+            "term_kind": "proper_name",
+            "term_reason": "行 601/660 出现主角全名 Razputin，前文多简称 Raz。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            601,
+            660
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s5fb859b4"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "1435、1442、1444、1560、1562、1565、1569、1584 中均为全称。"
+            },
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "拉兹普京",
+            "source": "Razputin",
+            "term_kind": "proper_name",
+            "term_reason": "1435、1560、1584 等 Milla/Sasha 用 Razputin 称呼主角；是 Raz 的全称，1496/1571 的 young man 指同一人。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1435,
+            1442,
+            1444,
+            1560,
+            1562,
+            1565,
+            1569,
+            1584
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "完整拼写全名；不把短名 Raz 的所有用例算作该全名。"
+            },
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "拉兹普京",
+            "source": "Razputin",
+            "term_kind": "proper_name",
+            "term_reason": "Sasha 用 'Razputin, was there a Psychohazard symbol...'、'But we still need more information, Razputin!'、'Please, Razputin!' 等完整拼写称呼同一主角；比 Raz 更正式。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1758,
+            1762,
+            1968,
+            2062
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "2242 'Razputin, did you just turn on the anti-gravity drive?' 等多条正文直接以全名呼语出现。"
+            },
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "拉兹普京",
+            "source": "Razputin",
+            "term_kind": "proper_name",
+            "term_reason": "2242 萨沙问 Razputin 是否开启 anti-gravity drive，2285/2395/2486 等继续以全名直接称呼；本批按可见全名列出，短称另列。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2242,
+            2285,
+            2334,
+            2355,
+            2359,
+            2363,
+            2374,
+            2395,
+            2486
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "enforcement": "required",
+      "gender": "男性",
+      "recommended_translation": "拉兹",
+      "source": "Raz",
+      "term_kind": "proper_name",
+      "term_reason": "57、1209、1213、1698、1739、2237、2239 以独立 Raz 作呼语或称呼；指被 Lili、Milla 等呼唤的同一角色。完整拼写 Razputin 另条，本条不把全名前缀当作短称。",
+      "evidence_rows": [
+        57,
+        1209,
+        1213,
+        1215,
+        1242,
+        1255,
+        1262,
+        1336,
+        1340,
+        1345,
+        1350,
+        1356,
+        1359,
+        1360,
+        1377,
+        1383,
+        1385,
+        1386,
+        1585,
+        1587,
+        1666,
+        1698,
+        1739,
+        1742,
+        1760,
+        1770,
+        1893,
+        1940,
+        2164,
+        2175,
+        2237,
+        2239,
+        2365,
+        2397,
+        2407
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "拉兹",
+            "source": "Raz",
+            "term_kind": "proper_name",
+            "term_reason": "主角拉兹普丁的短名/昵称，UI 与对白均使用；与 Razputin 同指一人。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            57
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "匹配正文独立短称 Raz；全称 Razputin 另列，不按子串扩展。"
+            },
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "拉兹",
+            "source": "Raz",
+            "term_kind": "proper_name",
+            "term_reason": "1209、1213、1242 等独立称呼 Raz；同批 Milla/Sasha 用全称 Razputin，1496/1571 称其 young man。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1209,
+            1213,
+            1215,
+            1242,
+            1255,
+            1262,
+            1336,
+            1340,
+            1345,
+            1350,
+            1356,
+            1359,
+            1360,
+            1377,
+            1383,
+            1385,
+            1386,
+            1585,
+            1587,
+            1666
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "正文短名称呼如 'Raz.'/'Raz!'/'Raz?'；不把 Razputin 中的前缀当作本条。"
+            },
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "拉兹",
+            "source": "Raz",
+            "term_kind": "proper_name",
+            "term_reason": "Milla、Lili 等以 'Try to open it, Raz.'、'Hurry, Raz!'、'Raz?' 直接称呼短名；speaker 标为 Raz 的对白也围绕该角色。Razputin 另按全名处理。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1698,
+            1739,
+            1742,
+            1760,
+            1770,
+            1893,
+            1940,
+            2164,
+            2175
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "2237 'Don't touch them, Raz!'、2239、2365、2397 为独立呼语；不把 Razputin 中的前段计入本条。"
+            },
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "拉兹",
+            "source": "Raz",
+            "term_kind": "proper_name",
+            "term_reason": "2237/2239 莉莉以 Raz 呼语提醒别碰，2365/2397 继续以此名询问；2407 his head 指其自大状态。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2237,
+            2239,
+            2365,
+            2397,
+            2407
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "匹配本批独立短称 Raz；完整拼写 Razputin 另列，不按子串扩展。"
+      }
+    },
+    {
+      "enforcement": "required",
+      "gender": "男性",
+      "recommended_translation": "萨沙",
+      "source": "Sasha",
+      "term_kind": "proper_name",
+      "term_reason": "84、1406、1700、1809、1903、2229、2232 以 Sasha 直接呼叫或询问，2234 转述其关于 reactor core temperatures 的判断，1542、1554 的 Sasha Nein 给出完整姓名中的名字部分；指参与通讯、controls 判断并被呼唤的角色。本条覆盖短名或姓名成分，完整姓名另列，不扩展为普通词。",
+      "evidence_rows": [
+        84,
+        639,
+        1278,
+        1406,
+        1407,
+        1542,
+        1554,
+        1700,
+        1809,
+        1903,
+        1964,
+        1965,
+        1966,
+        2192,
+        2229,
+        2232,
+        2233,
+        2234,
+        2349,
+        2394,
+        2395
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "萨沙",
+            "source": "Sasha",
+            "term_kind": "proper_name",
+            "term_reason": "脑航员特工 Sasha Nein 的常用名；与 Raz 同行的导师之一。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            84
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "萨沙",
+            "source": "Sasha",
+            "term_kind": "proper_name",
+            "term_reason": "行 639 提到 Sasha 会因此杀了他，指 Psychonauts 导师兼特工。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            639
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s5fb859b4"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "1278、1406、1407 的独立短称及 1542、1554 全名中的名字部分；全名另有条目。"
+            },
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "萨沙",
+            "source": "Sasha",
+            "term_kind": "proper_name",
+            "term_reason": "1278 与 the Coach 并列，1406/1407 在电台呼叫 Sasha，1542/1554 自称 Sasha Nein；1408/1409 的 he 指该男性。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1278,
+            1406,
+            1407,
+            1542,
+            1554
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "正文短名称呼；完整姓名 Sasha Nein 另列。"
+            },
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "萨沙",
+            "source": "Sasha",
+            "term_kind": "proper_name",
+            "term_reason": "Milla 说 'Ooh, good idea, Sasha!'，Raz 呼叫 'Sasha! Milla!'，潜望镜段 'Hey! It's Sasha! What's he doing?' 以 he 指他；为队友短名。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1700,
+            1809,
+            1903,
+            1964,
+            1965,
+            1966,
+            2192
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "2229 'Any idea what these controls do, Sasha?'、2232、2349 等均是对该角色的称呼或指称。"
+            },
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "萨沙",
+            "source": "Sasha",
+            "term_kind": "proper_name",
+            "term_reason": "2229/2232 中拉兹直接向 Sasha 询问 controls；2233 的 He's been waiting 指其男性身份；2349/2394/2395 显示需用音乐把他从 delirium 唤醒。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2229,
+            2232,
+            2233,
+            2234,
+            2349,
+            2394,
+            2395
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_rows": [
+        2234
+      ],
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "匹配本批独立人名 Sasha 及全名 Sasha Nein 中可见的名字部分；完整姓名 Sasha Nein 另列，不把完整姓名所有用例都算作独立短称。"
+      }
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "仅完整字符串 Sasha Nein；短名 Sasha 另列，不把短名所有用例算作全名。"
+      },
+      "enforcement": "required",
+      "gender": "男性",
+      "recommended_translation": "萨沙·奈因",
+      "source": "Sasha Nein",
+      "term_kind": "proper_name",
+      "term_reason": "576 的 'my childhood hero, Sasha Nein' 以全名指称人物，1542、1554 与 2214、2226 自报完整姓名，1554 的 'in the name of Science' 延续同一自报内容；本条只覆盖完整姓名形式。",
+      "evidence_rows": [
+        576,
+        1542,
+        1554,
+        2214,
+        2226
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "萨沙·奈恩",
+            "source": "Sasha Nein",
+            "term_kind": "proper_name",
+            "term_reason": "Sasha 的全名；Raz 称其为童年英雄。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            576
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "1542、1554 中作为完整姓名。"
+            },
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "萨沙·奈因",
+            "source": "Sasha Nein",
+            "term_kind": "proper_name",
+            "term_reason": "1542 This is Sasha Nein, from planet Earth… 与 1554 My name is Sasha Nein 是电台独白中的自报全名。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1542,
+            1554
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "仅完整姓名形式；不把短名 Sasha 的所有用例都算作全名。"
+            },
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "萨沙·奈因",
+            "source": "Sasha Nein",
+            "term_kind": "proper_name",
+            "term_reason": "Sasha 自报 'This is Sasha Nein, from planet Earth…' 与 'My name is Sasha Nein, and I have come in peace...'，是该角色的完整姓名。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2214,
+            2226
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "enforcement": "required",
+      "gender": "女性",
+      "recommended_translation": "米拉",
+      "source": "Milla",
+      "term_kind": "proper_name",
+      "term_reason": "84、1213、1809、1909 直接呼唤 Milla，1391 提到 Milla's meditation，640 说不想 make Milla mad；指被呼叫、可能受打扰冥想并被提醒小心的对话角色。本批未直证 Milla Vodello 全名或搭档身份，也不把 Camilla、Vodello 自动并入。",
+      "evidence_rows": [
+        84,
+        640,
+        1213,
+        1391,
+        1431,
+        1438,
+        1495,
+        1564,
+        1573,
+        1809,
+        1909,
+        1958,
+        1959
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "enforcement": "required",
+            "gender": "女性",
+            "recommended_translation": "米拉",
+            "source": "Milla",
+            "term_kind": "proper_name",
+            "term_reason": "脑航员特工 Milla Vodello 的常用名；Sasha 的搭档。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            84
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "enforcement": "required",
+            "gender": "女性",
+            "recommended_translation": "米拉",
+            "source": "Milla",
+            "term_kind": "proper_name",
+            "term_reason": "行 640 提到不想惹 Milla 生气，指 Psychonauts 导师兼特工。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            640
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s5fb859b4"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "1213、1391、1431、1438、1495、1564、1573 中作为人物名 Milla。"
+            },
+            "enforcement": "required",
+            "gender": "女性",
+            "recommended_translation": "米拉",
+            "source": "Milla",
+            "term_kind": "proper_name",
+            "term_reason": "1391 提到 Milla's meditation，1432 以 she 描述其出神，1438 要她帮忙找其他 Psychonauts，1576 说会增强 Raz 的念力。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1213,
+            1391,
+            1431,
+            1438,
+            1495,
+            1564,
+            1573
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "作为队友人名被呼唤；不扩展到普通称呼 darling。"
+            },
+            "enforcement": "required",
+            "gender": "女性",
+            "recommended_translation": "米拉",
+            "source": "Milla",
+            "term_kind": "proper_name",
+            "term_reason": "原文 'Sasha! Milla! Can you hear me?'、'Careful, Milla.'、'Milla, I can help you hold back this water!' 直接称呼她；指参与救援并挡水的队友。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1809,
+            1909,
+            1958,
+            1959
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "enforcement": "required",
+      "gender": "其他",
+      "recommended_translation": "卡米拉",
+      "source": "Camilla",
+      "term_kind": "proper_name",
+      "term_reason": "368 'Camilla, I need to tell you something.' 中 Sasha 以 Camilla 直接称呼对话对象；本批只证实这个可见人名，不证实其与 Milla 或 Milla Vodello 的关系或性别。",
+      "evidence_rows": [
+        368
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "enforcement": "required",
+            "gender": "女性",
+            "recommended_translation": "卡米拉",
+            "source": "Camilla",
+            "term_kind": "proper_name",
+            "term_reason": "Sasha 对 Milla 的称呼（本名），指同一人。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            368
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "",
+        "reason": "368 完整原文为 'Camilla, I need to tell you something.'；只覆盖句首直接称呼，不扩展为 Milla 的别名或全局身份。",
+        "suffix": ", I need to tell you something."
+      }
+    },
+    {
+      "enforcement": "required",
+      "gender": "其他",
+      "recommended_translation": "沃德罗",
+      "source": "Vodello",
+      "term_kind": "proper_name",
+      "term_reason": "388 'This is agent Nein and Vodello, hailing PNML-857.' 中 Sasha 把 Vodello 与 agent Nein 并列报出，作为通讯中的人员姓名或姓氏；本批未给出 Vodello 与 Milla、Camilla 的关系或性别。",
+      "evidence_rows": [
+        388
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "enforcement": "required",
+            "gender": "女性",
+            "recommended_translation": "沃德罗",
+            "source": "Vodello",
+            "term_kind": "proper_name",
+            "term_reason": "Milla 的姓；Sasha 在通讯中报出 'agent Nein and Vodello'，指 Milla。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            388
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "This is agent Nein and ",
+        "reason": "388 完整原文为 'This is agent Nein and Vodello, hailing PNML-857.'；只覆盖该通讯自报中的 Vodello，不扩展为 Milla 姓氏或全局身份。",
+        "suffix": ", hailing PNML-857."
+      }
+    },
+    {
+      "enforcement": "required",
+      "gender": "女性",
+      "recommended_translation": "莉莉",
+      "source": "Lili",
+      "term_kind": "proper_name",
+      "term_reason": "337、1211、1805、1903 把 Lili 作呼唤或帮助对象，1243 有 Lili's turn；2595 用 She、her 证实女性，2596 的 'poking Lili' 继续指她。本批不据此扩展 Truman 之女或 Raz 女友等身份。",
+      "evidence_rows": [
+        317,
+        337,
+        1211,
+        1243,
+        1318,
+        1805,
+        1903,
+        1939,
+        1980,
+        2595,
+        2596,
+        2597,
+        2598
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "enforcement": "required",
+            "gender": "女性",
+            "recommended_translation": "莉莉",
+            "source": "Lili",
+            "term_kind": "proper_name",
+            "term_reason": "Truman Zanotto 的女儿、Raz 的女友；对话中称 Lili。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            317,
+            337
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "1211、1243、1318 中作为人物名 Lili。"
+            },
+            "enforcement": "required",
+            "gender": "女性",
+            "recommended_translation": "莉莉",
+            "source": "Lili",
+            "term_kind": "proper_name",
+            "term_reason": "1211 说闯入 your mind, Lili，1218 又说明 out of her mind；1618/1670 中她称 Truman 为 Dad。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1211,
+            1243,
+            1318
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "正文人名与称呼；不把 Dad/Papa 等普通亲属称谓并入。"
+            },
+            "enforcement": "required",
+            "gender": "女性",
+            "recommended_translation": "莉莉",
+            "source": "Lili",
+            "term_kind": "proper_name",
+            "term_reason": "Raz 呼叫 'Lili!'、'Lili, I'm going to find the way out...'，Milla 说 'help Lili'；同批中 Lili 称 Truman 为 Dad/Papa，指救援队中的女儿角色。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1805,
+            1903,
+            1939,
+            1980
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "2595 'Lili doesn't need me in her head right now.'、2596/2597/2598 均把 Lili 作为被避免打扰或用能力作用的对象。"
+            },
+            "enforcement": "required",
+            "gender": "女性",
+            "recommended_translation": "莉莉",
+            "source": "Lili",
+            "term_kind": "proper_name",
+            "term_reason": "2595 的 She's trying to concentrate 和 her head、2597 的 TK her 指女性 Lili；2598 说不愿和她打 Pyro 战。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2595,
+            2596,
+            2597,
+            2598
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "仅完整字符串 Coach Oleander；普通 Coach 或 the Coach 单独称呼不并入，Morry、Mer-Morry 另按可见语境处理。"
+      },
+      "enforcement": "required",
+      "gender": "男性",
+      "recommended_translation": "奥利安德教练",
+      "source": "Coach Oleander",
+      "term_kind": "proper_name",
+      "term_reason": "240 'Coach Oleander! It's me, Raz!'、1884 'Coach Oleander! That mermaid tail…er. mono propulsor really worked!' 直接以头衔加姓名称呼；2379 'Coach Oleander is being held' 指被关押对象，2380 的 him 承接该对象。本条只覆盖完整 Coach Oleander，不把 the Coach、Morry 或 Mer-Morry 按拼写或候选关系自动并入为同一全局专名。",
+      "evidence_rows": [
+        240,
+        1884,
+        2379,
+        2380,
+        2381,
+        2382,
+        2411,
+        2483
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "奥利安德教练",
+            "source": "Coach Oleander",
+            "term_kind": "proper_name",
+            "term_reason": "脑航员教练，Raz 称其 Coach Oleander；Milla/Sasha 昵称他 Morry。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            240
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "完整全名；普通 Coach 单独称呼不作全局专名冻结。"
+            },
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "奥兰德教练",
+            "source": "Coach Oleander",
+            "term_kind": "proper_name",
+            "term_reason": "Raz 直接称呼 'Coach Oleander! That mermaid tail…er. mono propulsor really worked!'，是 Coach 角色的全名/头衔形式。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1884
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "2379 'Coach Oleander is being held'、2411、2483 都把该全名作为营救对象。"
+            },
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "奥兰德教练",
+            "source": "Coach Oleander",
+            "term_kind": "proper_name",
+            "term_reason": "2379 猜测 Coach Oleander 被关在亮灯的 cruise ship，2380/2381/2382 用 him 和 bad habits/take over the world 讨论其旧习；2411/2483 说要找到他再离开。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2379,
+            2380,
+            2381,
+            2382,
+            2411,
+            2483
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "enforcement": "required",
+      "gender": "男性",
+      "recommended_translation": "莫里",
+      "source": "Morry",
+      "term_kind": "proper_name",
+      "term_reason": "63 'Is Morry feeding off the chaos? That seems so unlike him!' 用 him 指回 Morry；1571 'Morry always said your brain was armored like a tank!' 引述其说法；2379、2380 只在相邻语境谈 Coach Oleander 被关押和 him，未直证 Morry 与 Coach Oleander 同一人。指被 Sasha、Milla 谈论的男性人名或昵称；与 Mer-Morry 的复合形式不合并身份。",
+      "evidence_rows": [
+        63,
+        1571,
+        2379,
+        2380,
+        2384,
+        2387
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "莫里",
+            "source": "Morry",
+            "term_kind": "proper_name",
+            "term_reason": "Sasha 和 Milla 对 Coach Oleander 的昵称，指同一人。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            63
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "1571 中作为说话者提到的人名。"
+            },
+            "enforcement": "required",
+            "gender": "其他",
+            "recommended_translation": "莫里",
+            "source": "Morry",
+            "term_kind": "proper_name",
+            "term_reason": "1571 Milla 说 Morry always said your brain was armored like a tank!，是曾这样评价 Raz 大脑的人名；本批未给更多身份。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1571
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "2387 'How are we going to reach Morry without some sort of link?' 中 Morry 作单个人名宾语。"
+            },
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "莫里",
+            "source": "Morry",
+            "term_kind": "proper_name",
+            "term_reason": "2387 问如何 reach Morry without some sort of link；前文 2379 Coach Oleander 被关押、2384 船太远无法 make a connection，说明本批中指当前需联络/抵达的被囚对象。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2379,
+            2380,
+            2384,
+            2387
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "匹配本批独立人名 Morry；Mer-Morry 另以 literal_context 单独限定，不把复合词后段或 Coach Oleander 别名关系并入本条。"
+      }
+    },
+    {
+      "enforcement": "required",
+      "gender": "男性",
+      "recommended_translation": "杜鲁门",
+      "source": "Truman",
+      "term_kind": "proper_name",
+      "term_reason": "116 说 'getting out of here with Truman'，609 用 'Truman's kid'，845 说 'Truman's view from the outpost'，1566 说 'Truman's kidnappers'，1736/1738 说 Truman 的 case；本条指被同行带离、其孩子/视野/绑架者/手提箱被谈到的男性人物。与全名 Truman Zanotto 共用核心译名“杜鲁门”，不把 Mr. Zanotto 等尊称自动并入。",
+      "evidence_rows": [
+        116,
+        609,
+        845,
+        1566,
+        1593,
+        1602,
+        1606,
+        1612,
+        1615,
+        1638,
+        1736,
+        1738,
+        1741,
+        1780,
+        1781,
+        1874,
+        1905,
+        1923
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "杜鲁门",
+            "source": "Truman",
+            "term_kind": "proper_name",
+            "term_reason": "Lili 的父亲、脑航员总长，营救目标；与 Truman Zanotto 同指一人。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            116
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "杜鲁门",
+            "source": "Truman",
+            "term_kind": "proper_name",
+            "term_reason": "行 609 以 'Truman's kid' 指 Lili，行 845 提到 'Truman's view'，是被营救的父亲兼首领。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            609,
+            845
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s5fb859b4"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "1566、1593、1602、1606、1612、1615、1638 中作为人物名 Truman。"
+            },
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "杜鲁门",
+            "source": "Truman",
+            "term_kind": "proper_name",
+            "term_reason": "1566 提到 Truman's kidnappers；1606 说其头在 giant, steel ball 中，1618/1620 Lili 喊 Dad，1673 称 Your father。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1566,
+            1593,
+            1602,
+            1606,
+            1612,
+            1615,
+            1638
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "人名 Truman 及所有格 Truman's；尊称 Mr. Zanotto 另列。"
+            },
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "杜鲁门",
+            "source": "Truman",
+            "term_kind": "proper_name",
+            "term_reason": "'Truman has a serious-looking case handcuffed to his wrist' 后 Lili 称其为 The Grand Head of the Psychonauts，并说 'He takes his work very seriously'；撤离时又呼叫 'Come on, Truman!'。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1736,
+            1738,
+            1741,
+            1780,
+            1781,
+            1874,
+            1905,
+            1923
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "116、609、845、1566、1593、1736、1738 中 Truman 及所有格 Truman's 作为人物名；116/1593 的句中 Truman 与 609/845/1566/1738 的 Truman's 同样保留该专名，不包括单独 Zanotto 或尊称形式。"
+      }
+    },
+    {
+      "enforcement": "required",
+      "gender": "男性",
+      "recommended_translation": "杜鲁门·扎诺托",
+      "source": "Truman Zanotto",
+      "term_kind": "proper_name",
+      "term_reason": "305 'Rescuing not just anybody, but the Grand Head of the Psychonauts himself, Truman Zanotto.' 明确完整姓名与 Grand Head 身份；'himself' 支持男性。简称 Truman 的“杜鲁门”核心译名保持一致。",
+      "evidence_rows": [
+        305
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "杜鲁门·扎诺托",
+            "source": "Truman Zanotto",
+            "term_kind": "proper_name",
+            "term_reason": "脑航员总长、Lili 的父亲，全名；与 Truman 同指一人。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            305
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "enforcement": "required",
+      "gender": "男性",
+      "recommended_translation": "洛博托博士",
+      "source": "Dr. Loboto",
+      "term_kind": "proper_name",
+      "term_reason": "299 以 'Dr. Loboto's private place' 表示其私人空间，1196 'inside Dr. Loboto's mind' 表示进入其心智；本条为带 Dr. 头衔的人名，译为洛博托博士。与 Loboto 共享姓氏译法，但不把 First Mate Loboto 当同一完整标签。",
+      "evidence_rows": [
+        299,
+        1196
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "洛博托博士",
+            "source": "Dr. Loboto",
+            "term_kind": "proper_name",
+            "term_reason": "牙医/反派，Raz 进入其记忆；对话中称 Dr. Loboto。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            299
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "inside ",
+              "reason": "1196 inside Dr. Loboto's mind 中的连续上下文。",
+              "suffix": "'s mind"
+            },
+            "enforcement": "required",
+            "gender": "其他",
+            "recommended_translation": "洛博托博士",
+            "source": "Dr. Loboto",
+            "term_kind": "proper_name",
+            "term_reason": "1196 inside Dr. Loboto's mind 说明进入的是 Dr. Loboto 的心智/船场景；1185 的 First Mate Loboto 只作该场景内称呼。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1196
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "299 'Dr. Loboto's private place…' 与 1196 'inside Dr. Loboto's mind' 中 Dr. Loboto/Dr. Loboto's 是人物所有格，句中同样保留该带头衔专名；不含 Loboto、Doctor Loboto、First Mate Loboto 等独立标签。"
+      }
+    },
+    {
+      "enforcement": "required",
+      "gender": "男性",
+      "recommended_translation": "哈罗德",
+      "source": "Harold",
+      "term_kind": "proper_name",
+      "term_reason": "42 'Harold doesn't like you using his species as a derogatory comment' 用 his 指代 Harold；861/865/921/1200/1207/1972/1973 持续把 Harold 作为可羞辱、被单独称呼、会卡住、能看东西或让人害怕的个体。译为哈罗德；仅指该角色名，不把物种泛称或普通称谓并入。",
+      "evidence_rows": [
+        42,
+        861,
+        865,
+        921,
+        1200,
+        1207,
+        1242,
+        1972,
+        1973,
+        1978,
+        1989,
+        1993,
+        2032,
+        2036,
+        2037,
+        2159,
+        2160,
+        2169,
+        2174,
+        2176,
+        2178
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "哈罗德",
+            "source": "Harold",
+            "term_kind": "proper_name",
+            "term_reason": "Lili 提到的松鼠角色，原文用 his 指代；不是普通“松鼠”泛称。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            42
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "哈罗德",
+            "source": "Harold",
+            "term_kind": "proper_name",
+            "term_reason": "Lili 命名的大老鼠；行 861 要求不要羞辱 Harold，行 921 向 Harold 介绍真正的 Lili。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            861,
+            865,
+            921
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s5fb859b4"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "1200、1207、1242 中作为老鼠的名字。"
+            },
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "哈罗德",
+            "source": "Harold",
+            "term_kind": "proper_name",
+            "term_reason": "1200 问 Harold 是否又卡住，1204 用 him/he's 描述卡得很紧，1207 说 maybe Harold can see something，1237 说明谈的是 rat。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1200,
+            1207,
+            1242
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "正文中被直接称呼且有 [squeak] 回应；不把 rat/fish guy 等普通描述并入。"
+            },
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "哈罗德",
+            "source": "Harold",
+            "term_kind": "proper_name",
+            "term_reason": "Raz 多次称呼 'Harold!'、'Need a boost, Harold?'、'Harold, where are you going?'；'There's Harold! I hope he doesn't fly off without us.' 用 he 指他，旁白还出现 'A hot rat won't help here.'，是被携带/操纵的小型动物角色。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1972,
+            1973,
+            1978,
+            1989,
+            1993,
+            2032,
+            2036,
+            2037,
+            2159,
+            2160,
+            2169,
+            2174,
+            2176,
+            2178
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "42、861、865、921、1200、1207、1972、1973 中 Harold 均为直接称呼或被谈论的角色名；句中及所有可见上下文同样保留该专名，不扩展到 species 等普通词。"
+      }
+    },
+    {
+      "enforcement": "required",
+      "gender": "男性",
+      "recommended_translation": "福特·克鲁勒",
+      "source": "Ford Cruller",
+      "term_kind": "proper_name",
+      "term_reason": "523 'That was a gift from Ford Cruller himself!' 说明 Ford Cruller 是赠送制服的人名，himself 支持男性；译为福特·克鲁勒。",
+      "evidence_rows": [
+        523
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "福特·克鲁勒",
+            "source": "Ford Cruller",
+            "term_kind": "proper_name",
+            "term_reason": "Raz 提到的脑航员前辈，曾送他制服。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            523
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "enforcement": "required",
+      "gender": "女性",
+      "recommended_translation": "莉莉·扎诺托",
+      "source": "Lili Zanotto",
+      "term_kind": "proper_name",
+      "term_reason": "921 'Harold, meet the real Lili Zanotto.' 中被介绍的完整人物姓名；'real' 指真正的本人。与 Zanotto 姓氏其他条目只保持姓氏译法一致，不推出同义或身份扩展。",
+      "evidence_rows": [
+        921
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "enforcement": "required",
+            "gender": "女性",
+            "recommended_translation": "莉莉·扎诺托",
+            "source": "Lili Zanotto",
+            "term_kind": "proper_name",
+            "term_reason": "行 921 出现完整姓名；前文多简称 Lili。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            921
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s5fb859b4"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "enforcement": "required",
+      "gender": "男性",
+      "recommended_translation": "洛博托",
+      "source": "Loboto",
+      "term_kind": "proper_name",
+      "term_reason": "931 'Loboto's MENTAL VAULT'、1837 '[Gasp] Doctor Loboto!'、1856 'If I could get into Loboto's head with that…' 都把 Loboto 用作可拥有精神保险库/头脑并被直接惊呼的人名；译为洛博托，与带头衔形式的“洛博托博士”保持姓氏核心一致。",
+      "evidence_rows": [
+        931,
+        1837,
+        1856,
+        1871,
+        2039
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "洛博托",
+            "source": "Loboto",
+            "term_kind": "proper_name",
+            "term_reason": "行 931 提到 Loboto 的精神保险库，指 Loboto 医生。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            931
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s5fb859b4"
+          ]
+        },
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "Doctor/Dr. 后的姓氏及 Loboto's head；不把 Doctor/patient 等普通词组并入。"
+            },
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "洛博托",
+            "source": "Loboto",
+            "term_kind": "proper_name",
+            "term_reason": "Raz 惊呼 'Doctor Loboto!'、'Dr. Loboto of course.'，后来问 'Doctor Loboto? How are you… feeling?'；'Loboto's head' 是 Psychoportal 想进入的脑，指实施 procedure 的医生角色。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1837,
+            1856,
+            1871,
+            2039
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "931 'Loboto's MENTAL VAULT'、1837 'Doctor Loboto!'、1856 'Loboto's head' 中 Loboto 作为姓氏、所有格或 Doctor 后的人名，句中同样保留该专名；不把单独 doctor/head 等普通词并入。"
+      }
+    },
+    {
+      "enforcement": "required",
+      "gender": "其他",
+      "recommended_translation": "饼干",
+      "source": "Crackers",
+      "term_kind": "proper_name",
+      "term_reason": "969 'Crackers!' 是 LobotoMate 的直接呼名，970 'You killed Crackers!' 把 Crackers 作为被杀/哀悼对象；本条为角色/个体名，译作饼干。仅适用于该大写称呼上下文，不把普通复数名词 crackers 的食品义并入。",
+      "evidence_rows": [
+        969,
+        970,
+        988
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "enforcement": "required",
+            "gender": "其他",
+            "recommended_translation": "饼干",
+            "source": "Crackers",
+            "term_kind": "proper_name",
+            "term_reason": "LobotoMate 的会说话鸟类伙伴；行 969/970 称其名，行 988 再次称呼。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            969,
+            970,
+            988
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s5fb859b4"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "",
+        "reason": "969 'Crackers!' 与 970 'You killed Crackers!' 中大写 Crackers 后紧接感叹号，作为呼名/被哀悼对象；不把小写普通名词 crackers 纳入。",
+        "suffix": "!"
+      }
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "Okay, ",
+        "reason": "1185 完整句 'Okay, First Mate Loboto, if Monstroboto comes back up, do that trick to slow down time again, okay?' 中直接称呼 First Mate Loboto；仅限定该完整称呼上下文。",
+        "suffix": ", if Monstroboto comes back up, do that trick to slow down time again, okay?"
+      },
+      "enforcement": "required",
+      "gender": "其他",
+      "recommended_translation": "大副洛博托",
+      "source": "First Mate Loboto",
+      "term_kind": "proper_name",
+      "term_reason": "1185 中 Raz 对 First Mate Loboto 说 'if Monstroboto comes back up, do that trick to slow down time again, okay?'；这是带 First Mate 职务的称呼，译为大副洛博托。与 Dr. Loboto/Doctor Loboto 共享姓氏译法，但不视为同一完整标签。",
+      "evidence_rows": [
+        1185
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "Okay, ",
+              "reason": "1185 Okay, First Mate Loboto 后接让 Monstroboto 回来时再 slow down time 的要求。",
+              "suffix": ", if Monstroboto comes back up, do that trick to slow down time again, okay?"
+            },
+            "enforcement": "required",
+            "gender": "其他",
+            "recommended_translation": "大副洛博托",
+            "source": "First Mate Loboto",
+            "term_kind": "proper_name",
+            "term_reason": "1185 Raz 要 First Mate Loboto 再施展 slow down time 的把戏；1198 又喊 First Mate!。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1185
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "1170 'Monstroboto's attacks' 与 1178 'Monstroboto is bound to totally lose it' 中作为怪物名；句中同样保留该专名，不把普通 robot/monster 词并入。"
+      },
+      "enforcement": "required",
+      "gender": "其他",
+      "recommended_translation": "怪兽洛博托",
+      "source": "Monstroboto",
+      "term_kind": "proper_name",
+      "term_reason": "1170 'protect the ship from Monstroboto's attacks' 与 1178 'Monstroboto is bound to totally lose it' 显示其为攻击船、会彻底失控的怪物名；译为怪兽洛博托。",
+      "evidence_rows": [
+        1170,
+        1178,
+        1194
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "1170、1178、1194 中作为攻击船和玩具的怪物名。"
+            },
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "怪兽洛博托",
+            "source": "Monstroboto",
+            "term_kind": "proper_name",
+            "term_reason": "1170 说要防住 Monstroboto's attacks；1175-1177 用 He's/his 说明其享受并受挫，1194 直接喊 Take that, Monstroboto!。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1170,
+            1178,
+            1194
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "1873 中 'Mr. Zanotto, if you could wake up, sir' 是完整尊称；不把单独 Zanotto 或普通亲属称呼并入。"
+      },
+      "enforcement": "required",
+      "gender": "男性",
+      "recommended_translation": "扎诺托先生",
+      "source": "Mr. Zanotto",
+      "term_kind": "proper_name",
+      "term_reason": "1873 'Mr. Zanotto, if you could wake up, sir, I could use some help…' 中完整尊称与 sir 指被请求唤醒/求助的人；译为扎诺托先生。仅限 Mr. Zanotto 这一尊称形式，不把其他 Zanotto 姓氏形式或普通亲属称呼并入。",
+      "evidence_rows": [
+        1873
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "完整尊称形式；不把 Lili 的 Dad/Papa 算入该专名。"
+            },
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "扎诺托先生",
+            "source": "Mr. Zanotto",
+            "term_kind": "proper_name",
+            "term_reason": "Raz 说 'Mr. Zanotto, if you could wake up, sir...'，紧接下一行检查 'Truman's brain…'；这是 Truman 的姓氏尊称。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1873
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "1831/1832 中 Sheegor 为直接呼叫的人名，1832 紧接 'Where is that girl?'；不把单独 girl 纳入专名。"
+      },
+      "enforcement": "required",
+      "gender": "女性",
+      "recommended_translation": "希戈尔",
+      "source": "Sheegor",
+      "term_kind": "proper_name",
+      "term_reason": "1831 'Sheegor, where is my cranial sander?' 与 1832 'Sheegor? Where is that girl?' 显示 Sheegor 是被 Loboto 呼叫、并以 that girl 指称的人物名；译为希戈尔。",
+      "evidence_rows": [
+        1831,
+        1832,
+        1858,
+        1859
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "Loboto 对女孩的专名称呼；不扩展到 girl 等普通词。"
+            },
+            "enforcement": "required",
+            "gender": "女性",
+            "recommended_translation": "希戈尔",
+            "source": "Sheegor",
+            "term_kind": "proper_name",
+            "term_reason": "Loboto 喊 'Sheegor, where is my cranial sander?' 后又问 'Sheegor? Where is that girl?'，并说 'Not now, Sheegor!'；指被他呼叫的女孩/助手。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1831,
+            1832,
+            1858,
+            1859
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "I also carried ",
+        "reason": "匹配 1925 'I also carried Mer-Morry. ' 的连续字串；不把 mer- 或 Morry 单独推广为术语，也不据本条断言全局身份。",
+        "suffix": ". "
+      },
+      "enforcement": "required",
+      "gender": "其他",
+      "recommended_translation": "人鱼莫里",
+      "source": "Mer-Morry",
+      "term_kind": "proper_name",
+      "term_reason": "1925 'I also carried Mer-Morry. ' 中 Sasha 说自己也携带了 Mer-Morry；本批只证实它是该被携带对象的名称或称呼，不证实与 Morry、Coach Oleander 的同一性或性别。",
+      "evidence_rows": [
+        1925
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "I also carried ",
+              "reason": "匹配 1925 的 'I also carried Mer-Morry. '；不把 mer- 或 Morry 单独推广为术语。",
+              "suffix": ". "
+            },
+            "enforcement": "required",
+            "gender": "其他",
+            "recommended_translation": "人鱼莫里",
+            "source": "Mer-Morry",
+            "term_kind": "proper_name",
+            "term_reason": "Sasha 在撤离后说 'I also carried Mer-Morry.'；本行只证实它是被携带对象的昵称，1884 的 mermaid tail/mono propulsor 可作语境参考，但不据此断言全局身份等同。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1925
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "2315 'Agent Nein!' 是正文中对特定角色的完整称呼；2233 的 'He's' 未提供与该称呼的明确绑定，因此本条只限该头衔+姓氏组合，不把普通 agent 或单独 Nein 扩成全局术语。"
+      },
+      "enforcement": "required",
+      "gender": "其他",
+      "recommended_translation": "奈因特工",
+      "source": "Agent Nein",
+      "term_kind": "proper_name",
+      "term_reason": "2315 Lili 呼喊 'Agent Nein!'；2233 的男性代词未明确指向该称呼，无法据此确定性别。本条指以 Nein 称呼的特工角色，适用为头衔+姓氏组合，不扩展普通 agent 用例。",
+      "evidence_rows": [
+        2233,
+        2315,
+        2317,
+        2318
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "2315 'Agent Nein!' 是正文中的独立呼喊，2317 又在同一场景直接称 Sasha。"
+            },
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "奈因特工",
+            "source": "Agent Nein",
+            "term_kind": "proper_name",
+            "term_reason": "2315 呼喊 Agent Nein!；2317 Sasha, we're in big trouble. 和 2318 Relax, all of you. 同段显示为呼叫/安抚场景中对萨沙的头衔称呼，2233 He's 佐证其为男性。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2233,
+            2315,
+            2317,
+            2318
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "2293 'Forgive me, Edgar.' 与 2304 'There you are, Edgar! Good as new!' 均用 Edgar 直接称呼同一被称呼对象；本条只匹配该人名，不扩展到未给原文的命名对象或同名用例。"
+      },
+      "enforcement": "required",
+      "gender": "其他",
+      "recommended_translation": "埃德加",
+      "source": "Edgar",
+      "term_kind": "proper_name",
+      "term_reason": "2293/2304 中 Raz 用 Edgar 称呼正在面对的对象；可见原文只证实这是人名直呼，未证实身份或性别。本条限该专名，性别标为其他。",
+      "evidence_rows": [
+        2293,
+        2304,
+        2329,
+        2448,
+        2449,
+        2451,
+        2452,
+        2464
+      ],
+      "extraction_candidates": [
+        {
+          "table": "characters",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "2448 'Hello, Mr. Bull! I'm going to call you Edgar, after an old friend of mine.' 明确给出命名依据，后续多条延续该对象。"
+            },
+            "enforcement": "required",
+            "gender": "男性",
+            "recommended_translation": "埃德加",
+            "source": "Edgar",
+            "term_kind": "proper_name",
+            "term_reason": "2448 对 Mr. Bull 说将以老友之名叫他 Edgar；2293/2304/2329/2449/2451/2452/2464 均是在本谜题里称呼这头公牛或其皮/部件，不扩展到未出现的其他 Edgar 用例。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2293,
+            2304,
+            2329,
+            2448,
+            2449,
+            2451,
+            2452,
+            2464
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    }
+  ],
+  "terms": [
+    {
+      "category_path": "身份",
+      "enforcement": "required",
+      "recommended_translation": "脑航员",
+      "source": "Psychonaut",
+      "term_kind": "game_term",
+      "term_reason": "成员身份；原文 'I am… a Psychonaut.' 自我指认，不是普通词。",
+      "evidence_rows": [
+        302,
+        303,
+        1835
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "身份",
+            "enforcement": "required",
+            "recommended_translation": "脑航员",
+            "source": "Psychonaut",
+            "term_kind": "game_term",
+            "term_reason": "成员身份；原文 'I am… a Psychonaut.' 自我指认，不是普通词。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            302,
+            303
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        },
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "what a ",
+              "reason": "匹配 1835 'what a Psychonaut would do.' 的单数身份义；不把 Psychonauts 中的前缀误当本条。",
+              "suffix": " would do."
+            },
+            "category_path": "身份",
+            "enforcement": "required",
+            "recommended_translation": "脑航员",
+            "source": "Psychonaut",
+            "term_kind": "game_term",
+            "term_reason": "'what a Psychonaut would do' 指组织成员/职业身份的单数；'kidnapped Psychonauts'、'No Psychonauts in there' 是被绑架或搜寻的成员复数，不按拼写与组织名自动合并。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1835
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "组织",
+      "enforcement": "required",
+      "recommended_translation": "脑航员",
+      "source": "Psychonauts",
+      "term_kind": "proper_name",
+      "term_reason": "444 的 'seal of the Grand Head of the Psychonauts'、1582 的 'emblem for… The Psychonauts'、1749 的 research stations、1930 的 headquarters 指向拥有首领、徽记、研究站和总部的组织；660 的 'Psychonauts badge' 是组织徽章；1438 的 'other Psychonauts' 是成员复数。核心译名 '脑航员' 与单数身份一致，但中文需按组织/成员搭配处理，不把所有复数都当组织专名。",
+      "evidence_rows": [
+        444,
+        660,
+        1438,
+        1582,
+        1737,
+        1749,
+        1930
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "组织",
+            "enforcement": "required",
+            "recommended_translation": "脑航员",
+            "source": "Psychonauts",
+            "term_kind": "proper_name",
+            "term_reason": "组织名；'Grand Head of the Psychonauts' 明确其为团体，与成员身份 Psychonaut 区分。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            304,
+            444
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        },
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "组织",
+            "enforcement": "required",
+            "recommended_translation": "脑航员",
+            "source": "Psychonauts",
+            "term_kind": "proper_name",
+            "term_reason": "行 660 的 Psychonauts badge 指组织身份徽章，不是普通词。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            660
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s5fb859b4"
+          ]
+        },
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "1438、1582 中作为组织/成员专名。"
+            },
+            "category_path": "组织",
+            "enforcement": "required",
+            "recommended_translation": "脑航员",
+            "source": "Psychonauts",
+            "term_kind": "proper_name",
+            "term_reason": "1582 的 emblem for… The Psychonauts 与 1583 的 OUR unused facilities 指向组织设施；1438 的 other Psychonauts 指其他成员。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1438,
+            1582
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        },
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "大写组织名及其总部/首领搭配；不冻结小写普通描述。"
+            },
+            "category_path": "组织",
+            "enforcement": "required",
+            "recommended_translation": "脑航员",
+            "source": "Psychonauts",
+            "term_kind": "proper_name",
+            "term_reason": "组织名见 'The Grand Head of the Psychonauts'、'The Psychonauts tried to set up research stations...'、'Psychonauts headquarters'；指拥有首领、研究站和总部的组织。'kidnapped Psychonauts' 等复数成员用法需按上下文译，不把所有复数用法都当组织名。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1737,
+            1749,
+            1930
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "身份",
+      "enforcement": "required",
+      "recommended_translation": "脑航员总长",
+      "source": "Grand Head of the Psychonauts",
+      "term_kind": "game_term",
+      "term_reason": "444 的 'seal of the Grand Head of the Psychonauts' 和 1737 的 'The Grand Head of the Psychonauts has important stuff to carry around!' 将其作为拥有印章和随身重要物的组织首脑头衔；Head 是首脑，不是身体部位。核心词沿用 '脑航员'。",
+      "evidence_rows": [
+        444,
+        1737
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "身份",
+            "enforcement": "required",
+            "recommended_translation": "脑航员总长",
+            "source": "Grand Head of the Psychonauts",
+            "term_kind": "game_term",
+            "term_reason": "组织最高领导头衔；原文介绍 Truman Zanotto 为该职，另见 'Grand Head Zanotto'。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            304,
+            444
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        },
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "The ",
+              "reason": "匹配 1737 完整头衔；不把普通 head 的物理义并入。",
+              "suffix": " has important stuff to carry around!"
+            },
+            "category_path": "身份",
+            "enforcement": "required",
+            "recommended_translation": "脑航员最高首领",
+            "source": "Grand Head of the Psychonauts",
+            "term_kind": "game_term",
+            "term_reason": "Lili 用 'The Grand Head of the Psychonauts has important stuff to carry around!' 说明 Truman 的身份和随身重要物品；此处 Head 是组织首脑，不是身体部位。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1737
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "可见原文中 Psilirium 与 poisoning、delusions、glow、deposit、mental effects、mutation 等搭配，均指同一虚构物质/矿物名；不把普通 mineral、rock 或 flowers 词并入。"
+      },
+      "category_path": "物品",
+      "enforcement": "required",
+      "recommended_translation": "普西利里姆",
+      "source": "Psilirium",
+      "term_kind": "game_term",
+      "term_reason": "97/743/1214/2321 的 Psilirium poisoning、108 的 Psilirium delusions、744 的 can't lift anything、1745 的 glow、1746 的 enormous Psilirium deposit、1749 的 mental effects 和 2358 的 mutation 疑问共同说明：这是会形成发光矿床、导致中毒/谵妄/精神影响且影响能力的虚构物质/矿物；本条统一为物质名，适用于这些搭配，不扩展到未给原文的普通词义。",
+      "evidence_rows": [
+        97,
+        108,
+        131,
+        133,
+        743,
+        744,
+        825,
+        1214,
+        1364,
+        1416,
+        1570,
+        1590,
+        1591,
+        1745,
+        1746,
+        1749,
+        1760,
+        1761,
+        1773,
+        1776,
+        1777,
+        1778,
+        1779,
+        1817,
+        1876,
+        1883,
+        2100,
+        2321,
+        2358,
+        2380,
+        2394
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "迷灵素",
+            "source": "Psilirium",
+            "term_kind": "proper_name",
+            "term_reason": "虚构精神毒性物质；原文用于中毒、幻觉和设施研究，需统一译名。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            97,
+            108,
+            131,
+            133
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        },
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "赛利瑞姆",
+            "source": "Psilirium",
+            "term_kind": "game_term",
+            "term_reason": "行 743/744 说明它会中毒并导致无法举物，是游戏内虚构物质。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            743,
+            744,
+            825
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s5fb859b4"
+          ]
+        },
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "1214、1364、1416、1570、1590、1591 均用同一虚构物质名。"
+            },
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "普西利里姆",
+            "source": "Psilirium",
+            "term_kind": "game_term",
+            "term_reason": "1591 定义为 powerful psionic disruptor；1570 说 It's messing up our brains，1214/1590 与能力受损相关，是干扰灵能的物质。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1214,
+            1364,
+            1416,
+            1570,
+            1590,
+            1591
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        },
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "虚构矿物名及其 deposit/glow/mental effects/poisoning 搭配；不把普通 mineral/rock 词并入。"
+            },
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "灵能矿",
+            "source": "Psilirium",
+            "term_kind": "proper_name",
+            "term_reason": "稀有发光黄色矿物/矿床：'enormous Psilirium deposit' 位于 Rhombus 核心，能 'confuse and attract the minds of pilots and captains'，造成 mental effects、psychically disorienting、messing with my powers，并可增加到目标周围以阻断接入。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1745,
+            1746,
+            1749,
+            1760,
+            1761,
+            1773,
+            1776,
+            1777,
+            1778,
+            1779,
+            1817,
+            1876,
+            1883,
+            2100
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        },
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "2321/2358/2380 直接以 Psilirium 命名中毒、变异疑问和担忧对象；2394 补充其谵妄状态。"
+            },
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "普西利里姆",
+            "source": "Psilirium",
+            "term_kind": "game_term",
+            "term_reason": "2321 Psilirium poisoning 且 These AREN'T FLOWERS! 说明其中毒会让 Sasha 把外星人误认为花；2358 问是否导致 mutation，2380 担心影响 Coach，2394 delirium 与其恢复相关。指致幻/中毒物质。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2321,
+            2358,
+            2380,
+            2394
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "地名",
+      "enforcement": "required",
+      "recommended_translation": "菱形废墟",
+      "source": "Rhombus of Ruin",
+      "term_kind": "proper_name",
+      "term_reason": "352 'The Rhombus of Ruin.' 是直接地名；1746 的 'the heart of the Rhombus of Ruin is an enormous Psilirium deposit' 给出区域内部核心，1815 的 'just a legend' 说明其传说性质，2340 的 'get sucked into the Rhombus of Ruin' 说明会被吸入的危险地点。本条指这一完整地名/区域，不把几何描述 rhombus 的普通词并入。",
+      "evidence_rows": [
+        352,
+        1746,
+        1815,
+        2112,
+        2114,
+        2116,
+        2128,
+        2130,
+        2132,
+        2145,
+        2147,
+        2149,
+        2151,
+        2153,
+        2340
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "地名",
+            "enforcement": "required",
+            "recommended_translation": "菱形废墟",
+            "source": "Rhombus of Ruin",
+            "term_kind": "proper_name",
+            "term_reason": "游戏标题及海域地名；原文 'The Rhombus of Ruin.' 指前哨站所在区域。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            352
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        },
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "完整地名；不把歌词里的 slanted square/parallelogram/quadrilateral 等几何描述并入。"
+            },
+            "category_path": "地名",
+            "enforcement": "required",
+            "recommended_translation": "菱形废墟",
+            "source": "Rhombus of Ruin",
+            "term_kind": "proper_name",
+            "term_reason": "地名/危险海域：'the heart of the Rhombus of Ruin is an enormous Psilirium deposit' 给出核心矿床，'I assumed it was just a legend' 说明其传说性质，歌曲反复称车辆和人员被吸引到 The Rhombus of Ruin 并丧命。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1746,
+            1815,
+            2112,
+            2114,
+            2116,
+            2128,
+            2130,
+            2132,
+            2145,
+            2147,
+            2149,
+            2151,
+            2153
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        },
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "2340 'only to get sucked into the Rhombus of Ruin?' 中作地点名宾语。"
+            },
+            "category_path": "地名",
+            "enforcement": "required",
+            "recommended_translation": "菱形废墟",
+            "source": "Rhombus of Ruin",
+            "term_kind": "proper_name",
+            "term_reason": "2340 get sucked into the Rhombus of Ruin 指把他们吸进去的神秘地点/海域，本批按该地名用例处理。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2340
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "地名",
+      "enforcement": "required",
+      "recommended_translation": "查理灵能三角洲前哨站",
+      "source": "Outpost Charlie Psycho Delta",
+      "term_kind": "proper_name",
+      "term_reason": "349 Sasha 呼出 'Outpost Charlie Psycho Delta!'；Outpost 表明这是前哨站的完整专名，本条只限完整设施名，不拆作普通 Charlie/Psycho/Delta 或扩展到未给原文的水下研究设定。",
+      "evidence_rows": [
+        349
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "地名",
+            "enforcement": "required",
+            "recommended_translation": "查理灵能三角洲前哨站",
+            "source": "Outpost Charlie Psycho Delta",
+            "term_kind": "proper_name",
+            "term_reason": "水下脑航员研究设施名；第350行说明其用于研究 Psilirium。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            349
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "地名",
+      "enforcement": "required",
+      "recommended_translation": "查理灵能三角洲",
+      "source": "Charlie Psycho Delta",
+      "term_kind": "proper_name",
+      "term_reason": "4 的 UI 正文 'Charlie Psycho Delta' 与 349 的 'Outpost Charlie Psycho Delta!' 显示为完整前哨站名的简称；本条指该设施名/检查点标题用词，不拆作普通 Charlie、Psycho 或 Delta。",
+      "evidence_rows": [
+        4,
+        349
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "地名",
+            "enforcement": "required",
+            "recommended_translation": "查理灵能三角洲",
+            "source": "Charlie Psycho Delta",
+            "term_kind": "proper_name",
+            "term_reason": "前哨站名与章节标题的简称；完整形式为 Outpost Charlie Psycho Delta。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            4,
+            349
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "地名",
+      "enforcement": "required",
+      "recommended_translation": "母脑总部",
+      "source": "Motherlobe",
+      "term_kind": "proper_name",
+      "term_reason": "第389行 Come in, Motherlobe.、第394行 PsychonautHQ 的 Motherlobe out. 表明它是与脑航员总部/HQ 通讯时使用的地点专名或呼号；本文按地名统一为母脑总部，非普通 mother/lobe 组合。",
+      "evidence_rows": [
+        389,
+        394
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "地名",
+            "enforcement": "required",
+            "recommended_translation": "母脑总部",
+            "source": "Motherlobe",
+            "term_kind": "proper_name",
+            "term_reason": "脑航员总部的通讯呼号；'Come in, Motherlobe.' / 'Motherlobe out.'"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            389,
+            394
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "其他",
+      "enforcement": "required",
+      "recommended_translation": "灵能导航",
+      "source": "PsychoNav",
+      "term_kind": "proper_name",
+      "term_reason": "第362行 WARNING: PsychoNav systems compromised. 只证明 PsychoNav 是被警告状态异常或受损的导航系统专名；不据此断言具体载具或全部菜单项。",
+      "evidence_rows": [
+        362
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "其他",
+            "enforcement": "required",
+            "recommended_translation": "灵能导航",
+            "source": "PsychoNav",
+            "term_kind": "proper_name",
+            "term_reason": "飞船导航系统名；原文警告 'PsychoNav systems compromised.'"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            362
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "\"",
+        "reason": "第471行 What's 后的引号与 ? 后的引号共同框住 Astropsionics?；仅锁定此句，不推断为 Sasha 研究或已成书名。",
+        "suffix": "?\" Is that like Astrology?"
+      },
+      "category_path": "其他",
+      "enforcement": "reference",
+      "recommended_translation": "星象灵能学",
+      "source": "Astropsionics",
+      "term_kind": "game_term",
+      "term_reason": "第471行 Raz 问引号中的 Astropsionics? 是否像 Astrology；可证为引号中标出的疑似占星/灵能相关学科名或标题，具体身份与全局范围未证实。",
+      "evidence_rows": [
+        471
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "原文以引号单独提问 'Astropsionics?'，为 Sasha 研究的专名领域。"
+            },
+            "category_path": "其他",
+            "enforcement": "reference",
+            "recommended_translation": "星际灵能学",
+            "source": "Astropsionics",
+            "term_kind": "game_term",
+            "term_reason": "Sasha 研究的领域/书名，原文以引号单独提问；暂译，需与 Sasha 设定一致。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            471
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "物品",
+      "enforcement": "required",
+      "recommended_translation": "《真实灵能故事》",
+      "source": "True Psychic Tales",
+      "term_kind": "proper_name",
+      "term_reason": "第541行 Raz 说 True Psychic Tales 让他想成为 Psychonaut；第1746/1815行引用其 issue 43/某期讲 Rhombus of Ruin。可证为漫画/刊物名，提供传说与设定信息，不是普通 psychic tales 描述。",
+      "evidence_rows": [
+        541,
+        1746,
+        1815
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "真实灵能故事",
+            "source": "True Psychic Tales",
+            "term_kind": "proper_name",
+            "term_reason": "Raz 提到的漫画/刊物名，激发他成为脑航员。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            541
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        },
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "刊物名；issue 43 等普通期号不并入。"
+            },
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "《真实超能故事》",
+            "source": "True Psychic Tales",
+            "term_kind": "proper_name",
+            "term_reason": "Raz 引用 'According to True Psychic Tales issue 43...'，又说 'There was an issue of True Psychic Tales that talked about the Rhombus of Ruin'；是提供传说的刊物/漫画名，不是普通 psychic tales 描述。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1746,
+            1815
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "第541行独立出现 True Psychic Tales!，第1746行 According to True Psychic Tales issue 43 与第1815行 There was an issue of True Psychic Tales 都把同一串词嵌入刊物引用，仍指同一刊物；只锁精确刊物名，不把 issue 43、Rhombus of Ruin 并入。"
+      }
+    },
+    {
+      "category_path": "技能",
+      "enforcement": "required",
+      "recommended_translation": "灵能冲击",
+      "source": "PSI-Blast",
+      "term_kind": "game_term",
+      "term_reason": "第52行 Sasha 说 focus all my mental energy on you so you'll have the power to PSI-Blast this party to smithereens；PSI-Blast 是获得力量后对目标或场景发动的攻击型灵能能力名。无连字符写法由 e8 另行核对，本条不引用未附原文的变体行号。",
+      "evidence_rows": [
+        52
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "技能",
+            "enforcement": "required",
+            "recommended_translation": "灵能冲击",
+            "source": "PSI-Blast",
+            "term_kind": "game_term",
+            "term_reason": "超能力名；原文要 Raz 用它轰碎派对。无连字符写法 'PSI Blast' 第405行同义。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            52
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "use ",
+        "reason": "第507行 if I use CLAIRVOYANCE on an object 中，大写 CLAIRVOYANCE 位于 use ... on 搭配中，明确是可对物品使用的能力；只锁定此机制语境。",
+        "suffix": " on"
+      },
+      "category_path": "技能",
+      "enforcement": "required",
+      "recommended_translation": "灵视",
+      "source": "CLAIRVOYANCE",
+      "term_kind": "game_term",
+      "term_reason": "第507行说明对带有 owner's psychic residue 的物品 use CLAIRVOYANCE，就能 see from the point of view of the owner；是借物主残留读取视角的灵能能力名。未附原文的小写同形用例不并入。",
+      "evidence_rows": [
+        507
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "use ",
+              "reason": "第507行以大写 CLAIRVOYANCE 出现在 'use ... on an object' 搭配中，明确指游戏超能力。",
+              "suffix": " on"
+            },
+            "category_path": "技能",
+            "enforcement": "required",
+            "recommended_translation": "灵视",
+            "source": "CLAIRVOYANCE",
+            "term_kind": "game_term",
+            "term_reason": "超能力名，借物品残留看物主视角；原文大写强调机制，另有小写同义。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            507
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "My ",
+        "reason": "第1595行 My Telekinesis feels… busted. I can't get a grip. 把大写 Telekinesis 作为会失效、影响抓取的能力名；因 telekinesis 亦可作普通名词，本条只锁定此确切上下文，不全局覆盖小写或缩写。",
+        "suffix": " feels… busted. I can't get a grip."
+      },
+      "category_path": "技能",
+      "enforcement": "reference",
+      "recommended_translation": "念力",
+      "source": "Telekinesis",
+      "term_kind": "game_term",
+      "term_reason": "第509行 that Telekinesis is a little showy / psychic's bread and butter、第1471行 even without your telekinesis, that train isn't going anywhere、第1595行 My Telekinesis feels… busted. I can't get a grip 均围绕抓取或阻止火车的念力能力；大写与小写、能力名和普通名词需按语境区分，TK 及 telekinetic ability 的译名一致性另按 f2 核对，不自动并为本条。",
+      "evidence_rows": [
+        509,
+        1471,
+        1595
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "that ",
+              "reason": "第509行 'that Telekinesis is a little showy' 明确指游戏超能力。",
+              "suffix": " is a little showy"
+            },
+            "category_path": "技能",
+            "enforcement": "required",
+            "recommended_translation": "念力",
+            "source": "Telekinesis",
+            "term_kind": "game_term",
+            "term_reason": "超能力名；原文解释其用途。缩写 TK 第231行同义。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            509
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        },
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "My ",
+              "reason": "1595 My Telekinesis feels… busted. I can't get a grip. 的能力名语境。",
+              "suffix": " feels… busted. I can't get a grip."
+            },
+            "category_path": "技能",
+            "enforcement": "required",
+            "recommended_translation": "念力",
+            "source": "Telekinesis",
+            "term_kind": "game_term",
+            "term_reason": "1595 My Telekinesis feels… busted. I can't get a grip 定义念力抓取能力；1181/1504 的 TK 与 1576 的 telekinetic ability 是其短写/描述。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1595
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        },
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "your ",
+              "reason": "1471 even without your telekinesis, that train isn't going anywhere 的具体语境。",
+              "suffix": ", that train isn't going anywhere."
+            },
+            "category_path": "技能",
+            "enforcement": "reference",
+            "recommended_translation": "念力",
+            "source": "telekinesis",
+            "term_kind": "game_term",
+            "term_reason": "1471 See, even without your telekinesis, that train isn't going anywhere 中指 Milla 用来控制火车的念力。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1471
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "Can't ",
+        "reason": "第231行 Can't TK Coach when he's all slippery. 中 TK 作动词，指对 Coach 使用念力；因 TK 是裸缩写且其他证据行语法不同，只锁定此确切上下文，不采用候选中未附原文的后续 TK 句。",
+        "suffix": " Coach"
+      },
+      "category_path": "技能",
+      "enforcement": "reference",
+      "recommended_translation": "念力",
+      "source": "TK",
+      "term_kind": "game_term",
+      "term_reason": "第231行 Can't TK Coach 是 Telekinesis 的缩写用法；第894/1181/1504行分别有 wanna TK that、a TK grip、my TK back，说明同一缩写可作动词、能力抓取或恢复后的举起能力。第2595/2596行只提供 in her head/poking Lili 语境，未出现 TK；候选所称的后续 TK 句未附原文，不作依据。核心译名与 Telekinesis 保持念力。",
+      "evidence_rows": [
+        231,
+        894,
+        1181,
+        1504,
+        2595,
+        2596,
+        2597
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "Can't ",
+              "reason": "第231行 'Can't TK Coach' 中的缩写，指对教练使用念力。",
+              "suffix": " Coach"
+            },
+            "category_path": "技能",
+            "enforcement": "required",
+            "recommended_translation": "念力",
+            "source": "TK",
+            "term_kind": "game_term",
+            "term_reason": "Telekinesis 的缩写；原文 'Can't TK Coach...' 指对教练使用念力。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            231
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        },
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "wanna ",
+              "reason": "仅匹配台词中作动词的 TK，避免误伤普通缩写",
+              "suffix": " that"
+            },
+            "category_path": "技能",
+            "enforcement": "reference",
+            "recommended_translation": "念力",
+            "source": "TK",
+            "term_kind": "game_term",
+            "term_reason": "行 894 中作动词，指用念力移动目标；因 Lili 正摆弄炸弹而不愿用 TK 抢走。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            894
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s5fb859b4"
+          ]
+        },
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "a ",
+              "reason": "1181 a TK grip. 是短写能力语境。",
+              "suffix": " grip."
+            },
+            "category_path": "技能",
+            "enforcement": "reference",
+            "recommended_translation": "念力",
+            "source": "TK",
+            "term_kind": "game_term",
+            "term_reason": "1181 get a TK grip 需要时间获得念力抓取；1595 用 Telekinesis... can't get a grip 给出全称。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1181
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        },
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "my ",
+              "reason": "1504 my TK back, what should I try to lift first? 是短写能力语境。",
+              "suffix": " back, what should I try to lift first?"
+            },
+            "category_path": "技能",
+            "enforcement": "reference",
+            "recommended_translation": "念力",
+            "source": "TK",
+            "term_kind": "game_term",
+            "term_reason": "1504 Now that I have my TK back, what should I try to lift first 中 TK 指恢复的举起物体能力。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1504
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        },
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "to ",
+              "reason": "2597 'if I tried to TK her right now.' 中 TK 作动作动词；2595/2596 提供进入头脑/触碰 Lili 的能力语境。",
+              "suffix": " her right now."
+            },
+            "category_path": "技能",
+            "enforcement": "reference",
+            "recommended_translation": "念力",
+            "source": "TK",
+            "term_kind": "game_term",
+            "term_reason": "2597 tried to TK her 作动词，接在 2595 in her head、2596 poking Lili 后，指对 Lili 使用心灵遥控/念力，不是普通字母组合。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2595,
+            2596,
+            2597
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "技能",
+      "enforcement": "required",
+      "recommended_translation": "灵能冲击",
+      "source": "PSI Blast",
+      "term_kind": "game_term",
+      "term_reason": "第583/596行显示可对人物使用或以 PSI Blasting 形式使用，第1171/1178行说明 PSI Blast 会被木头弹开、能救场；是可对目标发动、会受材质影响的灵能攻击能力或动作。与连字符形式 PSI-Blast 同核心译名，不按拼写自动扩展到其他行。",
+      "evidence_rows": [
+        583,
+        596,
+        1171,
+        1178,
+        1179,
+        1597
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "技能",
+            "enforcement": "required",
+            "recommended_translation": "灵能冲击",
+            "source": "PSI Blast",
+            "term_kind": "game_term",
+            "term_reason": "角色使用的灵能攻击技能名；行 583 拒绝用它攻击 Sasha，行 596 有动名词形式 PSI Blasting。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            583,
+            596
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s5fb859b4"
+          ]
+        },
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "1171、1178、1179、1597 中作为精确能力名或动作。"
+            },
+            "category_path": "技能",
+            "enforcement": "required",
+            "recommended_translation": "灵能冲击",
+            "source": "PSI Blast",
+            "term_kind": "game_term",
+            "term_reason": "1171 说 My PSI Blast is bouncing right off the wood，1179 又说 can totally PSI Blast soap，1597 因脑袋受扰不能用；是特定灵能攻击/动作。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1171,
+            1178,
+            1179,
+            1597
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "第583行 PSI Blast Sasha 为动词用法，第596行 PSI Blasting 为动名词派生，第1171行 My PSI Blast is bouncing right off the wood!、第1178行 PSI Blast saves the day! 为能力名；这些本批原文均保留同一精确能力词根。只覆盖 PSI Blast 及其紧贴派生语境，不把候选中未附原文的行号当作依据。"
+      }
+    },
+    {
+      "category_path": "其他",
+      "enforcement": "required",
+      "recommended_translation": "精神保险库",
+      "source": "MENTAL VAULT",
+      "term_kind": "game_term",
+      "term_reason": "第931行 Raz 说 Hey, this must be Loboto's MENTAL VAULT!；可证为 Loboto 所属、以大写标出的 MENTAL VAULT 名称或精神机制称呼。该行未说明需要打开或具体形态，不补写机制。",
+      "evidence_rows": [
+        931
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "其他",
+            "enforcement": "required",
+            "recommended_translation": "精神保险库",
+            "source": "MENTAL VAULT",
+            "term_kind": "game_term",
+            "term_reason": "行 931 明确称 Loboto 的 MENTAL VAULT，是脑内需打开的封闭空间。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            931
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s5fb859b4"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "组织",
+      "enforcement": "required",
+      "recommended_translation": "第12空降队",
+      "source": "12th Airborne",
+      "term_kind": "proper_name",
+      "term_reason": "行 778 的 UI 文本；行 777 引文写作 Twelfth Airborne，是部队名。",
+      "evidence_rows": [
+        778
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "组织",
+            "enforcement": "required",
+            "recommended_translation": "第12空降队",
+            "source": "12th Airborne",
+            "term_kind": "proper_name",
+            "term_reason": "行 778 的 UI 文本；行 777 引文写作 Twelfth Airborne，是部队名。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            778
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s5fb859b4"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "组织",
+      "enforcement": "required",
+      "recommended_translation": "飞天老鼠",
+      "source": "Flying Rats",
+      "term_kind": "proper_name",
+      "term_reason": "777 引文中 \"Twelfth Airborne, Flying Rats\" 与 779 UI \"Flying Rats\" 均为部队绰号；按 flying rats 的老鼠玩笑译作“飞天老鼠”，避免“飞鼠”被读作飞行动物名。",
+      "evidence_rows": [
+        777,
+        779
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "组织",
+            "enforcement": "required",
+            "recommended_translation": "飞鼠",
+            "source": "Flying Rats",
+            "term_kind": "proper_name",
+            "term_reason": "行 777 与 Twelfth Airborne 连用，行 779 单独成 UI，是部队绰号。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            777,
+            779
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s5fb859b4"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "category_path": "物品",
+      "enforcement": "required",
+      "recommended_translation": "弗朗西丝",
+      "source": "Frances",
+      "term_kind": "proper_name",
+      "term_reason": "689 Lili 说 Bring me Frances；691 对 Frances 说 I'm going to use you as KINDLING，证明本条是 Lili 称呼并准备用作引火物的道具名，不扩展为其他 Frances 人名。",
+      "evidence_rows": [
+        689,
+        691,
+        722
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "弗朗西丝",
+            "source": "Frances",
+            "term_kind": "proper_name",
+            "term_reason": "Lili 把小型炸弹当花并命名为 Frances，行 689 让带来 Frances，行 691 说要用它当引火物。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            689,
+            691,
+            722
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s5fb859b4"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": false,
+        "mode": "text",
+        "reason": "905 的 Can't get a clairvoyant connection with that flea while it's jumping around! 与 2031 的 Can't make a Clairvoyant connection. 完整短语均出现在句中，指同一灵能连接机制；只匹配完整短语，不冻结单独 clairvoyant 或普通 connection。"
+      },
+      "category_path": "技能",
+      "enforcement": "reference",
+      "recommended_translation": "透视连接",
+      "source": "clairvoyant connection",
+      "term_kind": "game_term",
+      "term_reason": "905 中目标跳来跳去时无法 get a clairvoyant connection；2031 为 Can't make a Clairvoyant connection. 的失败句；两处均指与目标建立透视连接的灵能机制，大小写不同不另立译名。",
+      "evidence_rows": [
+        905,
+        2031
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": false,
+              "mode": "literal_context",
+              "prefix": "a ",
+              "reason": "仅匹配该灵能机制短语，避免把普通 clairvoyant 当作全局术语",
+              "suffix": " with"
+            },
+            "category_path": "技能",
+            "enforcement": "reference",
+            "recommended_translation": "灵视连接",
+            "source": "clairvoyant connection",
+            "term_kind": "game_term",
+            "term_reason": "行 905 指目标静止时才能建立的灵视连接，是游戏灵能机制。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            905
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s5fb859b4"
+          ]
+        },
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "Can't make a ",
+              "reason": "匹配 2031 技能失败句；不把单独 Clairvoyant 扩成全局术语。",
+              "suffix": ". "
+            },
+            "category_path": "技能",
+            "enforcement": "required",
+            "recommended_translation": "透视连接",
+            "source": "Clairvoyant connection",
+            "term_kind": "game_term",
+            "term_reason": "Raz 说 'Can't make a Clairvoyant connection.'，随后 'Maybe Harold's too agitated?'、'I don't wanna grab him when he's that agitated.'；指与目标建立心灵/透视连接的能力，不是普通 'clairvoyant' 形容词。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2031
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "weird boy band \"",
+        "reason": "1497 引号内作为 weird boy band 名称；只匹配该引文。",
+        "suffix": "\" "
+      },
+      "category_path": "组织",
+      "enforcement": "required",
+      "recommended_translation": "全是保罗？",
+      "source": "All Paul?",
+      "term_kind": "proper_name",
+      "term_reason": "1497 称其为 weird boy band All Paul?；1498 另有 the All Pauls? 复数写法，不按拼写自动合并。",
+      "evidence_rows": [
+        1497
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "weird boy band \"",
+              "reason": "1497 引号内作为 weird boy band 名称；只匹配该引文。",
+              "suffix": "\" "
+            },
+            "category_path": "组织",
+            "enforcement": "required",
+            "recommended_translation": "全是保罗？",
+            "source": "All Paul?",
+            "term_kind": "proper_name",
+            "term_reason": "1497 称其为 weird boy band All Paul?；1498 另有 the All Pauls? 复数写法，不按拼写自动合并。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1497
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "the \"",
+        "reason": "1498 引号内作为 cheesy boy band 名称；只匹配该引文。",
+        "suffix": "\""
+      },
+      "category_path": "组织",
+      "enforcement": "required",
+      "recommended_translation": "全是保罗？",
+      "source": "All Pauls?",
+      "term_kind": "proper_name",
+      "term_reason": "1498 称其为 cheesy boy band the \"All Pauls?\"；Pauls 是队名中成员都叫 Paul 的复数玩笑，中文用“全是保罗？”表达，不按拼写硬译成“保罗们”。",
+      "evidence_rows": [
+        1498
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "the \"",
+              "reason": "1498 引号内作为 cheesy boy band 名称；只匹配该引文。",
+              "suffix": "\""
+            },
+            "category_path": "组织",
+            "enforcement": "required",
+            "recommended_translation": "全是保罗们？",
+            "source": "All Pauls?",
+            "term_kind": "proper_name",
+            "term_reason": "1498 称其为 cheesy boy band the All Pauls?，是另一复数写法的乐队名候选，保留与 1497 的差异。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1498
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "With the ",
+        "reason": "1214 'With the Psilirium poisoning' 后的具体状态语境；只匹配该紧邻字串，不冻结普通 poisoning。",
+        "suffix": ", I'm going to need a little help getting through this train."
+      },
+      "category_path": "其他",
+      "enforcement": "reference",
+      "recommended_translation": "普西利里姆中毒",
+      "source": "Psilirium poisoning",
+      "term_kind": "game_term",
+      "term_reason": "1214 的 'With the Psilirium poisoning, I'm going to need a little help getting through this train.' 把该短语用作 Lili 因中毒状态需要帮助穿过火车的具体原因；本条仅作该 literal_context 的参考译名，核心物质名沿用 '普西利里姆'，不把所有 poisoning 泛化为术语。",
+      "evidence_rows": [
+        1214
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "With the ",
+              "reason": "1214 With the Psilirium poisoning 后的具体状态语境。",
+              "suffix": ", I'm going to need a little help getting through this train."
+            },
+            "category_path": "其他",
+            "enforcement": "reference",
+            "recommended_translation": "普西利里姆中毒",
+            "source": "Psilirium poisoning",
+            "term_kind": "game_term",
+            "term_reason": "1214 Lili 因 Psilirium poisoning 需要帮助穿过火车；结合 1591 的 psionic disruptor，该状态是灵能/大脑受扰，不是普通中毒。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1214
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "第1209、1215行的精确资源短语 PSI energy；两行都嵌在 focusing/focus 搭配中，仍作为同一资源名使用，不覆盖单独 PSI 或 energy。"
+      },
+      "category_path": "其他",
+      "enforcement": "reference",
+      "recommended_translation": "灵能",
+      "source": "PSI energy",
+      "term_kind": "game_term",
+      "term_reason": "第1209/1215行 Lili 说 keep focusing / focus what's left of my PSI energy on you，用来给 Raz 补足 power，以便 cover me with PYROKINESIS；是可被聚焦、剩余量可转移的灵能资源。仅覆盖精确短语 PSI energy，不覆盖单独 PSI 或 energy；未附原文的相邻说明已删除。",
+      "evidence_rows": [
+        1209,
+        1215
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "1209、1215 的精确资源短语；不覆盖单独 PSI 或 energy。"
+            },
+            "category_path": "其他",
+            "enforcement": "reference",
+            "recommended_translation": "灵能",
+            "source": "PSI energy",
+            "term_kind": "game_term",
+            "term_reason": "1209/1215 Lili 把 PSI energy 聚焦到 Raz 身上以补足力量；1210 说明因此能听见他的想法，是可聚焦/转移的灵能资源。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1209,
+            1215
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "focus my ",
+        "reason": "第1571行 focus my psychic energy on you, young man. 明确是 Milla 把可聚焦给 Raz 的灵能用于支援；因 psychic energy 可作普通词组，只锁定此具体上下文，不采用全局 text。",
+        "suffix": " on you, young man. "
+      },
+      "category_path": "其他",
+      "enforcement": "reference",
+      "recommended_translation": "灵能",
+      "source": "psychic energy",
+      "term_kind": "game_term",
+      "term_reason": "第1252行 Lili 说 give you my psychic energy so you could use it like that!，第1571行 Milla 说 focus my psychic energy on you；两处都指 Lili/Milla 给 Raz 聚焦或输送、可转化为力量支援的灵能资源，与 PSI energy 同义。描述式能力说法不自动并入；本条按具体语境限定。",
+      "evidence_rows": [
+        1252,
+        1571
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "my ",
+              "reason": "1252 my psychic energy so you could use it like that 的具体语境。",
+              "suffix": " so you could use it like that!"
+            },
+            "category_path": "其他",
+            "enforcement": "reference",
+            "recommended_translation": "灵能",
+            "source": "psychic energy",
+            "term_kind": "game_term",
+            "term_reason": "1252 Lili 说把 psychic energy 给 Raz 不是让他乱烧东西；该能量与 PSI energy 一样用于支援 Raz。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1252
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        },
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "focus my ",
+              "reason": "1571 focus my psychic energy on you 的具体语境。",
+              "suffix": " on you, young man. "
+            },
+            "category_path": "其他",
+            "enforcement": "reference",
+            "recommended_translation": "灵能",
+            "source": "psychic energy",
+            "term_kind": "game_term",
+            "term_reason": "1571 Milla 说要 focus my psychic energy on you，1572 说 add my power to yours；描述把灵能加到 Raz 身上。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1571
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "",
+        "reason": "1176 句首 Pyro 后接 really seems to be working there!，仅匹配该能力短称；复合短语和普通 pyro 前缀不在本条范围。",
+        "suffix": " really seems to be working there!"
+      },
+      "category_path": "技能",
+      "enforcement": "reference",
+      "recommended_translation": "心灵致火",
+      "source": "Pyro",
+      "term_kind": "game_term",
+      "term_reason": "1176 Pyro really seems to be working there! 指点火/纵火能力在目标上生效；本条只覆盖 Pyro 短称，不覆盖 Pyro 复合短语或普通前缀。",
+      "evidence_rows": [
+        1176
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "",
+              "reason": "1176 句首 Pyro 后接 really seems to be working there!，只匹配此短称语境。",
+              "suffix": " really seems to be working there!"
+            },
+            "category_path": "技能",
+            "enforcement": "reference",
+            "recommended_translation": "心灵致火",
+            "source": "Pyro",
+            "term_kind": "game_term",
+            "term_reason": "1176 Pyro really seems to be working there 在可点燃目标上生效；与 1215/1596 的 PYROKINESIS/pyrokinesis 同属纵火能力语境，本条只覆盖 Pyro 短称。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1176
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        },
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "start a ",
+              "reason": "2598 'I would never wanna start a Pyro war with Lili.' 中 Pyro 修饰能力对抗；2594/2599 补充精神火焰与耐火语境。",
+              "suffix": " war with Lili."
+            },
+            "category_path": "技能",
+            "enforcement": "reference",
+            "recommended_translation": "火焰能力",
+            "source": "Pyro",
+            "term_kind": "game_term",
+            "term_reason": "2598 start a Pyro war with Lili 与 2594 fire in my belly / belly of my MIND、2599 fireproof window shades 同段指心灵火焰能力；此处作与 Lili 对抗的能力名，译名暂定。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2594,
+            2598,
+            2599
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": false,
+        "mode": "text",
+        "reason": "1215 cover me with PYROKINESIS. 是施放语境，1596 My pyrokinesis is all outta whack! 是失灵语境；完整能力名嵌在句中都指该纵火能力，大小写不作分译，只匹配完整词，不覆盖 Pyro 短称。"
+      },
+      "category_path": "技能",
+      "enforcement": "required",
+      "recommended_translation": "心灵致火",
+      "source": "PYROKINESIS",
+      "term_kind": "game_term",
+      "term_reason": "1215 Lili 要用剩余 PSI energy 让 Raz cover me with PYROKINESIS；1596 说不能 light a match 时 My pyrokinesis is all outta whack!，说明大小写形式均指心灵点火/纵火能力。",
+      "evidence_rows": [
+        1215,
+        1596
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "cover me with ",
+              "reason": "1215 cover me with PYROKINESIS. 是能力名/施放语境。",
+              "suffix": "."
+            },
+            "category_path": "技能",
+            "enforcement": "required",
+            "recommended_translation": "心灵致火",
+            "source": "PYROKINESIS",
+            "term_kind": "game_term",
+            "term_reason": "1215 Lili 要 Raz 用 PSI energy 达到 cover me with PYROKINESIS 的效果；1596 又说不能点火时 pyrokinesis 失灵，指纵火/点火能力。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1215
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        },
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "My ",
+              "reason": "1596 My pyrokinesis is all outta whack! 的具体语境。",
+              "suffix": " is all outta whack!"
+            },
+            "category_path": "技能",
+            "enforcement": "reference",
+            "recommended_translation": "心灵致火",
+            "source": "pyrokinesis",
+            "term_kind": "game_term",
+            "term_reason": "1596 I don't think I could even light a match right now 后接 My pyrokinesis is all outta whack，说明小写形式指点火能力。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1596
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "boosting your ",
+        "reason": "1576 boosting your telekinetic ability 后的具体语境。",
+        "suffix": ", just in case you run into anymore runaway trains!"
+      },
+      "category_path": "技能",
+      "enforcement": "reference",
+      "recommended_translation": "念力",
+      "source": "telekinetic ability",
+      "term_kind": "game_term",
+      "term_reason": "1576 Milla 要 boosting your telekinetic ability 以应对 runaway trains，是念力/心灵遥控能力的描述式说法；本条只匹配 boosting your telekinetic ability 的紧邻语境。",
+      "evidence_rows": [
+        1576
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "boosting your ",
+              "reason": "1576 boosting your telekinetic ability 后的具体语境。",
+              "suffix": ", just in case you run into anymore runaway trains!"
+            },
+            "category_path": "技能",
+            "enforcement": "reference",
+            "recommended_translation": "念力",
+            "source": "telekinetic ability",
+            "term_kind": "game_term",
+            "term_reason": "1576 Milla 要 boosting your telekinetic ability 以应对 runaway trains，是念力能力的描述式说法。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1576
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "1609 中 Sasha 以完整设备专名 Psychoisolation Bonnet, I presume. 推定眼前装置；句中同样整体保留，不覆盖普通 bonnet。"
+      },
+      "category_path": "物品",
+      "enforcement": "required",
+      "recommended_translation": "灵能隔离罩",
+      "source": "Psychoisolation Bonnet",
+      "term_kind": "proper_name",
+      "term_reason": "1609 Sasha 说 Psychoisolation Bonnet, I presume. 并追问 anti-catalyst，可见该完整名称是隔离精神/灵能的装置名，不是普通帽子。",
+      "evidence_rows": [
+        1609
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "1609 中作为设备专名；不覆盖普通 bonnet。"
+            },
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "灵能隔离罩",
+            "source": "Psychoisolation Bonnet",
+            "term_kind": "proper_name",
+            "term_reason": "1606 说 Truman's head in a giant, steel ball，1609 Sasha 推定其为 Psychoisolation Bonnet；是隔离精神/灵能的罩舱，不是普通帽子。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1609
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "for an ",
+        "reason": "1609 for an anti-catalyst? 的具体问句语境。",
+        "suffix": "?"
+      },
+      "category_path": "其他",
+      "enforcement": "reference",
+      "recommended_translation": "反催化剂",
+      "source": "anti-catalyst",
+      "term_kind": "game_term",
+      "term_reason": "1609 紧接 Psychoisolation Bonnet 后问 what are they using for an anti-catalyst?；此语境指配合该装置使用的未知反制剂。",
+      "evidence_rows": [
+        1609
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "for an ",
+              "reason": "1609 for an anti-catalyst? 的具体问句语境。",
+              "suffix": "?"
+            },
+            "category_path": "其他",
+            "enforcement": "reference",
+            "recommended_translation": "反催化剂",
+            "source": "anti-catalyst",
+            "term_kind": "game_term",
+            "term_reason": "1609 紧接 Psychoisolation Bonnet 后问 what are they using for an anti-catalyst?；此语境指配合该装置使用的未知反制剂。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1609
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "1669 中 'some sort of Psychohazard' 是防护服隔绝对象的完整造词；只匹配 Psychohazard，不覆盖普通 hazard/symbol。"
+      },
+      "category_path": "其他",
+      "enforcement": "required",
+      "recommended_translation": "灵能危害",
+      "source": "Psychohazard",
+      "term_kind": "game_term",
+      "term_reason": "1669 'I guess the suits protect you from some sort of Psychohazard.' 中防护服隔绝对象是 some sort of Psychohazard；指某种灵能/精神危害，仅确认该造词在此处的危害义，不扩展为所有 psychic 相关词。",
+      "evidence_rows": [
+        1669
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "1669 中作为造词；1667 以 Something psychic and bad 说明语义。"
+            },
+            "category_path": "其他",
+            "enforcement": "required",
+            "recommended_translation": "灵能危害",
+            "source": "Psychohazard",
+            "term_kind": "game_term",
+            "term_reason": "1667 说 Something psychic and bad，1669 说 suits protect you from some sort of Psychohazard；指需要防护服隔绝的有害灵能危险。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1669
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-s296cfd0d"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "Setting a course for ",
+        "reason": "1930 的 'Setting a course for Psychonauts headquarters.' 是地点短语；literal_context 只匹配该句，不冻结普通 headquarters。",
+        "suffix": ". "
+      },
+      "category_path": "地名",
+      "enforcement": "required",
+      "recommended_translation": "脑航员总部",
+      "source": "Psychonauts headquarters",
+      "term_kind": "game_term",
+      "term_reason": "1930 'Setting a course for Psychonauts headquarters.' 把 Psychonauts headquarters 作为设定航向的目的地；指脑航员组织的总部设施，不是任意 headquarters。",
+      "evidence_rows": [
+        1930
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "Setting a course for ",
+              "reason": "匹配 1930 设定航向的完整地点短语。",
+              "suffix": ". "
+            },
+            "category_path": "地名",
+            "enforcement": "required",
+            "recommended_translation": "脑航员总部",
+            "source": "Psychonauts headquarters",
+            "term_kind": "game_term",
+            "term_reason": "Sasha 说 'Setting a course for Psychonauts headquarters.'，在脱离 Rhombus 后设定航向；指脑航员组织的目的地总部，不是任意 headquarters。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1930
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "We're clear of ",
+        "reason": "匹配 1929 'We're clear of the Rhombus.' 的地点简称；不冻结普通 rhombus。",
+        "suffix": ". "
+      },
+      "category_path": "地名",
+      "enforcement": "required",
+      "recommended_translation": "菱形废墟",
+      "source": "the Rhombus",
+      "term_kind": "proper_name",
+      "term_reason": "1929 'We're clear of the Rhombus.' 把 the Rhombus 作为已脱离的地点宾语；本条只在该 literal_context 中按完整地名 Rhombus of Ruin 的简称处理，不扩展到普通几何词 rhombus。",
+      "evidence_rows": [
+        1929
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "We're clear of ",
+              "reason": "匹配 1929 'We're clear of the Rhombus. '；不冻结普通 rhombus。",
+              "suffix": ". "
+            },
+            "category_path": "地名",
+            "enforcement": "required",
+            "recommended_translation": "菱形废墟",
+            "source": "the Rhombus",
+            "term_kind": "proper_name",
+            "term_reason": "'We're clear of the Rhombus.' 在逃离后用 the Rhombus 作 Rhombus of Ruin 的简称；只限该区域简称，不是普通几何词 rhombus。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1929
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "was there a ",
+        "reason": "1758 中 'was there a Psychohazard symbol on the outside...' 指容器外侧警示标志；只按该具体语境匹配，不冻结普通 hazard/symbol。",
+        "suffix": " on the outside of the container you just opened?"
+      },
+      "category_path": "物品",
+      "enforcement": "required",
+      "recommended_translation": "灵能危害标志",
+      "source": "Psychohazard symbol",
+      "term_kind": "game_term",
+      "term_reason": "1758 'Razputin, was there a Psychohazard symbol on the outside of the container you just opened?' 中询问容器外侧是否有 Psychohazard symbol；指用于提示 Psychohazard 的标志，本条只覆盖该警示符号语境。",
+      "evidence_rows": [
+        1758
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "was there a ",
+              "reason": "匹配 1758 容器警示语境；不冻结普通 hazard/symbol。",
+              "suffix": " on the outside of the container you just opened?"
+            },
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "灵能危险标志",
+            "source": "Psychohazard symbol",
+            "term_kind": "game_term",
+            "term_reason": "Sasha 问打开的容器外侧是否有 'a Psychohazard symbol'，随后 Milla 识别 'Psilirium!' 并警告 'very psychically disorienting'；这是标记精神/灵能危害的警示符号。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1758
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "完整复合装置名；不把单独 PSI 或普通 lock 冻结。"
+      },
+      "category_path": "物品",
+      "enforcement": "required",
+      "recommended_translation": "超能锁",
+      "source": "PSI Lock",
+      "term_kind": "game_term",
+      "term_reason": "1900 'PSI Lock deactivated.' 与 2000 'Warning: external PSI Lock activated. Do not attempt takeoff.' 显示 PSI Lock 是可启用/解除且与起飞限制相关的外部锁；本条只指该锁，不合并单独 PSI 或 lock。",
+      "evidence_rows": [
+        1900,
+        2000,
+        2008
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "完整复合装置名；不把单独 PSI 或普通 lock 冻结。"
+            },
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "超能锁",
+            "source": "PSI Lock",
+            "term_kind": "game_term",
+            "term_reason": "Announcer 说 'PSI Lock deactivated.' 后 'The Jet is cleared for takeoff'，又警告 'external PSI Lock activated. Do not attempt takeoff.'；Raz 还须找到并打开它。指阻止喷气机起飞的外部锁。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1900,
+            2000,
+            2008
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "",
+        "reason": "匹配 2088 状态报告中的完整短语；不把单独 PSI/powers 全局冻结。",
+        "suffix": " not working, weird, silent guards everywhere."
+      },
+      "category_path": "技能",
+      "enforcement": "required",
+      "recommended_translation": "超能力",
+      "source": "PSI powers",
+      "term_kind": "game_term",
+      "term_reason": "2088 中 'PSI powers not working' 是状态报告，指 PSI/超能力当前失效；只匹配该完整短语，不把单独 PSI 或 powers 全局冻结，也不与装置名混同。",
+      "evidence_rows": [
+        2088
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "",
+              "reason": "匹配 2088 状态报告中的完整短语；不把单独 PSI/powers 全局冻结。",
+              "suffix": " not working, weird, silent guards everywhere."
+            },
+            "category_path": "技能",
+            "enforcement": "required",
+            "recommended_translation": "超能力",
+            "source": "PSI powers",
+            "term_kind": "game_term",
+            "term_reason": "中段状态报告 'PSI powers not working' 总结 Psilirium 造成的能力失效；同批 'some powers still working'、'messing with my powers' 说明是 Raz 的灵能/超能力，不是 PSI Lock 装置。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2088
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "I can't ",
+        "reason": "匹配 1876 'I can't CV into it.'；不把裸字母 CV 扩成全局禁翻或术语。",
+        "suffix": " into it."
+      },
+      "category_path": "技能",
+      "enforcement": "reference",
+      "recommended_translation": "透视接入",
+      "source": "CV",
+      "term_kind": "game_term",
+      "term_reason": "1876 中 'I can't CV into it.' 把 CV 当动词使用，后句 'They must have increased the Psilirium around it or something.' 说明受阻；按该句视为接入/观察目标的能力缩写，不匹配裸 CV 或普通缩写。",
+      "evidence_rows": [
+        1876
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "I can't ",
+              "reason": "匹配 1876 'I can't CV into it.'；不把裸字母 CV 扩成全局禁翻或术语。",
+              "suffix": " into it."
+            },
+            "category_path": "技能",
+            "enforcement": "reference",
+            "recommended_translation": "透视接入",
+            "source": "CV",
+            "term_kind": "game_term",
+            "term_reason": "'I can't CV into it.' 中 CV 作动词，接在检查 'Truman's brain…' 之后，并归因于周围 Psilirium 增加；与 Clairvoyant connection 同属接入目标的透视/通灵能力，但短缩写只按该句处理。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1876
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": false,
+        "mode": "text",
+        "reason": "1855 小写与 1880/1882 大写均指可掉落、可连接 Truman 的装置；仅匹配完整 psychoportal/Psychoportal，不覆盖普通 portal。"
+      },
+      "category_path": "物品",
+      "enforcement": "required",
+      "recommended_translation": "通脑器",
+      "source": "Psychoportal",
+      "term_kind": "game_term",
+      "term_reason": "1855 'It's the Coach's psychoportal.'、1880 'Oh no! I dropped the Psychoportal!'、1882 'Hey, what gives? This Psychoportal won't connect with Truman.' 均指可掉落并尝试连接 Truman 的装置；大小写变体统一为通脑器，不覆盖普通 portal。",
+      "evidence_rows": [
+        1855,
+        1880,
+        1882
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": false,
+              "mode": "text",
+              "reason": "1880/1882 大写与 1855 小写 psychoportal 同指该装置；按大小写变体匹配，不覆盖普通 portal。"
+            },
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "通脑器",
+            "source": "Psychoportal",
+            "term_kind": "game_term",
+            "term_reason": "Raz 说 'I dropped the Psychoportal!'、'This Psychoportal won't connect with Truman.'；结合 1855-1857 的 'the Coach's psychoportal'、戴到头上 'get inside his brain'，是戴在头上进入或连接他人脑内的装置，不是普通传送门。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1880,
+            1882
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        },
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "It's the Coach's ",
+              "reason": "匹配 1855 小写首次指称；不把普通 portal 并入。",
+              "suffix": "."
+            },
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "通脑器",
+            "source": "psychoportal",
+            "term_kind": "game_term",
+            "term_reason": "'It's the Coach's psychoportal.' 后两句说明 'If I could get into Loboto's head with that…' 和放到头上进入 brain；小写拼写是同一装置的首次指称。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1855
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "Coach Oleander! That mermaid tail…er. ",
+        "reason": "匹配 1884 中先称 mermaid tail 再改口 mono propulsor 的完整玩笑；不冻结普通 propulsor。",
+        "suffix": " really worked!"
+      },
+      "category_path": "物品",
+      "enforcement": "reference",
+      "recommended_translation": "单推进器",
+      "source": "mono propulsor",
+      "term_kind": "game_term",
+      "term_reason": "1884 中 'That mermaid tail…er. mono propulsor really worked!' 把尾状物先称 mermaid tail 再改口为 mono propulsor；指该句玩笑里的单尾推进装置，不扩成泛称推进器。",
+      "evidence_rows": [
+        1884
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "Coach Oleander! That mermaid tail…er. ",
+              "reason": "匹配 1884 改口玩笑的完整上下文。",
+              "suffix": " really worked!"
+            },
+            "category_path": "物品",
+            "enforcement": "reference",
+            "recommended_translation": "单体推进器",
+            "source": "mono propulsor",
+            "term_kind": "game_term",
+            "term_reason": "Raz 对 Coach Oleander 把 'mermaid tail' 改口为更技术化的 'mono propulsor' 并说 'really worked!'；指帮助其移动/撤离的单尾推进装置，不是泛称推进器。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1884
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "don't think about the ",
+        "reason": "匹配 1944 第二次重复 'don't think about the water curse…'；不把普通 water/curse 全局冻结。",
+        "suffix": "…"
+      },
+      "category_path": "其他",
+      "enforcement": "reference",
+      "recommended_translation": "水之诅咒",
+      "source": "water curse",
+      "term_kind": "game_term",
+      "term_reason": "1944 中 'Don't think about the water curse, don't think about the water curse…' 连续两次把 the water curse 当作不想去想的特定说法；本条只覆盖水相关诅咒/状态的重复提醒语境，不证明更具体机制。",
+      "evidence_rows": [
+        1944
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "don't think about the ",
+              "reason": "匹配 1944 第二次重复 'don't think about the water curse…'；不把普通 water/curse 全局冻结。",
+              "suffix": "…"
+            },
+            "category_path": "其他",
+            "enforcement": "reference",
+            "recommended_translation": "恐水诅咒",
+            "source": "water curse",
+            "term_kind": "game_term",
+            "term_reason": "Raz 反复自我提醒 'Don't think about the water curse...'，后文 'this is a bad time to be afraid of water' 与挡水危机相连；指与水/怕水有关的精神阻碍或诅咒状态，不是普通 water 与 curse 的组合。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1944
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "",
+        "reason": "匹配 1818 单词加问号的疑问造词；不作全局正式术语。",
+        "suffix": "? "
+      },
+      "category_path": "其他",
+      "enforcement": "reference",
+      "recommended_translation": "灵能磁力",
+      "source": "Psychomagnetism",
+      "term_kind": "game_term",
+      "term_reason": "1818 只有 'Psychomagnetism? ' 一条带问号的单词猜测；可作 Psycho- + magnetism 的灵能/磁力临时造词，本批未证实为固定机制名，只按该句保留。",
+      "evidence_rows": [
+        1818
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "",
+              "reason": "匹配 1818 单词加问号的临时造词；1819 说明该词是现编的，不作全局正式术语。",
+              "suffix": "? "
+            },
+            "category_path": "其他",
+            "enforcement": "reference",
+            "recommended_translation": "心灵磁吸",
+            "source": "Psychomagnetism",
+            "term_kind": "game_term",
+            "term_reason": "Raz 看到大量 vehicles 被引来后提出 'Psychomagnetism?'，下一句明确 'I just made that term up'；指 Psilirium 像心灵磁铁般吸引并迷惑飞行员/船长的临时造词，不是既定机制名。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1818
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "Sheegor, where is my ",
+        "reason": "匹配 1831 的器械询问；不把普通 sander 并入。",
+        "suffix": "?"
+      },
+      "category_path": "物品",
+      "enforcement": "required",
+      "recommended_translation": "颅骨打磨器",
+      "source": "cranial sander",
+      "term_kind": "game_term",
+      "term_reason": "1831 中 'Sheegor, where is my cranial sander?' 以 my cranial sander 询问某件颅部用打磨器械；cranial 修饰 sander，不是普通 sander 的泛称，本条只覆盖该器械询问。",
+      "evidence_rows": [
+        1831
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "Sheegor, where is my ",
+              "reason": "匹配 1831 的器械询问；不把普通 sander 并入。",
+              "suffix": "?"
+            },
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "颅骨打磨器",
+            "source": "cranial sander",
+            "term_kind": "game_term",
+            "term_reason": "Loboto 向 Sheegor 索要 'my cranial sander'，结合其 dentist/brain surgeon、brain procedure 语境，是脑部/颅骨操作用的器械，不是普通砂光机。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1831
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "",
+        "reason": "匹配 1825 带 '?? [Laugh]' 的完整讥讽词组；不把 Psycho-/death/tank 等构词成分分别冻结。",
+        "suffix": "?? [Laugh]"
+      },
+      "category_path": "物品",
+      "enforcement": "reference",
+      "recommended_translation": "灵能爆裂死亡坦克",
+      "source": "Psychoblaster death tanks",
+      "term_kind": "game_term",
+      "term_reason": "1825 中 Loboto 只说出 'Psychoblaster death tanks?? [Laugh]'；这是带 laugh 的讥讽式复数武器/载具词组，按完整玩笑语境暂译，未证实为正式装备或机制名。",
+      "evidence_rows": [
+        1825
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "",
+              "reason": "匹配 1825 完整 joke 词组；不把 psychic/death/tank 等普通词分别冻结。",
+              "suffix": "?? [Laugh]"
+            },
+            "category_path": "物品",
+            "enforcement": "reference",
+            "recommended_translation": "灵能爆裂死亡坦克",
+            "source": "Psychoblaster death tanks",
+            "term_kind": "game_term",
+            "term_reason": "Loboto 讥讽 'that army man' 的 'Psychoblaster death tanks??'，随后说应把 'psychic death ray' 装到卫星里，并吐槽坦克油耗和 'take over the world'；是特定荒诞武器/载具构想的暂定译名。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            1825
+          ],
+          "extraction_tasks": [
+            "extract-r2-00003-2db94c90-sa8043181"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "planet ",
+        "reason": "2344 'They must be from planet Party Pooper.' 中 planet Party Pooper 才是地名；普通 party pooper 不按此译名处理。",
+        "suffix": "."
+      },
+      "category_path": "地名",
+      "enforcement": "required",
+      "recommended_translation": "扫兴星",
+      "source": "Party Pooper",
+      "term_kind": "proper_name",
+      "term_reason": "2344 from planet Party Pooper 是玩笑式虚构行星名，指 these guys 的来源地，不是普通 扫兴的人。",
+      "evidence_rows": [
+        2344
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "planet ",
+              "reason": "2344 'They must be from planet Party Pooper.' 中 planet Party Pooper 才是地名；普通 party pooper 不按此译名处理。",
+              "suffix": "."
+            },
+            "category_path": "地名",
+            "enforcement": "required",
+            "recommended_translation": "扫兴星",
+            "source": "Party Pooper",
+            "term_kind": "proper_name",
+            "term_reason": "2344 from planet Party Pooper 是玩笑式虚构行星名，指 these guys 的来源地，不是普通 扫兴的人。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2344
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "as great as ",
+        "reason": "2406 'for I am as great as Poseidon himself!' 中作神话人物比较对象。",
+        "suffix": " himself!"
+      },
+      "category_path": "身份",
+      "enforcement": "required",
+      "recommended_translation": "波塞冬",
+      "source": "Poseidon",
+      "term_kind": "proper_name",
+      "term_reason": "2406 'for I am as great as Poseidon himself!' 中 Raz 以 undersea kingdom 的统治者口吻自比神话人物 Poseidon；2407 go to his head 承接夸张自大的玩笑，适用范围限该比喻。",
+      "evidence_rows": [
+        2406,
+        2407
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "as great as ",
+              "reason": "2406 'for I am as great as Poseidon himself!' 中作神话人物比较对象。",
+              "suffix": " himself!"
+            },
+            "category_path": "身份",
+            "enforcement": "required",
+            "recommended_translation": "波塞冬",
+            "source": "Poseidon",
+            "term_kind": "proper_name",
+            "term_reason": "2406 as great as Poseidon himself 是拉兹自夸时引用的海神名作比较，2407 go to his head 承接该夸张口吻；非本批可操作角色。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2406,
+            2407
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "old ",
+        "reason": "2305 'Hey, it looks like part of an old Victrola.' 中修饰 old，指具体老式唱机部件。",
+        "suffix": "."
+      },
+      "category_path": "物品",
+      "enforcement": "required",
+      "recommended_translation": "维克多牌留声机",
+      "source": "Victrola",
+      "term_kind": "proper_name",
+      "term_reason": "2305 part of an old Victrola 指眼前物件像老式留声机/唱机的一个部件，是品牌式器物名。",
+      "evidence_rows": [
+        2305
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "old ",
+              "reason": "2305 'Hey, it looks like part of an old Victrola.' 中修饰 old，指具体老式唱机部件。",
+              "suffix": "."
+            },
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "维克多牌留声机",
+            "source": "Victrola",
+            "term_kind": "proper_name",
+            "term_reason": "2305 part of an old Victrola 指眼前物件像老式留声机/唱机的一个部件，是品牌式器物名。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2305
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "2497 'You were disconnected from Xbox LIVE.' 与 2535 'You were not signed in to Xbox LIVE.' 中 Xbox LIVE 均作为完整服务名嵌在提示句内，句中保留品牌写法与 LIVE 大写。"
+      },
+      "category_path": "其他",
+      "enforcement": "required",
+      "recommended_translation": "Xbox LIVE",
+      "source": "Xbox LIVE",
+      "term_kind": "proper_name",
+      "term_reason": "2497 断线提示与 2535 未登录提示都把 Xbox LIVE 当作完整在线服务专名；适用范围限完整服务名出现处，保留 LIVE 大写。",
+      "evidence_rows": [
+        2497,
+        2535,
+        2539,
+        2557,
+        2574
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "2497/2535/2539/2557/2574 的网络、登录和权限提示均使用完整服务名 Xbox LIVE。"
+            },
+            "category_path": "其他",
+            "enforcement": "required",
+            "recommended_translation": "Xbox LIVE",
+            "source": "Xbox LIVE",
+            "term_kind": "proper_name",
+            "term_reason": "2497 断线提示、2535 未登录提示、2539 通信中断、2557 权限、2574 会话迁移失败中均作为微软在线服务专名出现；保留 LIVE 大写。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2497,
+            2535,
+            2539,
+            2557,
+            2574
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "2498 'You were disconnected from the PlayStation®Network.' 与 2540 'Communications to PlayStation®Network have been interrupted.' 中 PlayStation®Network 均作为完整服务名嵌在提示句内，句中保留 ® 与连写形式。"
+      },
+      "category_path": "其他",
+      "enforcement": "required",
+      "recommended_translation": "PlayStation®Network",
+      "source": "PlayStation®Network",
+      "term_kind": "proper_name",
+      "term_reason": "2498 断线提示、2540 通信中断提示均作为完整在线服务专名出现；适用范围限完整连写服务名出现处，保留 ® 商标符号。",
+      "evidence_rows": [
+        2498,
+        2540,
+        2556,
+        2558
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "2498/2540/2556/2558 的网络错误与账户限制提示均使用完整服务名 PlayStation®Network。"
+            },
+            "category_path": "其他",
+            "enforcement": "required",
+            "recommended_translation": "PlayStation®Network",
+            "source": "PlayStation®Network",
+            "term_kind": "proper_name",
+            "term_reason": "2498 断线提示、2540 通信中断、2556 家长控制限制账户、2558 会话主机迁移失败中作为索尼网络服务全称，含 ® 商标符号。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2498,
+            2540,
+            2556,
+            2558
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "signed in to ",
+        "reason": "2536 'You were not signed in to PSN.' 中 PSN 作未登录服务名；不扩展到所有三字母缩写。",
+        "suffix": "."
+      },
+      "category_path": "其他",
+      "enforcement": "required",
+      "recommended_translation": "PSN",
+      "source": "PSN",
+      "term_kind": "proper_name",
+      "term_reason": "2536 'You were not signed in to PSN.' 中 PSN 出现在未登录状态提示里，作网络服务缩写；literal_context 限定该缩写本身，不扩展到所有三字母缩写。",
+      "evidence_rows": [
+        2536
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "signed in to ",
+              "reason": "2536 'You were not signed in to PSN.' 中 PSN 作未登录服务名；不扩展到所有三字母缩写。",
+              "suffix": "."
+            },
+            "category_path": "其他",
+            "enforcement": "required",
+            "recommended_translation": "PSN",
+            "source": "PSN",
+            "term_kind": "proper_name",
+            "term_reason": "2536 You were not signed in to PSN. 是登录状态提示中的网络服务缩写；本批另有 PlayStation®Network 全称用于同类网络错误，此条只限定缩写本身。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2536
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "the ",
+        "reason": "2242 'Razputin, did you just turn on the anti-gravity drive?' 中作 turn on 的具体装置宾语。",
+        "suffix": "?"
+      },
+      "category_path": "物品",
+      "enforcement": "required",
+      "recommended_translation": "反重力驱动器",
+      "source": "anti-gravity drive",
+      "term_kind": "game_term",
+      "term_reason": "2242 萨沙问 Razputin 是否刚 turn on the anti-gravity drive，2244 'This is quite a breakthrough!' 承接，说明它是可被开启并产生进展的装置；不是普通驾驶行为。",
+      "evidence_rows": [
+        2242,
+        2244
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "the ",
+              "reason": "2242 'Razputin, did you just turn on the anti-gravity drive?' 中作 turn on 的具体装置宾语。",
+              "suffix": "?"
+            },
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "反重力驱动器",
+            "source": "anti-gravity drive",
+            "term_kind": "game_term",
+            "term_reason": "2242 萨沙问是否刚打开 anti-gravity drive，2244 breakthrough 承接，指谜题控制台可启动的反重力装置，不是普通驾驶行为。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2242,
+            2244
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "2247 'Forcefield… ON.' 与 2248 'Forcefield… OFF.' 中 Forcefield 是正文可见的开关式力场术语，ON/OFF 只是状态；text 仅按大写术语匹配，分写 force field 另由带 literal_context 的条目处理。"
+      },
+      "category_path": "物品",
+      "enforcement": "required",
+      "recommended_translation": "力场屏障",
+      "source": "Forcefield",
+      "term_kind": "game_term",
+      "term_reason": "2247 'Forcefield… ON.' 与 2248 'Forcefield… OFF.' 说明它是可开关的力场机制；译名按中文机制名作 力场屏障，不把 ON/OFF 或普通 field 含义并入术语。",
+      "evidence_rows": [
+        2247,
+        2248
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": false,
+              "mode": "text",
+              "reason": "2247/2248 的大写开关行与 2442 小写 forcefield 均指同一开关式屏障；分写 force field 另列。"
+            },
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "力场屏障",
+            "source": "Forcefield",
+            "term_kind": "game_term",
+            "term_reason": "2247/2248 Forcefield… ON/OFF 是可切换状态；2442 shut that forcefield off 和 2441 force field blocking the way 说明它实际是挡路、需关闭的物理屏障。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2247,
+            2248
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "some sort of ",
+        "reason": "2441 'There's some sort of force field blocking the way.' 明确修饰对象为挡路屏障。",
+        "suffix": " blocking the way."
+      },
+      "category_path": "物品",
+      "enforcement": "required",
+      "recommended_translation": "力场屏障",
+      "source": "force field",
+      "term_kind": "game_term",
+      "term_reason": "2441 'There's some sort of force field blocking the way.' 中 some sort of 修饰的是挡路的物理力场；译名按可见屏障处理，literal_context 只限该分写短语。",
+      "evidence_rows": [
+        2441
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "some sort of ",
+              "reason": "2441 'There's some sort of force field blocking the way.' 明确修饰对象为挡路屏障。",
+              "suffix": " blocking the way."
+            },
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "力场屏障",
+            "source": "force field",
+            "term_kind": "game_term",
+            "term_reason": "2441 There's some sort of force field blocking the way. 指挡路的物理力场；与 2247/2248/2442 的 Forcefield/forcefield 开关机制统一译名，但按分写形式单列。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2441
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "2231 'instability in the reactor core cooling chambers'、2234 'stabilized the reactor core temperatures'、2268 'Cooling chambers for the reactor core?' 均把 reactor core 嵌在冷却舱与温度稳定的反应堆机制中；句中作为同一术语。"
+      },
+      "category_path": "物品",
+      "enforcement": "required",
+      "recommended_translation": "反应堆核心",
+      "source": "reactor core",
+      "term_kind": "game_term",
+      "term_reason": "2231 的 reactor core cooling chambers 与 temporarily disabled 相连；2234 需 stabilized the reactor core temperatures 才能移动这些；2268 确认 Cooling chambers for the reactor core 的理论。指反应堆冷却/温度稳定机制中的核心，不泛指任何核心概念。",
+      "evidence_rows": [
+        2231,
+        2234,
+        2268,
+        2275,
+        2283,
+        2287
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "2231 'instability in the reactor core cooling chambers'、2275 'the reactor core is stabilized now'、2283/2287 均用于反应堆稳定机制。"
+            },
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "反应堆核心",
+            "source": "reactor core",
+            "term_kind": "game_term",
+            "term_reason": "2231/2234/2275/2283/2287 反复把它与 temperatures、stabilized、controls 解锁和按钮功能关联；指外星船动力谜题的核心，不泛指任何核心概念。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2231,
+            2234,
+            2268,
+            2275,
+            2283,
+            2287
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": false,
+        "mode": "text",
+        "reason": "2231 'instability in the reactor core cooling chambers' 与 2268 'Cooling chambers for the reactor core?' 中大小写两种 cooling/Cooling chambers 都嵌在反应堆冷却舱语境；2424/2425 的 coolant chambers/coolant levels 说明海底过冷与调液位恢复船电，作为同一机制语境，text 只匹配 cooling chambers 这一术语。"
+      },
+      "category_path": "物品",
+      "enforcement": "reference",
+      "recommended_translation": "冷却舱",
+      "source": "cooling chambers",
+      "term_kind": "game_term",
+      "term_reason": "2231/2268 说明 reactor core 的 cooling chambers 是不稳定原因/理论对象；2424/2425 说明海底过冷后通过 coolant levels 调节可恢复船电。指反应堆冷却舱系统；与 coolant chambers 共用译名 冷却舱，但 coolant levels 是液位语境，不当作舱名。",
+      "evidence_rows": [
+        2231,
+        2268,
+        2283,
+        2424,
+        2425
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": false,
+              "mode": "text",
+              "reason": "2231/2268/2283 的 Cooling chambers/cooling chambers 与 2424/2425 冷却液舱语境共同限定该反应堆冷却机制。"
+            },
+            "category_path": "物品",
+            "enforcement": "reference",
+            "recommended_translation": "冷却舱",
+            "source": "cooling chambers",
+            "term_kind": "game_term",
+            "term_reason": "2231 instability in the reactor core cooling chambers 解释 controls 暂时禁用；2268 称其为 reactor core 的 cooling chambers；2283 要 recalibrate/equalize temperatures 才能 stabilize reactor core。指带液位的反应堆冷却舱系统；2424/2425 的 coolant chambers/coolant levels 是同一机制的分写变体，暂不按拼写合并。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2231,
+            2268,
+            2283,
+            2424,
+            2425
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "2424 'Looks like these coolant chambers got a little too cold down here under the ocean.' 中 coolant chambers 是嵌在句中的冷却舱术语；2425 'readjusted these coolant levels' 只说明需调液位恢复船电，text 只匹配 coolant chambers。"
+      },
+      "category_path": "物品",
+      "enforcement": "reference",
+      "recommended_translation": "冷却舱",
+      "source": "coolant chambers",
+      "term_kind": "game_term",
+      "term_reason": "2424 these coolant chambers got a little too cold down here under the ocean 与 2425 readjusted these coolant levels I could get this ship powered up again 说明是海底过冷、需调冷却剂液位恢复船电的冷却舱系统；coolant levels 是液位语境，不当作舱名。",
+      "evidence_rows": [
+        2424,
+        2425
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "2424/2425 中 coolant chambers/coolant levels 与船体供电和液位调节相连。"
+            },
+            "category_path": "物品",
+            "enforcement": "reference",
+            "recommended_translation": "冷却舱",
+            "source": "coolant chambers",
+            "term_kind": "game_term",
+            "term_reason": "2424 these coolant chambers got a little too cold down here under the ocean 与 2425 readjusted these coolant levels 说明是海底过冷、需调液位恢复船电的冷却舱；呼应 2231/2268/2283 的 cooling chambers，统一译名但单列拼写变体。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2424,
+            2425
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "if the ",
+        "reason": "2287 'if the thermal channels were equalized.' 与 2283 的冷却舱温度均衡条件对应。",
+        "suffix": " were equalized."
+      },
+      "category_path": "物品",
+      "enforcement": "reference",
+      "recommended_translation": "冷却通道",
+      "source": "thermal channels",
+      "term_kind": "game_term",
+      "term_reason": "2287 拉兹把 2283 的 cooling chamber temperatures were equalized 复述为 thermal channels were equalized，指需要均衡的冷却系统通道/温度，不是通信频道；译名按冷却机制统一。",
+      "evidence_rows": [
+        2283,
+        2287
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "if the ",
+              "reason": "2287 'if the thermal channels were equalized.' 与 2283 的冷却舱温度均衡条件对应。",
+              "suffix": " were equalized."
+            },
+            "category_path": "物品",
+            "enforcement": "reference",
+            "recommended_translation": "冷却通道",
+            "source": "thermal channels",
+            "term_kind": "game_term",
+            "term_reason": "2287 拉兹把 2283 的 cooling chamber temperatures were equalized 复述为 thermal channels were equalized，指需要均衡的冷却系统通道/温度，不是通信频道；译名按冷却机制统一。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2283,
+            2287
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": false,
+        "mode": "literal_context",
+        "prefix": "Hey, a ",
+        "reason": "ordinal 2338 'Hey, a gold record! I'm rich!' 的 gold record 是拉兹发现并称为值钱的实物；2339 'That is a collection of our planet's music and sounds, which we sent into space many years ago, to say hello to the cosmos!' 定义该物。按实际紧邻字串限定于可见物品语境，不把销量奖项义的 gold record 全局冻结。",
+        "suffix": "! I'm rich!"
+      },
+      "category_path": "物品",
+      "enforcement": "reference",
+      "recommended_translation": "金唱片",
+      "source": "gold record",
+      "term_kind": "game_term",
+      "term_reason": "2338 拉兹称捡到 a gold record，2339 萨沙解释 That is a collection of our planet's music and sounds, which we sent into space many years ago, to say hello to the cosmos!；指被送入太空、承载地球音乐和声音的金色唱片/金唱片物品，不是销量奖项；按 reference 限定于该物品语境。",
+      "evidence_rows": [
+        2338,
+        2339,
+        2340,
+        2445,
+        2446
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": false,
+              "mode": "text",
+              "reason": "2338 'a gold record'、2445/2446 'that gold record' 都指同一张外星人捡到并用于播放的唱片；2339/2340 给出定义和来历。"
+            },
+            "category_path": "物品",
+            "enforcement": "required",
+            "recommended_translation": "金唱片",
+            "source": "gold record",
+            "term_kind": "game_term",
+            "term_reason": "2338 是拉兹捡到的物品，2339 萨沙定义其为 collection of our planet's music and sounds... sent into space，2340 外星人因它来到 Rhombus of Ruin；2445/2446 说播放它可帮助 Sasha。不是销量奖项。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2338,
+            2339,
+            2340,
+            2445,
+            2446
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": false,
+        "mode": "whole_record",
+        "reason": "ordinal 2628 的完整 UI 标签为 'Internal Time Accumulator'；ordinal 2669 的 'The internal time accumulator (position within the animation asset being played)' 是小写定义句；本条只按完整标签限定，不扩展到普通 time accumulator 用例。"
+      },
+      "category_path": "其他",
+      "enforcement": "reference",
+      "recommended_translation": "内部时间累计值",
+      "source": "Internal Time Accumulator",
+      "term_kind": "game_term",
+      "term_reason": "ordinal 2669 的 'The internal time accumulator (position within the animation asset being played)' 说明该属性是正在播放动画资产内的位置/累计时间参数；2628 为大写 UI 属性名，不是剧情时间或人物能力。",
+      "evidence_rows": [
+        2628,
+        2669,
+        2670,
+        2671,
+        2672,
+        2673,
+        2674,
+        2675,
+        2676,
+        2677,
+        2678
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": false,
+              "mode": "whole_record",
+              "reason": "ordinal 2628 的完整 UI 标签为“Internal Time Accumulator”；ordinal 2669–2678 的定义句使用小写“internal time accumulator”，本条只按完整标签限定，不扩展到普通 time accumulator 用例。"
+            },
+            "category_path": "其他",
+            "enforcement": "reference",
+            "recommended_translation": "内部时间累计值",
+            "source": "Internal Time Accumulator",
+            "term_kind": "game_term",
+            "term_reason": "ordinal 2669–2678 的“The internal time accumulator (position within the animation asset being played)”说明该属性是正在播放动画资产内的位置/累计时间参数；2628 为大写属性名，不是剧情时间或人物能力。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2628,
+            2669,
+            2670,
+            2671,
+            2672,
+            2673,
+            2674,
+            2675,
+            2676,
+            2677,
+            2678
+          ],
+          "extraction_tasks": [
+            "extract-r2-00006-62834551"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "ordinal 2655 'The X coordinate to sample in the blendspace'、2656 'The Y coordinate to sample in the blendspace' 把 blendspace 作为动画节点的坐标采样资产类型；可见两处均是句中技术标识，精确小写 token 需统一为'混合空间'，不扩展到普通 space 或坐标词。"
+      },
+      "category_path": "其他",
+      "enforcement": "reference",
+      "recommended_translation": "混合空间",
+      "source": "blendspace",
+      "term_kind": "game_term",
+      "term_reason": "ordinal 2655/2656 说明 X/Y 坐标在 blendspace 中取样，指可按坐标采样的动画混合空间资产类型，不是物理地点或普通 space。",
+      "evidence_rows": [
+        2655,
+        2656,
+        2657,
+        2668
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "该拼写作为动画节点说明中的专门资产类型出现于 2655–2657、2668；不扩展到普通 space 或坐标词。"
+            },
+            "category_path": "其他",
+            "enforcement": "reference",
+            "recommended_translation": "混合空间",
+            "source": "blendspace",
+            "term_kind": "game_term",
+            "term_reason": "ordinal 2655–2657 说明 X/Y/Z 坐标在 blendspace 中取样，ordinal 2668 称“The blendspace asset to play”，指可按坐标采样并作为动画资源播放的混合空间资产，不是物理地点或普通 space。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2655,
+            2656,
+            2657,
+            2668
+          ],
+          "extraction_tasks": [
+            "extract-r2-00006-62834551"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "The ",
+        "reason": "ordinal 2658、2659 的完整原文均为 'The animation sequence asset to play'；只匹配该参数说明中的短语。",
+        "suffix": " to play"
+      },
+      "category_path": "其他",
+      "enforcement": "reference",
+      "recommended_translation": "动画序列资源",
+      "source": "animation sequence asset",
+      "term_kind": "game_term",
+      "term_reason": "ordinal 2658/2659 的 'The animation sequence asset to play' 把它限定为要播放的动画序列资源；不是剧情 sequence 或普通顺序。",
+      "evidence_rows": [
+        2658,
+        2659,
+        2660,
+        2661,
+        2662,
+        2663,
+        2664,
+        2665,
+        2666,
+        2667
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "The ",
+              "reason": "ordinal 2658–2667 均以“The animation sequence asset to play”出现；只匹配该参数说明中的短语。",
+              "suffix": " to play"
+            },
+            "category_path": "其他",
+            "enforcement": "reference",
+            "recommended_translation": "动画序列资源",
+            "source": "animation sequence asset",
+            "term_kind": "game_term",
+            "term_reason": "ordinal 2658–2667 的“The animation sequence asset to play”把它限定为要播放的动画序列资源；不是剧情 sequence 或普通顺序。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2658,
+            2659,
+            2660,
+            2661,
+            2662,
+            2663,
+            2664,
+            2665,
+            2666,
+            2667
+          ],
+          "extraction_tasks": [
+            "extract-r2-00006-62834551"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "The ",
+        "reason": "ordinal 2682、2683 的原文为 'The play rate multiplier. Can be negative, which will cause the animation to play in reverse.'；只匹配 'The ' 与句点之间的参数名。",
+        "suffix": "."
+      },
+      "category_path": "其他",
+      "enforcement": "reference",
+      "recommended_translation": "播放速率倍率",
+      "source": "play rate multiplier",
+      "term_kind": "game_term",
+      "term_reason": "ordinal 2682/2683 说明该倍率可为负值并使动画倒放；它是动画播放速度倍率，不是一般 rate/multiplier。",
+      "evidence_rows": [
+        2682,
+        2683,
+        2684,
+        2685,
+        2686,
+        2687,
+        2688,
+        2689,
+        2690,
+        2691,
+        2692
+      ],
+      "extraction_candidates": [
+        {
+          "table": "terms",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "The ",
+              "reason": "ordinal 2682–2692 的原文为“The play rate multiplier. Can be negative, which will cause the animation to play in reverse.”；只匹配“The ”与句点之间的参数名。",
+              "suffix": "."
+            },
+            "category_path": "其他",
+            "enforcement": "reference",
+            "recommended_translation": "播放速率倍率",
+            "source": "play rate multiplier",
+            "term_kind": "game_term",
+            "term_reason": "ordinal 2682–2692 说明该倍率可为负值并使动画倒放；它是动画播放速度倍率，不是一般 rate/multiplier。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2682,
+            2683,
+            2684,
+            2685,
+            2686,
+            2687,
+            2688,
+            2689,
+            2690,
+            2691,
+            2692
+          ],
+          "extraction_tasks": [
+            "extract-r2-00006-62834551"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen"
+    }
+  ],
+  "non_translate": [
+    {
+      "enforcement": "required",
+      "source": "<br>",
+      "term_reason": "ordinal 13、2510 的 <br> 是分隔可见 UI 文案的 HTML 换行标签，保留原样；自然语言部分仍翻译。",
+      "evidence_rows": [
+        13,
+        2510
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "enforcement": "required",
+            "source": "<br>",
+            "term_reason": "换行标签，保留原样。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            13
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        },
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "text",
+              "reason": "2510 'This will destroy your<br>existing saved progress.<br>Do you want to continue?' 中两处 <br> 都是格式标签。"
+            },
+            "enforcement": "required",
+            "source": "<br>",
+            "term_reason": "2510 中作为 HTML 换行标签，分隔存档覆盖提示的两行可见文本，不是待翻译英文文案。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2510
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "text",
+        "reason": "ordinal 13 'Little House in<br>the Psyche' 与 2510 'This will destroy your<br>existing saved progress.<br>Do you want to continue?' 中 <br> 都是嵌入可见文案中的 HTML 换行标签；精确标签在句中同样应原样保留，周围自然语言继续翻译；因此 text 只保护精确标签，不把可见英文当成全局禁翻。"
+      }
+    },
+    {
+      "enforcement": "required",
+      "source": "PNML-857",
+      "term_reason": "ordinal 388 的 'hailing PNML-857' 中 PNML-857 是呼号/编号式标识符，非自然语言文案；只在该通信语境保留原样。",
+      "evidence_rows": [
+        388
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "enforcement": "required",
+            "source": "PNML-857",
+            "term_reason": "飞船呼号/编号，非自然语言，保留原样。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            388
+          ],
+          "extraction_tasks": [
+            "extract-r2-00001-dad0028c-s743e2e56"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=0, embedded=1. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "hailing ",
+        "reason": "ordinal 388 'This is agent Nein and Vodello, hailing PNML-857.' 中 PNML-857 是 hailing 后的字母数字呼号/编号，嵌入对话中作为通信标识原样保留；本批没有独立记录，按实际紧邻字串限定，不默认全局禁翻。",
+        "suffix": "."
+      }
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "Press ",
+        "reason": "ordinal 2592 'Press X to select the highlighted target.' 中 X 是控制器按键提示；ordinal 2655 'The X coordinate to sample in the blendspace' 的 X 是坐标轴标签，另一候选语境，不并入本条。按实际按键提示前后字串限定，不扩展到其他 X 用例。",
+        "suffix": " to select the highlighted target."
+      },
+      "enforcement": "required",
+      "source": "X",
+      "term_reason": "ordinal 2592 Press X to select the highlighted target. 中 X 是需保留的控制器按键名；本条只限该按键提示中原样保留。ordinal 2655 的 X coordinate 是坐标轴标签，检索命中不等于同一按键术语。",
+      "evidence_rows": [
+        2592,
+        2655
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "Press ",
+              "reason": "2592 'Press X to select the highlighted target.' 里 X 仅在该按键提示中受保护；不扩展到 Xbox LIVE 或其他 X。",
+              "suffix": " to select the highlighted target."
+            },
+            "enforcement": "required",
+            "source": "X",
+            "term_reason": "2592 Press X to select the highlighted target. 中 X 是需保留的控制器按键名，不是普通字母。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2592
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        },
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "The ",
+              "reason": "ordinal 2655 的原文为“The X coordinate to sample in the blendspace”；只保护该紧邻字串中的坐标轴 X。",
+              "suffix": " coordinate to sample in the blendspace"
+            },
+            "source": "X"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2655
+          ],
+          "extraction_tasks": [
+            "extract-r2-00006-62834551"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=0, embedded=2. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context."
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "holding ",
+        "reason": "2593 'Adjust by holding L2 on a highlighted target and turning your head.' 里 L2 仅在该按键提示中受保护。",
+        "suffix": " on a highlighted target and turning your head."
+      },
+      "enforcement": "required",
+      "source": "L2",
+      "term_reason": "2593 Adjust by holding L2... 中 L2 是控制器按键名，需保留。",
+      "evidence_rows": [
+        2593
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "holding ",
+              "reason": "2593 'Adjust by holding L2 on a highlighted target and turning your head.' 里 L2 仅在该按键提示中受保护。",
+              "suffix": " on a highlighted target and turning your head."
+            },
+            "enforcement": "required",
+            "source": "L2",
+            "term_reason": "2593 Adjust by holding L2... 中 L2 是控制器按键名，需保留。"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2593
+          ],
+          "extraction_tasks": [
+            "extract-r2-00005-204d5cfa"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=0, embedded=1. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context."
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "ordinal 2612、2613 的完整 UI 记录均为 'A'；ordinal 2135 'A four-sided spider's' 中 A 是自然语言冠词，本条只按 whole_record 匹配完整标签，不把嵌入式普通 A 设为全局禁翻。"
+      },
+      "source": "A",
+      "evidence_rows": [
+        2612,
+        2613
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "ordinal 2612、2613 的完整 UI 记录均为“A”；只保护完整标签，不把“Alpha”等文本中的字母 A 设为全局禁翻。"
+            },
+            "source": "A"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2612,
+            2613
+          ],
+          "extraction_tasks": [
+            "extract-r2-00006-62834551"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_rows": [
+        2135
+      ],
+      "corpus_evidence_note": "Literal uses: standalone=2, embedded=23. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "enforcement": "required",
+      "term_reason": "ordinal 2612、2613 是完整 UI 单字母标签 A；按运行/界面标签原样保留。ordinal 2135 的 'A four-sided spider's' 证明普通冠词 A 不在本条范围。"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "ordinal 2616、2617 的完整 UI 记录均为 'B'；本条只按 whole_record 匹配完整标签，不在其他嵌入文本中全局禁翻 B。"
+      },
+      "source": "B",
+      "evidence_rows": [
+        2616,
+        2617
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "ordinal 2616、2617 的完整 UI 记录均为“B”；只保护完整标签，不把“Alpha Scale Bias”等文本中的 B 设为全局禁翻。"
+            },
+            "source": "B"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2616,
+            2617
+          ],
+          "extraction_tasks": [
+            "extract-r2-00006-62834551"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=2, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context.",
+      "enforcement": "required",
+      "term_reason": "ordinal 2616、2617 均为完整 UI 单字母标签 B；按运行/界面标签原样保留；没有嵌入式 B 的语义证据，不扩展到普通字母用例。"
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "ordinal 2627 的完整 UI 记录为“G”；只保护完整标签，不把其他文本中的字母 G 设为全局禁翻。"
+      },
+      "source": "G",
+      "evidence_rows": [
+        2627
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "ordinal 2627 的完整 UI 记录为“G”；只保护完整标签，不把其他文本中的字母 G 设为全局禁翻。"
+            },
+            "source": "G"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2627
+          ],
+          "extraction_tasks": [
+            "extract-r2-00006-62834551"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=0. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context."
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "ordinal 2629 的完整 UI 记录为“R”；ordinal 114 的对白含“R&R”，那是普通对白中的嵌入字符串；只保护完整标签 R，不把其他文本中的字母 R 设为全局禁翻。"
+      },
+      "source": "R",
+      "evidence_rows": [
+        2629
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "ordinal 2629 的完整 UI 记录为“R”；只保护完整标签，不把“Result”等普通词中的 R 设为全局禁翻。"
+            },
+            "source": "R"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2629
+          ],
+          "extraction_tasks": [
+            "extract-r2-00006-62834551"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_rows": [
+        114
+      ],
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=1. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context."
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "whole_record",
+        "reason": "ordinal 2614 的完整 UI 记录为“Alpha”；ordinal 2615 的“Alpha Scale Bias”是包含 Alpha 的另一个标签，不作为该保护范围。"
+      },
+      "source": "Alpha",
+      "evidence_rows": [
+        2614,
+        2615
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "whole_record",
+              "reason": "ordinal 2614 的完整 UI 记录为“Alpha”；ordinal 2615 的“Alpha Scale Bias”是包含 Alpha 的另一个标签，不作为该保护范围。"
+            },
+            "source": "Alpha"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2614,
+            2615
+          ],
+          "extraction_tasks": [
+            "extract-r2-00006-62834551"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=1, embedded=1. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context."
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "The ",
+        "reason": "ordinal 2656 的原文为“The Y coordinate to sample in the blendspace”；只保护该紧邻字串中的坐标轴 Y。",
+        "suffix": " coordinate to sample in the blendspace"
+      },
+      "source": "Y",
+      "evidence_rows": [
+        2656
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "The ",
+              "reason": "ordinal 2656 的原文为“The Y coordinate to sample in the blendspace”；只保护该紧邻字串中的坐标轴 Y。",
+              "suffix": " coordinate to sample in the blendspace"
+            },
+            "source": "Y"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2656
+          ],
+          "extraction_tasks": [
+            "extract-r2-00006-62834551"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=0, embedded=1. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context."
+    },
+    {
+      "applicability": {
+        "case_sensitive": true,
+        "mode": "literal_context",
+        "prefix": "The ",
+        "reason": "ordinal 2657 的原文为“The Z coordinate to sample in the blendspace”；只保护该紧邻字串中的坐标轴 Z。",
+        "suffix": " coordinate to sample in the blendspace"
+      },
+      "source": "Z",
+      "evidence_rows": [
+        2657
+      ],
+      "extraction_candidates": [
+        {
+          "table": "non_translate",
+          "row": {
+            "applicability": {
+              "case_sensitive": true,
+              "mode": "literal_context",
+              "prefix": "The ",
+              "reason": "ordinal 2657 的原文为“The Z coordinate to sample in the blendspace”；只保护该紧邻字串中的坐标轴 Z。",
+              "suffix": " coordinate to sample in the blendspace"
+            },
+            "source": "Z"
+          },
+          "extraction_count": 1,
+          "evidence_rows": [
+            2657
+          ],
+          "extraction_tasks": [
+            "extract-r2-00006-62834551"
+          ]
+        }
+      ],
+      "provisional_selection": "most_extraction_proposals_then_first_seen",
+      "corpus_evidence_note": "Literal uses: standalone=0, embedded=1. Structural contrast only, not proof of command meaning. Check whether protection applies in each context; justify global text scope or narrow to whole_record/literal_context."
+    }
+  ],
+  "applicability_policy": 1,
+  "terminology_policy": 1,
+  "nontranslate_scope_policy": 1,
+  "corpus_evidence_policy": 1,
+  "feedback_risk_policy": 1,
+  "stats": {
+    "character_count": 25,
+    "term_count": 62,
+    "non_translate_count": 11,
+    "total_hits": 98
+  }
+}
